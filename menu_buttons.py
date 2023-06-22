@@ -21,6 +21,7 @@ pi = 1
 maps: dict[str, Map]
 allpages = len(list(chain.from_iterable([list(splitDict(maps, maps_per_page)) for maps in sources.values()])))
 for source, maps in sources.items():
+    # CHOICE_BUTTON_FOCUS(0, "dlc_list_1", "@MP_ORIGINAL_MAPS", setdvar "iw4x_maps_dlc" 0;, LOCAL_MAP_FOCUS( "MP_ORIGINAL_MAPS", "NULL_EMPTY", "loadscreen_mp_bonusmaps" ), ;)
     pprint(f"// SOURCE {source} WITH {len(maps)} MAPS\n")
     pages = list(splitDict(maps, maps_per_page))
     pages_cnt = len(pages)
@@ -34,6 +35,7 @@ for source, maps in sources.items():
             even = (i % 2) == 0
             name = f'{"^9" if even else ""}{map.name.get("english")}'
             pprint(f'MENU_MAP_BUTTON({pi}, {i}, "{name}", "{map.description.get("english")}", exec "rcon map {mapname}")')
+            # LOCAL_MAP_SELECTION(0, 	"mp_afghan", 			"MPUI_AFGHAN", 			"MPUI_DESC_MAP_AFGHAN", 		"preview_mp_afghan",			dvarint("iw4x_maps_dlc") == 0)
             # print(f'MENU_CHOICE_BUTTON_VIS({i}, "button_{i+1}", "{name}", exec "rcon map {map}"; close self;, ;, 1)')
             # print(f'MENU_CHOICE_NEWICON_RAW({i}, "preview_{map}", 1)')
             # print(f'MENU_CHOICE_BUTTON_VIS({i}, ;, "{map}",setdvar ui_mapname {map};exec "rcon map {map}";close self;, 1, preview_{map}, {map}, {map})')
