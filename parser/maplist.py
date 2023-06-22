@@ -51,10 +51,14 @@ class Name:
 
 class Description:
     @staticmethod
-    def from_name(displayname: str, strmap:StringMaps = None) -> dict[str, str]:
+    def from_name(displayname: str, strmap:StringMaps = None, source = None) -> dict[str, str]:
+        english = f"{displayname} is a map for Call of Duty: Modern Warfare 2."
+        if source:
+            if source.name == "Custom Maps": english = f"{displayname} is a custom map."
+            else: english = f"{displayname} is a map from {source.name}."
         ret = {
             "_key": f"MPUI_DESC_MAP_{str(displayname).upper().replace(' ','_')}",
-            "english": f"{displayname} is a map for Call of Duty: Modern Warfare 2."
+            "english": english
         }
         if strmap:
             for lang, strings in strmap.strings.items():
@@ -81,7 +85,7 @@ class Minimap:
     @staticmethod
     def from_name(mapname: str) -> dict[str, str]:
         _name = f"compass_map_{mapname.lower()}"
-        return Minimap(name=_name)
+        return Minimap(name=_name, url=None, base64=None).update()
 
     def update(self):
         mapname = self.name.replace('preview_','')
@@ -98,6 +102,7 @@ class Minimap:
         else:
             print("Could not get minimap img from",response.url)
             self.url = None;self.base64 = None
+        return self
 
     @staticmethod
     def from_dict(obj: Any) -> 'Minimap':
@@ -112,7 +117,7 @@ class Preview:
     url: str
     base64: str
 
-    def __init__(self, name: str):
+    def init(self, name: str):
         self.name = name
         self.update()
     
@@ -124,7 +129,7 @@ class Preview:
     @staticmethod
     def from_mapname(mapname: str) -> 'Preview':
         _name = f"preview_{mapname}"
-        return Preview(_name)
+        return Preview(_name, None, None).update()
     
     def update(self):
         mapname = self.name.replace('preview_','')
@@ -145,6 +150,7 @@ class Preview:
         else:
             print("Could not get preview img from",response.url)
             self.url = None;self.base64 = None
+        return self
 
     @staticmethod
     def from_dict(obj: Any) -> 'Preview':
@@ -193,7 +199,7 @@ class Map:
         return Map(
             source=source,
             name=displayname,
-            description=Description.from_name(displayname['english'], strmap),
+            description=Description.from_name(displayname=displayname['english'], strmap=strmap, source=source),
             preview=Preview.from_mapname(name),
             minimap=Minimap.from_name(name),
             waypoints=Waypoints.from_mapname(name)
@@ -229,8 +235,8 @@ class Maplist:
         maps = {}
         for mapname, map in self.maps.items():
             if map.source.name not in maps:
-                maps[map.source.name] = []
-            maps[map.source.name].append({mapname: map})
+                maps[map.source.name] = {}
+            maps[map.source.name][mapname] = map
         return maps
 
     @staticmethod
