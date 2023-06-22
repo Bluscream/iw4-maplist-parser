@@ -57,8 +57,8 @@ class Description:
             if source.name == "Custom Maps": english = f"{displayname} is a custom map."
             else: english = f"{displayname} is a map from {source.name}."
         ret = {
-            "_key": f"MPUI_DESC_MAP_{str(displayname).upper().replace(' ','_')}",
-            "english": english
+            "_key": f"MPUI_DESC_MAP_{displayname.upper().replace(' ', '_')}",
+            "english": english,
         }
         if strmap:
             for lang, strings in strmap.strings.items():
@@ -245,7 +245,7 @@ class Maplist:
         for game, _maps in obj.items():
             for mapname, map in _maps.items():
                 maps[mapname] = Map.from_dict(map)
-        sources = set([map.source.name for map in maps.values()])
+        sources = {map.source.name for map in maps.values()}
         print("Loaded", len(maps), "maps from", len(sources), "sources")
         return Maplist(game, maps)
     

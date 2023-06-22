@@ -35,7 +35,7 @@ pattern = re.compile(r'menuDef\s+\{([\s\S]*?)\}', re.MULTILINE)
 
 menu_defs = re.findall(pattern, file_content)
 
-menus = dict()
+menus = {}
 
 # Iterate through the menuDefs and extract the required information
 for menu_def in menu_defs:
