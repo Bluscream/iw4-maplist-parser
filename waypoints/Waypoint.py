@@ -39,7 +39,7 @@ class Waypoint:
 
     def index(self) -> int:
         if hasattr(self, 'file'):
-            return self.file.waypoints.index(self)
+            return self.file.waypoints.index(self) # +1
 
     def __init__(self, index:int, position:Vector3, connections:list['Waypoint'], type:WaypointType, angle:Vector3, unknown:str, file:'WaypointFile'):
         self._index = index
@@ -73,5 +73,5 @@ class Waypoint:
         return Waypoint(index, pos, connections, WaypointType(row[2]), angle, row[5], file)
     
     def to_row(self):
-        connections = ' '.join([str(c._index) for c in self.connections])
+        connections = ' '.join([str(c.index()) for c in self.connections])
         return ",\t\t\t".join([vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), self.unknown,""])

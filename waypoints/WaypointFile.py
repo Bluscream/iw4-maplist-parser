@@ -19,6 +19,7 @@ class WaypointList:
     def __init__(self, waypoints: list[Waypoint]):
         self.waypoints = waypoints
 
+
 @dataclass  
 class WaypointFile:
     path: Path
@@ -39,21 +40,25 @@ class WaypointFile:
                 removed += 1
         print(f"Purged {removed} unlinked waypoints!") #  from {self.path.name}
 
-    def check(self, fix:bool=False):
+    def check(self, fix=False, ask_for_user_input=False) -> int:
+        errors = 0
         for waypoint in self.waypoints:
             for connection in waypoint.connections:
                 con_index = connection.index()
                 if con_index > len(self.waypoints):
-                    print(f"{waypoint} connection {connection} is over {len(self.waypoints)}")
+                    errors += 1; print(f"{waypoint} connection {connection} is over {len(self.waypoints)}")
                     if fix: waypoint.connections.remove(connection)
                 elif con_index < 0:
-                    print(f"{waypoint} connection {connection} is under zero")
+                    errors += 1; print(f"{waypoint} connection {connection} is under zero")
                     if fix: waypoint.connections.remove(connection)
                 if connection == waypoint:
-                    print(f"{waypoint} connection {connection} is itself")
+                    errors += 1; print(f"{waypoint} connection {connection} is itself")
                     if fix: waypoint.connections.remove(connection)
             if len(waypoint.connections) < 1:
-                print(f"{waypoint} has no connections")
+                errors += 1; print(f"{waypoint} has no connections")
+        if ask_for_user_input:
+            input(f"Found {errors} errors. Press enter to continue...")
+        return errors
 
     def merge_from(self, other:'WaypointFile'):
         for waypoint in other.waypoints:
@@ -96,8 +101,8 @@ class WaypointFile:
             waypoint.connections = []
             skip_all_for_wp = False
             for connection in connections:
-                connection += offset
-                if connection == 0: connection = 1
+                connection += offset + 1 # +1 because of zero index
+                # if connection == 0: connection = 1
                 if connection > len(self.waypoints):
                     print(f"WARNING: Waypoint {waypoint.uuid} Connection {connection} is over {len(self.waypoints)}!")
                     if ask_for_user_input and not skip_all and not skip_all_for_wp:
