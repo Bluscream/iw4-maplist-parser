@@ -5,17 +5,7 @@ from hashlib import md5
 from .stringmap import StringMaps
 from .source import Source
 
-def remove_nulls(d):
-    if isinstance(d, dict):
-        for  k, v in list(d.items()):
-            if v is None:
-                del d[k]
-            else:
-                remove_nulls(v)
-    if isinstance(d, list):
-        for v in d:
-            remove_nulls(v)
-    return d
+
 
 
 @dataclass
@@ -41,8 +31,8 @@ class Description:
     def from_name(displayname: str, strmap:StringMaps = None, source = None) -> dict[str, str]:
         english = f"{displayname} is a map for Call of Duty: Modern Warfare 2."
         if source:
-            if source.name == "Custom Maps": english = f"{displayname} is a custom map."
-            else: english = f"{displayname} is a map from {source.name}."
+            if source == "Custom Maps": english = f"{displayname} is a custom map."
+            else: english = f"{displayname} is a map from {source}."
         ret = {
             "_key": f"MPUI_DESC_MAP_{displayname.upper().replace(' ', '_')}",
             "english": english,
@@ -83,7 +73,7 @@ class Minimap:
             response = get(f"http://www.themodernwarfare2.com/images/mw2/maps/{mapname.lower().removeprefix('mp_')}-layout.jpg")
         if response.status_code == 200:
             self.url = response.url
-            # self.base64 = urlsafe_b64encode(response.content).decode("utf-8")
+            self.base64 = None # urlsafe_b64encode(response.content).decode("utf-8")
             with open(f"P:/Python/iw4/iw4-resources/compass/{mapname}.png", "wb") as f:
                 f.write(response.content)
         else:
@@ -173,8 +163,7 @@ class Waypoints:
 
 @dataclass
 class Map:
-    # source: Source
-    source: str
+    source: str # Source
     name: dict[str,str]
     description: dict[str,str]
     preview: Preview
@@ -195,7 +184,8 @@ class Map:
 
     @staticmethod
     def from_dict(obj: Any) -> 'Map':
-        _source = Source.from_dict(obj.get("source"))
+        try: _source = Source.from_dict(obj.get("source")).name
+        except: _source = obj.get("source")
         _name = obj.get("name")
         _description = obj.get("description")
         _preview = Preview.from_dict(obj.get("preview"))

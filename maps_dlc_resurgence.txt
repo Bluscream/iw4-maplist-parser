@@ -1,5 +1,0 @@
-mp_abandon
-mp_fuel2
-mp_strike
-mp_trailerpark
-mp_vacant

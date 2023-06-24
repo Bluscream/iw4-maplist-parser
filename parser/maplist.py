@@ -3,6 +3,29 @@ from json import dumps, load
 
 from .map import Map
 
+def remove_nulls(d):
+    if isinstance(d, dict):
+        return {
+            k: v
+            for k, v in ((k, remove_nulls(v)) for k, v in d.items())
+            if v is not None
+        }
+    if isinstance(d, list):
+        return [remove_nulls(v) for v in d if v is not None]
+    return d
+
+def remove_nulls2(d):
+    if isinstance(d, dict):
+        for  k, v in list(d.items()):
+            if v is None:
+                del d[k]
+            else:
+                remove_nulls(v)
+    if isinstance(d, list):
+        for v in d:
+            remove_nulls(v)
+    return d
+
 @dataclass
 class Maplist:
     game: str
@@ -11,9 +34,9 @@ class Maplist:
     def get_maps_by_source(self):
         maps = {}
         for mapname, map in self.maps.items():
-            if map.source.name not in maps:
-                maps[map.source.name] = {}
-            maps[map.source.name][mapname] = map
+            if map.source not in maps:
+                maps[map.source] = {}
+            maps[map.source][mapname] = map
         return maps
 
     @staticmethod
@@ -22,7 +45,7 @@ class Maplist:
         for game, _maps in obj.items():
             for mapname, map in _maps.items():
                 maps[mapname] = Map.from_dict(map)
-        sources = {map.source.name for map in maps.values()}
+        sources = {map.source for map in maps.values()}
         print("Loaded", len(maps), "maps from", len(sources), "sources")
         return Maplist(game, maps)
     
@@ -33,7 +56,8 @@ class Maplist:
             return Maplist.from_dict(jsonstring)
     
     def save(self, file: str = 'maps.json'):
-        json = dumps({self.game: self.maps}, default=lambda o: o.__dict__, sort_keys=True, indent=4) # , object_hook=remove_nulls
+        cleaned_maps = remove_nulls(self.maps)
+        json = dumps({self.game: cleaned_maps}, default=lambda o: o.__dict__, sort_keys=True, indent=4) # , object_hook=remove_nulls
         if file:
             with open(file, 'w') as f: f.write(json)
         print("Saved ", len(self.maps), "maps to", file)
