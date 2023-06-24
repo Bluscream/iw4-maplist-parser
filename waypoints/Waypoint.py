@@ -2,13 +2,16 @@ from dataclasses import dataclass
 from enum import Enum
 from pygame import Vector3
 from hashlib import md5
+from json import dumps
 from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from .Waypoint import Waypoint
     from .WaypointFile import WaypointFile
 
+zeroVector = Vector3(0, 0, 0)
+
 def vectorStr(v: Vector3):
-    if v is None: return ""
+    if v is None: v = zeroVector
     return f"{v.x} {v.y} {v.z}"
 
 class WaypointType(Enum):
@@ -16,8 +19,6 @@ class WaypointType(Enum):
     CROUCH = "crouch"
     PRONE = "prone"
     CLIMB = "climb"
-
-zeroVector = Vector3(0, 0, 0)
 
 @dataclass
 class Waypoint:
@@ -36,7 +37,9 @@ class Waypoint:
         return self.distance_to_first() > other.distance_to_first()
     def __compare__(self, other:'Waypoint') -> bool:
         return self.uuid == other.uuid
-
+    def __hash__(self) -> int:
+        return hash(self.hashstr())
+    def hashstr(self) -> str: return dumps([str(self.position), len(self.connections), self.type.name, str(self.angle), self.unknown])
     def index(self) -> int:
         if hasattr(self, 'file'):
             return self.file.waypoints.index(self) # +1
@@ -49,11 +52,21 @@ class Waypoint:
         self.type = type
         self.angle = angle
         self.unknown = unknown
-        self.uuid = md5(str(self).encode('utf-8')).hexdigest()
+        self.uuid = md5(self.__repr__(True).encode('utf-8')).hexdigest()
         self.file = file
 
     def __repr__(self, connections=False) -> str:
-        return f"Waypoint(uuid={self.uuid}, _i={self._index}, i={self.index()}, pos={self.position}, conns={self.connections_str() if connections else len(self.connections)}, type={self.type.name}, angle={self.angle}, ?={self.unknown})"
+        return f"Waypoint(uuid={self.uuid}, hash={self.__hash__()}, _i={self._index}, i={self.index()}, pos={self.position}, conns={self.connections_str() if connections else len(self.connections)}, type={self.type.name}, angle={self.angle}, ?={self.unknown})"
+
+    def __str__(self) -> str:
+        return f"WP|{self.uuid}|{self.__hash__()}|{self.index()}|{self.position}|{self.connections_str()}|{self.type.name}|{self.angle}|{self.unknown}"
+    
+    def str(self) -> str:
+        print("self:",self)
+        print("__repr__:",self.__repr__(True))
+        print("to_str:",self.to_str())
+        print("to_row:",self.to_row())
+        print("hashstr:",self.hashstr())
 
     def distance_to_zero(self) -> float: return self.position.distance_to(zeroVector)
     def distance_to_first(self) -> float: return self.distance_to(self.file.waypoints[0])
@@ -62,19 +75,22 @@ class Waypoint:
 
     def connections_str(self) -> str:
         if len(self.connections) and isinstance(self.connections[0], Waypoint):
-            return ' '.join([c.uuid for c in self.connections])
+            return ' '.join([c.uuid[:8] for c in self.connections])
         return ' '.join([str(c) for c in self.connections])
     
+    def to_str(self) -> str:
+        return [f+"," for f in self.to_list()[:-1]]
+
     def to_list(self):
         connections = ' '.join([str(c.index()) for c in self.connections])
-        return [f+"," for f in [vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), self.unknown,""]]
+        return [vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), self.unknown, ""]
 
-    def to_row(self):
-        return ",\t\t\t".join(self.to_list()).strip()
+    def to_row(self) -> str:
+        return (",".join(self.to_list())).strip()
 
     @staticmethod
     def from_row(index:int, row:list[str], file:'WaypointFile'):
         pos = Vector3([float(p) for p in row[0].split(' ')])
         angle = Vector3([float(p) for p in row[3].split(' ')]) if row[3] else None
         connections = [int(c) for c in row[1].split(' ')] if row[1] else []
-        return Waypoint(index, pos, connections, WaypointType(row[2]), angle, row[5], file)
+        return Waypoint(index, pos, connections, WaypointType(row[2]), angle, unknown=row[5], file=file)

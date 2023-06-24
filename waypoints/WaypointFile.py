@@ -83,7 +83,9 @@ class WaypointFile:
                     print("Skipping comment:", row)
                     continue
                 parts = row.split(',')
-                if len(parts) > 6 or len(parts) < 6: raise Exception(f"[{i}] Invalid row length: {len(parts)}")
+                if len(parts) > 6 or len(parts) < 6:
+                    print(row)
+                    raise Exception(f"[{i}] Invalid row length: {len(parts)}")
                 row = [r.strip() for r in parts]
                 self.rows.append(row)
                 self.waypoints.append(Waypoint.from_row(i, row, self))
@@ -125,18 +127,18 @@ class WaypointFile:
                         elif a == 'w': skip_all_for_wp = True
                         continue
                 waypoint.connections.append(target)
-            print(f"Converted {len(connections)} connections for {waypoint.uuid}")
+            # print(f"Converted {len(connections)} connections for {waypoint.uuid}")
             skip_all_for_wp = False
         print(f"Loaded {len(self.waypoints)} ({self._count}) waypoints from {self.path}")
         return self
 
-    def to_list(self) -> list[list[str]]:
-        return [wp.to_list() for wp in self.waypoints]
+    def to_strlist(self) -> list[list[str]]:
+        return [wp.to_str() for wp in self.waypoints]
 
     def to_rows(self) -> list[str]:
-        return map(lambda x:x+linesep, [wp.to_row() for wp in self.waypoints])
+        return [wp.to_row() for wp in self.waypoints]
 
-    def save(self, path:Path=None, sort:SortingMethod=None):
+    def save(self, path:Path=None, sort:SortingMethod=None, tabs:bool=False):
         if path is None: path = self.path
         if (not path is type(Path)): path = Path(path)
         waypoints = self.waypoints
@@ -150,5 +152,7 @@ class WaypointFile:
                 waypoints.sort(key=lambda x: x.distance_to(waypoints[-1]))
         with path.open('w', newline='') as csvfile:
             csvfile.write(f"{len(waypoints)}\n")
-            csvfile.write(tabulate(self.to_list(), "", "plain")) # csvfile.writelines(self.to_rows())
+            if tabs:
+                csvfile.write(tabulate(self.to_strlist(), "", "plain").replace("\r","").strip())
+            else: csvfile.write("\n".join(self.to_rows()))
         print(f"Wrote {len(waypoints)} waypoints to {path}")
