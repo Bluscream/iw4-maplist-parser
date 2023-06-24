@@ -19,6 +19,9 @@ class WaypointType(Enum):
     CROUCH = "crouch"
     PRONE = "prone"
     CLIMB = "climb"
+    CLAYMORE = "claymore"
+    GRENADE = "grenade"
+    JAVELIN = "javelin"
 
 @dataclass
 class Waypoint:
