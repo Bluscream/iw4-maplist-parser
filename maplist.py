@@ -1,7 +1,11 @@
-from parser.stringmap import StringMaps
-from parser.maplist import Maplist, Map, Source
+from pathlib import Path
+from sys import path as syspath
+from os import getcwd
+syspath.append(getcwd())
 
-maplist = Maplist.load()
+from parser import *
+
+maplist = Maplist.load("iw4-resources/maps.json")
 
 stringmaps = StringMaps()
 stringmaps.parse_files(stringmaps.get_files())
@@ -40,4 +44,4 @@ add_maps('maps_usermaps.txt', Source("Custom Maps", "https://tinyurl.com/iw4xmap
 #     map.preview.update()
 #     map.minimap.update()
 
-maplist.save('maps.out.json')
+maplist.save('iw4-resources/maps.json')
