@@ -64,6 +64,13 @@ class Waypoint:
         if len(self.connections) and isinstance(self.connections[0], Waypoint):
             return ' '.join([c.uuid for c in self.connections])
         return ' '.join([str(c) for c in self.connections])
+    
+    def to_list(self):
+        connections = ' '.join([str(c.index()) for c in self.connections])
+        return [f+"," for f in [vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), self.unknown,""]]
+
+    def to_row(self):
+        return ",\t\t\t".join(self.to_list()).strip()
 
     @staticmethod
     def from_row(index:int, row:list[str], file:'WaypointFile'):
@@ -71,7 +78,3 @@ class Waypoint:
         angle = Vector3([float(p) for p in row[3].split(' ')]) if row[3] else None
         connections = [int(c) for c in row[1].split(' ')] if row[1] else []
         return Waypoint(index, pos, connections, WaypointType(row[2]), angle, row[5], file)
-    
-    def to_row(self):
-        connections = ' '.join([str(c.index()) for c in self.connections])
-        return ",\t\t\t".join([vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), self.unknown,""])

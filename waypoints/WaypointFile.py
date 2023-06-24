@@ -3,7 +3,8 @@ from dataclasses import dataclass
 from enum import Enum, auto
 from pathlib import Path
 from os import linesep
-from .Waypoint import Waypoint, zeroVector
+from .Waypoint import Waypoint
+from tabulate import tabulate
 from typing import TYPE_CHECKING
 if TYPE_CHECKING: from .WaypointFile import WaypointFile
 
@@ -40,10 +41,10 @@ class WaypointFile:
                 removed += 1
         print(f"Purged {removed} unlinked waypoints!") #  from {self.path.name}
 
-    def check(self, fix=False, ask_for_user_input=False) -> int:
+    def check(self, fix=False, ask_for_user_input=False, keep_connections=-1) -> int:
         errors = 0
         for waypoint in self.waypoints:
-            for connection in waypoint.connections:
+            for i, connection in enumerate(waypoint.connections):
                 con_index = connection.index()
                 if con_index > len(self.waypoints):
                     errors += 1; print(f"{waypoint} connection {connection} is over {len(self.waypoints)}")
@@ -56,6 +57,8 @@ class WaypointFile:
                     if fix: waypoint.connections.remove(connection)
             if len(waypoint.connections) < 1:
                 errors += 1; print(f"{waypoint} has no connections")
+            elif keep_connections > -1:
+                waypoint.connections = waypoint.connections[:keep_connections]
         if ask_for_user_input:
             input(f"Found {errors} errors. Press enter to continue...")
         return errors
@@ -63,11 +66,7 @@ class WaypointFile:
     def merge_from(self, other:'WaypointFile'):
         for waypoint in other.waypoints:
             if waypoint not in self.waypoints:
-                # new_wp = copy(waypoint)
-                # for i, connection in enumerate(waypoint.connections):
-                #     pass # new_wp.connections[i] = 
                 self.waypoints.append(waypoint)
-        self.waypoints.sort(key=lambda x: x._index)
 
     def load(self, ask_for_user_input:bool=False, is_cut_file=False) -> 'WaypointFile':
         self.rows = []
@@ -130,7 +129,13 @@ class WaypointFile:
             skip_all_for_wp = False
         print(f"Loaded {len(self.waypoints)} ({self._count}) waypoints from {self.path}")
         return self
-    
+
+    def to_list(self) -> list[list[str]]:
+        return [wp.to_list() for wp in self.waypoints]
+
+    def to_rows(self) -> list[str]:
+        return map(lambda x:x+linesep, [wp.to_row() for wp in self.waypoints])
+
     def save(self, path:Path=None, sort:SortingMethod=None):
         if path is None: path = self.path
         if (not path is type(Path)): path = Path(path)
@@ -145,5 +150,5 @@ class WaypointFile:
                 waypoints.sort(key=lambda x: x.distance_to(waypoints[-1]))
         with path.open('w', newline='') as csvfile:
             csvfile.write(f"{len(waypoints)}\n")
-            csvfile.writelines(map(lambda x:x+linesep, [wp.to_row() for wp in waypoints]))
+            csvfile.write(tabulate(self.to_list(), "", "plain")) # csvfile.writelines(self.to_rows())
         print(f"Wrote {len(waypoints)} waypoints to {path}")

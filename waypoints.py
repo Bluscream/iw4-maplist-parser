@@ -8,7 +8,9 @@ ask_input = True
 file = WaypointFile(r"S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp.csv", ask_for_user_input=ask_input)
 err = file.check(fix=True, ask_for_user_input=ask_input)
 file2 = WaypointFile(r"S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_ext.csv", ask_for_user_input=ask_input, is_cut_file=True)
-err = file2.check(fix=True, ask_for_user_input=ask_input)
+err = file2.check(fix=True, keep_connections=1, ask_for_user_input=ask_input)
+
+file2.save(r"S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp_ext_fixed.csv", sort=SortingMethod.NONE)
 
 
 file.merge_from(file2)
