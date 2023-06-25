@@ -11,7 +11,7 @@ if TYPE_CHECKING:
 zeroVector = Vector3(0, 0, 0)
 
 def vectorStr(v: Vector3):
-    if v is None: v = zeroVector
+    if v is None: return ""
     return f"{v.x} {v.y} {v.z}"
 
 class WaypointType(Enum):
@@ -30,7 +30,7 @@ class Waypoint:
     position: Vector3
     type: WaypointType
     angle: Vector3
-    unknown: str
+    target: Vector3
     connections: list['Waypoint']
     uuid: str = None
 
@@ -42,27 +42,27 @@ class Waypoint:
         return self.uuid == other.uuid
     def __hash__(self) -> int:
         return hash(self.hashstr())
-    def hashstr(self) -> str: return dumps([str(self.position), len(self.connections), self.type.name, str(self.angle), self.unknown])
+    def hashstr(self) -> str: return dumps([str(self.position), len(self.connections), self.type.name, str(self.angle), str(self.target)])
     def index(self) -> int:
         if hasattr(self, 'file'):
             return self.file.waypoints.index(self) # +1
 
-    def __init__(self, index:int, position:Vector3, connections:list['Waypoint'], type:WaypointType, angle:Vector3, unknown:str, file:'WaypointFile'):
+    def __init__(self, index:int, position:Vector3, connections:list['Waypoint'], type:WaypointType, angle:Vector3, target:Vector3, file:'WaypointFile'):
         self._index = index
         self.position = position
         self.connections = connections
         self.connections.sort()
         self.type = type
         self.angle = angle
-        self.unknown = unknown
+        self.target = target
         self.uuid = md5(self.__repr__(True).encode('utf-8')).hexdigest()
         self.file = file
 
     def __repr__(self, connections=False) -> str:
-        return f"Waypoint(uuid={self.uuid}, hash={self.__hash__()}, _i={self._index}, i={self.index()}, pos={self.position}, conns={self.connections_str() if connections else len(self.connections)}, type={self.type.name}, angle={self.angle}, ?={self.unknown})"
+        return f"Waypoint(uuid={self.uuid}, hash={self.__hash__()}, _i={self._index}, i={self.index()}, pos={self.position}, conns={self.connections_str() if connections else len(self.connections)}, type={self.type.name}, angle={self.angle}, target={self.target})"
 
     def __str__(self) -> str:
-        return f"WP|{self.uuid}|{self.__hash__()}|{self.index()}|{self.position}|{self.connections_str()}|{self.type.name}|{self.angle}|{self.unknown}"
+        return f"WP|{self.uuid}|{self.__hash__()}|{self.index()}|{self.position}|{self.connections_str()}|{self.type.name}|{self.angle}|{self.target}"
     
     def str(self) -> str:
         print("self:",self)
@@ -86,14 +86,15 @@ class Waypoint:
 
     def to_list(self):
         connections = ' '.join([str(c.index()) for c in self.connections])
-        return [vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), self.unknown, ""]
+        return [vectorStr(self.position), connections, self.type.value, vectorStr(self.angle), vectorStr(self.target), ""]
 
     def to_row(self) -> str:
         return (",".join(self.to_list())).strip()
 
     @staticmethod
     def from_row(index:int, row:list[str], file:'WaypointFile'):
-        pos = Vector3([float(p) for p in row[0].split(' ')])
+        pos = Vector3([float(p) for p in row[0].split(' ')]) if row[0] else None
         angle = Vector3([float(p) for p in row[3].split(' ')]) if row[3] else None
         connections = [int(c) for c in row[1].split(' ')] if row[1] else []
-        return Waypoint(index, pos, connections, WaypointType(row[2]), angle, unknown=row[5], file=file)
+        target = Vector3([float(p) for p in row[4].split(' ')]) if row[4] else None
+        return Waypoint(index=index, position=pos, connections=connections, type=WaypointType(row[2]), angle=angle, target=target, file=file)

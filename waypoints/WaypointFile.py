@@ -138,18 +138,19 @@ class WaypointFile:
     def to_rows(self) -> list[str]:
         return [wp.to_row() for wp in self.waypoints]
 
-    def save(self, path:Path=None, sort:SortingMethod=None, tabs:bool=True):
+    def save(self, path:Path=None, sort:SortingMethod=None, tabs:bool=False):
         if path is None: path = self.path
         if (not path is type(Path)): path = Path(path)
         waypoints = self.waypoints
-        print(f"Sorting waypoints by",sort.name)
-        match sort:
-            case SortingMethod.DISTANCE_TO_ZERO:
-                waypoints.sort(key=lambda x: x.distance_to_zero())
-            case SortingMethod.DISTANCE_TO_FIRST:
-                waypoints.sort(key=lambda x: x.distance_to(waypoints[0]))
-            case SortingMethod.DISTANCE_TO_LAST:
-                waypoints.sort(key=lambda x: x.distance_to(waypoints[-1]))
+        if sort is not SortingMethod.NONE:
+            print("Sorting",len(waypoints),"waypoints by",sort.name)
+            match sort:
+                case SortingMethod.DISTANCE_TO_ZERO:
+                    waypoints.sort(key=lambda x: x.distance_to_zero())
+                case SortingMethod.DISTANCE_TO_FIRST:
+                    waypoints.sort(key=lambda x: x.distance_to(waypoints[0]))
+                case SortingMethod.DISTANCE_TO_LAST:
+                    waypoints.sort(key=lambda x: x.distance_to(waypoints[-1]))
         with path.open('w', newline='') as csvfile:
             csvfile.write(f"{len(waypoints)}\n")
             if tabs:

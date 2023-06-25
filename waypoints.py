@@ -3,16 +3,28 @@ from sys import path as syspath
 from os import getcwd
 syspath.append(getcwd())
 from waypoints.WaypointFile import WaypointFile, SortingMethod
+from waypoints.Waypoint import zeroVector, WaypointType
 
 ask_input = False
 wp_dir = Path(r"S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints")
 
-# loop over csv files in S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints
+errs = 0
+files = 0
+wps = 0
 for file in wp_dir.glob("*.csv"):
+    files += 1
     file = WaypointFile(file, ask_for_user_input=ask_input)
-    err = file.check(fix=True, ask_for_user_input=ask_input)
-    file.save(file.path, sort=SortingMethod.NONE)
+    wps += len(file.waypoints)
+    # for waypoint in file.waypoints:
+    #     if waypoint.type == WaypointType.JAVELIN:
+    #     # if waypoint.target is not None and waypoint.target == zeroVector:
+    #         print(waypoint)
 
+    err = file.check(fix=True, ask_for_user_input=ask_input)
+    errs += err
+    # file.save(file.path, sort=SortingMethod.NONE)
+
+print(f"Checked {files} files with {wps} waypoints, found {errs} errors")
     
 
 # file = WaypointFile(r"S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp.csv", ask_for_user_input=ask_input)

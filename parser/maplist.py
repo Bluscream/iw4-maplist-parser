@@ -3,28 +3,14 @@ from json import dumps, load
 
 from .map import Map
 
-def remove_nulls(d):
-    if isinstance(d, dict):
-        return {
-            k: v
-            for k, v in ((k, remove_nulls(v)) for k, v in d.items())
-            if v is not None
-        }
-    if isinstance(d, list):
-        return [remove_nulls(v) for v in d if v is not None]
-    return d
-
-def remove_nulls2(d):
-    if isinstance(d, dict):
-        for  k, v in list(d.items()):
-            if v is None:
-                del d[k]
-            else:
-                remove_nulls(v)
-    if isinstance(d, list):
-        for v in d:
-            remove_nulls(v)
-    return d
+def remove_none_values(dictionary:dict):
+    forbbiden_values = [None, "None", "", [], "null"]
+    for key, value in list(dictionary.items()):
+        if value in forbbiden_values:
+            del dictionary[key]
+        elif isinstance(value, dict):
+            remove_none_values(value)
+    return dictionary
 
 @dataclass
 class Maplist:
@@ -51,13 +37,13 @@ class Maplist:
     
     @staticmethod
     def load(file: str = 'maps.json'):
-        with open(file, 'r') as f:
+        with open(file, 'r', encoding="utf-8") as f:
             jsonstring = load(f)
             return Maplist.from_dict(jsonstring)
     
     def save(self, file: str = 'maps.json'):
-        cleaned_maps = remove_nulls(self.maps)
-        json = dumps({self.game: cleaned_maps}, default=lambda o: o.__dict__, sort_keys=True, indent=4) # , object_hook=remove_nulls
+        cleaned_maps = remove_none_values({self.game: cleaned_maps})
+        json = dumps(cleaned_maps, default=lambda o: o.__dict__, sort_keys=True, indent=4) # , object_hook=remove_nulls
         if file:
             with open(file, 'w') as f: f.write(json)
         print("Saved ", len(self.maps), "maps to", file)

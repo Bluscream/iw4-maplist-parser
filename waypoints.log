@@ -1,819 +1,525 @@
 pygame 2.4.0 (SDL 2.26.4, Python 3.11.0)
 Hello from the pygame community. https://www.pygame.org/contribute.html
-Waypoint(uuid=b3aabd67f13357a65e3e9625ed639973, _i=1, i=0, pos=[2043, 3223, 48.125], conns=1, type=STAND, angle=None, ?=)
-WARNING: Waypoint b3aabd67f13357a65e3e9625ed639973 Connection 1 target is itself!
-Skip? (a)ll/(w)aypoint/(c)onnection: Converted 1 connections for b3aabd67f13357a65e3e9625ed639973
-Waypoint(uuid=fa6a5f816ef5e56ccb6bb9c458de26ce, _i=2, i=1, pos=[1831.54, 3198.69, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint fa6a5f816ef5e56ccb6bb9c458de26ce Connection 2 target is itself!
-Converted 3 connections for fa6a5f816ef5e56ccb6bb9c458de26ce
-Waypoint(uuid=c4d1a0cde464976c943b30abafd5f41e, _i=3, i=2, pos=[1771.53, 3109.12, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint c4d1a0cde464976c943b30abafd5f41e Connection 3 target is itself!
-Converted 3 connections for c4d1a0cde464976c943b30abafd5f41e
-Waypoint(uuid=558a646f042ea35cefc9346d0fe2ca4e, _i=4, i=3, pos=[1614.05, 3055.79, 48.125], conns=5, type=STAND, angle=None, ?=)
-WARNING: Waypoint 558a646f042ea35cefc9346d0fe2ca4e Connection 4 target is itself!
-Converted 5 connections for 558a646f042ea35cefc9346d0fe2ca4e
-Waypoint(uuid=29ba0371f69a2faee73de09ffdb98afc, _i=5, i=4, pos=[1802.37, 2907.46, 48.125], conns=5, type=STAND, angle=None, ?=)
-Converted 5 connections for 29ba0371f69a2faee73de09ffdb98afc
-Waypoint(uuid=8c2e6480e9cf01bd1cd974ae5fbae6ec, _i=6, i=5, pos=[1294.6, 2914.98, 48.125], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 8c2e6480e9cf01bd1cd974ae5fbae6ec Connection 6 target is itself!
-Converted 4 connections for 8c2e6480e9cf01bd1cd974ae5fbae6ec
-Waypoint(uuid=2adad2cba1b4ae3f06ccf3c28b5236cd, _i=7, i=6, pos=[1010.56, 2856.75, 48.125], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for 2adad2cba1b4ae3f06ccf3c28b5236cd
-Waypoint(uuid=0a18e8eb5138d6d267451f86211d4a1c, _i=8, i=7, pos=[1152.23, 2441.07, 48.1784], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 0a18e8eb5138d6d267451f86211d4a1c Connection 8 target is itself!
-WARNING: Waypoint 0a18e8eb5138d6d267451f86211d4a1c Connection 8 target is itself!
-Converted 3 connections for 0a18e8eb5138d6d267451f86211d4a1c
-Waypoint(uuid=905c2e33e0c0e1574d6d7698279e052a, _i=9, i=8, pos=[1113.75, 2379.53, 48.4586], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 905c2e33e0c0e1574d6d7698279e052a Connection 9 target is itself!
-Converted 3 connections for 905c2e33e0c0e1574d6d7698279e052a
-Waypoint(uuid=33dda870a867ed208aac514970794f65, _i=10, i=9, pos=[1283.64, 2192.96, 49.2232], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 33dda870a867ed208aac514970794f65 Connection 10 target is itself!
-Converted 3 connections for 33dda870a867ed208aac514970794f65
-Waypoint(uuid=b64571c39cb4709b14bdcff2f1a63ca9, _i=11, i=10, pos=[1155.48, 1964.01, 48.4915], conns=5, type=STAND, angle=None, ?=)
-WARNING: Waypoint b64571c39cb4709b14bdcff2f1a63ca9 Connection 11 target is itself!
-Converted 5 connections for b64571c39cb4709b14bdcff2f1a63ca9
-Waypoint(uuid=860cad603f1f9cc288f518f48b90a85d, _i=12, i=11, pos=[1396.81, 2078.67, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 860cad603f1f9cc288f518f48b90a85d Connection 12 target is itself!
-Converted 3 connections for 860cad603f1f9cc288f518f48b90a85d
-Waypoint(uuid=8d4bdcd0a2402046e5e8134150b18144, _i=13, i=12, pos=[1568.91, 2137.36, 48.125], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 8d4bdcd0a2402046e5e8134150b18144 Connection 13 target is itself!
-Converted 2 connections for 8d4bdcd0a2402046e5e8134150b18144
-Waypoint(uuid=386924e66ccb91141e2f755a01dd9205, _i=14, i=13, pos=[1811.1, 2217.06, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 386924e66ccb91141e2f755a01dd9205 Connection 14 target is itself!
-Converted 3 connections for 386924e66ccb91141e2f755a01dd9205
-Waypoint(uuid=0949032b619e0fb7e52429970d996936, _i=15, i=14, pos=[1782.95, 2464.88, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 0949032b619e0fb7e52429970d996936 Connection 15 target is itself!
-Converted 3 connections for 0949032b619e0fb7e52429970d996936
-Waypoint(uuid=1c0c7d07ef07f9c9a59070bec2415b73, _i=16, i=15, pos=[1746.15, 2627.32, 48.1104], conns=6, type=STAND, angle=None, ?=)
-Converted 6 connections for 1c0c7d07ef07f9c9a59070bec2415b73
-Waypoint(uuid=7eefddc261833632806ef81ff32eb724, _i=17, i=16, pos=[988.8, 1759.26, 39.3681], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 7eefddc261833632806ef81ff32eb724 Connection 17 target is itself!
-Converted 4 connections for 7eefddc261833632806ef81ff32eb724
-Waypoint(uuid=a949da3cb1d9ac917da820bb810003a3, _i=18, i=17, pos=[898.079, 1482.12, 48.0862], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint a949da3cb1d9ac917da820bb810003a3 Connection 18 target is itself!
-Converted 3 connections for a949da3cb1d9ac917da820bb810003a3
-Waypoint(uuid=8594ca9899025c8ea5c8a85dd510dc9b, _i=19, i=18, pos=[875.185, 1205.34, 48.0212], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 8594ca9899025c8ea5c8a85dd510dc9b Connection 19 target is itself!
-Converted 3 connections for 8594ca9899025c8ea5c8a85dd510dc9b
-Waypoint(uuid=9edee0b8689baa26712a4b19b8819020, _i=20, i=19, pos=[874.6, 969.342, 48.125], conns=5, type=STAND, angle=None, ?=)
-WARNING: Waypoint 9edee0b8689baa26712a4b19b8819020 Connection 20 target is itself!
-Converted 5 connections for 9edee0b8689baa26712a4b19b8819020
-Waypoint(uuid=1ef38054fbcb39f1d24cfea2ea25d603, _i=21, i=20, pos=[1099.8, 876.364, 48.125], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 1ef38054fbcb39f1d24cfea2ea25d603 Connection 21 target is itself!
-Converted 4 connections for 1ef38054fbcb39f1d24cfea2ea25d603
-Waypoint(uuid=102faf93883bb02aed926cddb45d9dd3, _i=22, i=21, pos=[1418.52, 982.567, 48.125], conns=5, type=STAND, angle=None, ?=)
-WARNING: Waypoint 102faf93883bb02aed926cddb45d9dd3 Connection 22 target is itself!
-Converted 5 connections for 102faf93883bb02aed926cddb45d9dd3
-Waypoint(uuid=9e6722740193dee90d81b1b13ad6fa31, _i=23, i=22, pos=[1591.97, 1018.84, 48.125], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 9e6722740193dee90d81b1b13ad6fa31 Connection 23 target is itself!
-Converted 4 connections for 9e6722740193dee90d81b1b13ad6fa31
-Waypoint(uuid=208b599115b37d273bff769a06c7546e, _i=24, i=23, pos=[1591.72, 729.26, 48.125], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 208b599115b37d273bff769a06c7546e Connection 24 target is itself!
-Converted 4 connections for 208b599115b37d273bff769a06c7546e
-Waypoint(uuid=72a84a3f8909550c9ff2e2bfcfe1501d, _i=25, i=24, pos=[1565.03, 553.248, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 72a84a3f8909550c9ff2e2bfcfe1501d Connection 25 target is itself!
-Converted 3 connections for 72a84a3f8909550c9ff2e2bfcfe1501d
-Waypoint(uuid=9b82e5748170daf1d72cf4526267ab9f, _i=26, i=25, pos=[1339.89, 548.266, 49.4065], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 9b82e5748170daf1d72cf4526267ab9f Connection 26 target is itself!
-Converted 4 connections for 9b82e5748170daf1d72cf4526267ab9f
-Waypoint(uuid=572241134f04506404706deb3da86303, _i=27, i=26, pos=[1350.5, 803.367, 48.125], conns=6, type=STAND, angle=None, ?=)
-Converted 6 connections for 572241134f04506404706deb3da86303
-Waypoint(uuid=4daf62121d779ac4a660bcc7ecd0a611, _i=28, i=27, pos=[1013.83, 729.909, 48.125], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 4daf62121d779ac4a660bcc7ecd0a611 Connection 28 target is itself!
-Converted 4 connections for 4daf62121d779ac4a660bcc7ecd0a611
-Waypoint(uuid=6621210706d466235300f9ac13cecba7, _i=29, i=28, pos=[890.876, 723.648, 48.8701], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for 6621210706d466235300f9ac13cecba7
-Waypoint(uuid=9f82035bac2902dfc7107b17800df165, _i=30, i=29, pos=[591.601, 364.798, 60.875], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 9f82035bac2902dfc7107b17800df165 Connection 30 target is itself!
-Converted 2 connections for 9f82035bac2902dfc7107b17800df165
-Waypoint(uuid=57c030ce850f82b4af38f1ad65881b90, _i=31, i=30, pos=[602.413, 491.391, 60.4593], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 57c030ce850f82b4af38f1ad65881b90 Connection 31 target is itself!
-Converted 3 connections for 57c030ce850f82b4af38f1ad65881b90
-Waypoint(uuid=941b6e13874fa9526e5f65bf3e233fbd, _i=32, i=31, pos=[723.719, 494.235, 59.7507], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 941b6e13874fa9526e5f65bf3e233fbd Connection 32 target is itself!
-Converted 2 connections for 941b6e13874fa9526e5f65bf3e233fbd
-Waypoint(uuid=d71f1470d53026616fc39d0ab240a914, _i=33, i=32, pos=[705.415, 640.985, 51.0084], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint d71f1470d53026616fc39d0ab240a914 Connection 33 target is itself!
-Converted 3 connections for d71f1470d53026616fc39d0ab240a914
-Waypoint(uuid=e8d334475d8731d38642861144ebafb6, _i=34, i=33, pos=[820.615, 690.08, 48.804], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for e8d334475d8731d38642861144ebafb6
-Waypoint(uuid=32f7e8ca261ebfad52dfd40921e66b7d, _i=35, i=34, pos=[906.734, 636.255, 49.8304], conns=1, type=STAND, angle=None, ?=)
-Converted 1 connections for 32f7e8ca261ebfad52dfd40921e66b7d
-Waypoint(uuid=d3e690d1006d48343f4156cd04021a39, _i=36, i=35, pos=[570.52, 879.728, 49.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint d3e690d1006d48343f4156cd04021a39 Connection 36 target is itself!
-Converted 3 connections for d3e690d1006d48343f4156cd04021a39
-Waypoint(uuid=6875fd18d339fb3c02812747bc62773e, _i=37, i=36, pos=[730.906, 864.001, 49.125], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for 6875fd18d339fb3c02812747bc62773e
-Waypoint(uuid=bb2d5f68a3de9710160540ccca14b14f, _i=38, i=37, pos=[586.109, 1521.44, 53.6003], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint bb2d5f68a3de9710160540ccca14b14f Connection 38 target is itself!
-Converted 3 connections for bb2d5f68a3de9710160540ccca14b14f
-Waypoint(uuid=187b2eee3dd2d714fa5a817d4eebb73b, _i=39, i=38, pos=[797.224, 1536.13, 48.67], conns=2, type=STAND, angle=None, ?=)
-Converted 2 connections for 187b2eee3dd2d714fa5a817d4eebb73b
-Waypoint(uuid=e866a49d890c8219c6618f02a170be79, _i=40, i=39, pos=[390.375, 1611.66, 58.9374], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint e866a49d890c8219c6618f02a170be79 Connection 40 target is itself!
-Converted 2 connections for e866a49d890c8219c6618f02a170be79
-Waypoint(uuid=69347d433bb1dc0b9c2a4d6f3acc9541, _i=41, i=40, pos=[321.187, 1847.62, 50.6148], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 69347d433bb1dc0b9c2a4d6f3acc9541 Connection 41 target is itself!
-Converted 2 connections for 69347d433bb1dc0b9c2a4d6f3acc9541
-Waypoint(uuid=a8bc98844c6a52b96d6a7492a343383c, _i=42, i=41, pos=[394.033, 2072.21, 56.2713], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint a8bc98844c6a52b96d6a7492a343383c Connection 42 target is itself!
-Converted 3 connections for a8bc98844c6a52b96d6a7492a343383c
-Waypoint(uuid=de0ee712ff1788ba0ee80d74aad89bdd, _i=43, i=42, pos=[632.933, 2021.41, 50.9029], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint de0ee712ff1788ba0ee80d74aad89bdd Connection 43 target is itself!
-Converted 2 connections for de0ee712ff1788ba0ee80d74aad89bdd
-Waypoint(uuid=8b4d76fdc83f88329d2663f4efb05edb, _i=44, i=43, pos=[854.963, 2005.5, 53.47], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for 8b4d76fdc83f88329d2663f4efb05edb
-Waypoint(uuid=ffe822ba31512afcb7959b9a51223dfe, _i=45, i=44, pos=[471.238, 2366.12, 59.7767], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint ffe822ba31512afcb7959b9a51223dfe Connection 45 target is itself!
-Converted 2 connections for ffe822ba31512afcb7959b9a51223dfe
-Waypoint(uuid=272b755ca917a7cb18b2c029a18aaccf, _i=46, i=45, pos=[532.644, 2551.39, 63.9027], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 272b755ca917a7cb18b2c029a18aaccf Connection 46 target is itself!
-Converted 3 connections for 272b755ca917a7cb18b2c029a18aaccf
-Waypoint(uuid=7c88c0fe55f049d39c01b9d222905187, _i=47, i=46, pos=[834.357, 2567.29, 54.4027], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 7c88c0fe55f049d39c01b9d222905187 Connection 47 target is itself!
-Converted 3 connections for 7c88c0fe55f049d39c01b9d222905187
-Waypoint(uuid=105cbd2c69f6f24e9ffe7bfc698a63f8, _i=48, i=47, pos=[989.059, 2683.33, 48.125], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for 105cbd2c69f6f24e9ffe7bfc698a63f8
-Waypoint(uuid=0103b97a14b7a90cc8466948b7f3c2dc, _i=49, i=48, pos=[1623.82, 2835.06, 48.125], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for 0103b97a14b7a90cc8466948b7f3c2dc
-Waypoint(uuid=caba07582ac4b4294af02ae12f07f19d, _i=50, i=49, pos=[2056.03, 2972.15, 48.125], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint caba07582ac4b4294af02ae12f07f19d Connection 50 target is itself!
-Converted 2 connections for caba07582ac4b4294af02ae12f07f19d
-Waypoint(uuid=a720be83f26f7fbd56a32bdf847b17ca, _i=51, i=50, pos=[2112.76, 2853.73, 48.125], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint a720be83f26f7fbd56a32bdf847b17ca Connection 51 target is itself!
-Converted 4 connections for a720be83f26f7fbd56a32bdf847b17ca
-Waypoint(uuid=a5c90db18f691bd722e3e2166d1651a4, _i=52, i=51, pos=[2284.9, 2602.65, 48.0569], conns=5, type=STAND, angle=None, ?=)
-Converted 5 connections for a5c90db18f691bd722e3e2166d1651a4
-Waypoint(uuid=9a0fa09e890e373c5095e7d0291b8ec9, _i=53, i=52, pos=[1954.6, 2722.9, 48.125], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for 9a0fa09e890e373c5095e7d0291b8ec9
-Waypoint(uuid=e9ceb8fa3188858ef128ce3275106d7e, _i=54, i=53, pos=[2149.56, 2278.61, 48.0859], conns=5, type=STAND, angle=None, ?=)
-WARNING: Waypoint e9ceb8fa3188858ef128ce3275106d7e Connection 54 target is itself!
-Converted 5 connections for e9ceb8fa3188858ef128ce3275106d7e
-Waypoint(uuid=e56d423daf517e4720d968cde5f9dd3e, _i=55, i=54, pos=[2355.04, 1878.48, 47.5598], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint e56d423daf517e4720d968cde5f9dd3e Connection 55 target is itself!
-Converted 3 connections for e56d423daf517e4720d968cde5f9dd3e
-Waypoint(uuid=40cb5a140473b308c4a87b60b3d82487, _i=56, i=55, pos=[2557.16, 1988.49, 50.9365], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint 40cb5a140473b308c4a87b60b3d82487 Connection 56 target is itself!
-Converted 4 connections for 40cb5a140473b308c4a87b60b3d82487
-Waypoint(uuid=b990722a268967238acf8795576d231a, _i=57, i=56, pos=[2460.31, 1613.44, 52.476], conns=4, type=STAND, angle=None, ?=)
-WARNING: Waypoint b990722a268967238acf8795576d231a Connection 57 target is itself!
-Converted 4 connections for b990722a268967238acf8795576d231a
-Waypoint(uuid=f79124ce209f8a2c68db6d261dd15455, _i=58, i=57, pos=[2744.78, 1723.83, 50.9572], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for f79124ce209f8a2c68db6d261dd15455
-Waypoint(uuid=da4f8a36362fee8a47e3c62e4bbd13e2, _i=59, i=58, pos=[2435.8, 2271.85, 48.125], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for da4f8a36362fee8a47e3c62e4bbd13e2
-Waypoint(uuid=df53fefa7a98323b3ff61c3313f8b1b0, _i=60, i=59, pos=[2470.18, 2623.46, 47.3385], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint df53fefa7a98323b3ff61c3313f8b1b0 Connection 60 target is itself!
-Converted 3 connections for df53fefa7a98323b3ff61c3313f8b1b0
-Waypoint(uuid=da41d6dcf15239dcfe841d7bb8352a91, _i=61, i=60, pos=[2486.87, 2753.57, 48.0464], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for da41d6dcf15239dcfe841d7bb8352a91
-Waypoint(uuid=fcdf136b06ce86f266ffb86b1ebc9f50, _i=62, i=61, pos=[2928.79, 2260.74, 48.125], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for fcdf136b06ce86f266ffb86b1ebc9f50
-Waypoint(uuid=379ad20f2e321a8e9cfd02cb19e1608a, _i=63, i=62, pos=[3014.42, 2090.28, 54.4085], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 379ad20f2e321a8e9cfd02cb19e1608a Connection 63 target is itself!
-Converted 3 connections for 379ad20f2e321a8e9cfd02cb19e1608a
-Waypoint(uuid=812289cbfbd3df3612fad82cf23ab90b, _i=64, i=63, pos=[2997.03, 2145.99, 52.2499], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 812289cbfbd3df3612fad82cf23ab90b Connection 64 target is itself!
-Converted 2 connections for 812289cbfbd3df3612fad82cf23ab90b
-Waypoint(uuid=cde16677a7b749ceb123a384eae2a3a7, _i=65, i=64, pos=[2972.71, 2205.98, 49.4658], conns=2, type=STAND, angle=None, ?=)
-Converted 2 connections for cde16677a7b749ceb123a384eae2a3a7
-Waypoint(uuid=ed2d7da7871158122d5308ad52d34f0f, _i=66, i=65, pos=[2832.97, 2503.88, 48.0374], conns=2, type=STAND, angle=None, ?=)
-Converted 2 connections for ed2d7da7871158122d5308ad52d34f0f
-Waypoint(uuid=a23af298db3479ee90d3337d500a128e, _i=67, i=66, pos=[2747.8, 2689.17, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint a23af298db3479ee90d3337d500a128e Connection 67 target is itself!
-Converted 3 connections for a23af298db3479ee90d3337d500a128e
-Waypoint(uuid=b1cd367088f2bb235ee564b94108d874, _i=68, i=67, pos=[2779.92, 2589.36, 48.125], conns=2, type=STAND, angle=None, ?=)
-Converted 2 connections for b1cd367088f2bb235ee564b94108d874
-Waypoint(uuid=c282f8cb37e1334d2e61c389dca182f9, _i=69, i=68, pos=[2381.92, 3499.16, 52.125], conns=1, type=STAND, angle=None, ?=)
-WARNING: Waypoint c282f8cb37e1334d2e61c389dca182f9 Connection 69 target is itself!
-Converted 1 connections for c282f8cb37e1334d2e61c389dca182f9
-Waypoint(uuid=99cb4b87741271a2ae3ca7e7c4020c6b, _i=70, i=69, pos=[2442.63, 3356.5, 52.125], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 99cb4b87741271a2ae3ca7e7c4020c6b Connection 70 target is itself!
-Converted 2 connections for 99cb4b87741271a2ae3ca7e7c4020c6b
-Waypoint(uuid=835bcc0bc21b069bcebf5dca1256e70a, _i=71, i=70, pos=[2474.98, 3242.92, 52.125], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 835bcc0bc21b069bcebf5dca1256e70a Connection 71 target is itself!
-Converted 2 connections for 835bcc0bc21b069bcebf5dca1256e70a
-Waypoint(uuid=de098245bbca7aec4ced69cd932a3718, _i=72, i=71, pos=[2553.66, 3031.6, 48.125], conns=6, type=STAND, angle=None, ?=)
-WARNING: Waypoint de098245bbca7aec4ced69cd932a3718 Connection 72 target is itself!
-Converted 6 connections for de098245bbca7aec4ced69cd932a3718
-Waypoint(uuid=9723a5f747e8949e494b07f859db0d3c, _i=73, i=72, pos=[2721.51, 2974.06, 48.1127], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 9723a5f747e8949e494b07f859db0d3c Connection 73 target is itself!
-Converted 2 connections for 9723a5f747e8949e494b07f859db0d3c
-Waypoint(uuid=2e40ed17bdb21508192c2baaf504e47f, _i=74, i=73, pos=[2913.97, 2904.22, 48.125], conns=6, type=STAND, angle=None, ?=)
-WARNING: Waypoint 2e40ed17bdb21508192c2baaf504e47f Connection 74 target is itself!
-Converted 6 connections for 2e40ed17bdb21508192c2baaf504e47f
-Waypoint(uuid=fb21c960961feb9724efdf16bd669e58, _i=75, i=74, pos=[2939.03, 3162.09, 48.125], conns=4, type=STAND, angle=None, ?=)
-Converted 4 connections for fb21c960961feb9724efdf16bd669e58
-Waypoint(uuid=4d151f8e40d69a2d509687795bdb48c8, _i=76, i=75, pos=[3325.14, 2975.96, 50.1482], conns=2, type=STAND, angle=None, ?=)
-WARNING: Waypoint 4d151f8e40d69a2d509687795bdb48c8 Connection 76 target is itself!
-Converted 2 connections for 4d151f8e40d69a2d509687795bdb48c8
-Waypoint(uuid=13bdc4907a99e560f04202b51b494eac, _i=77, i=76, pos=[3140.22, 2928.42, 48.125], conns=3, type=STAND, angle=None, ?=)
-WARNING: Waypoint 13bdc4907a99e560f04202b51b494eac Connection 77 target is itself!
-Converted 3 connections for 13bdc4907a99e560f04202b51b494eac
-Waypoint(uuid=37b3e4e23dc1e98401cf623054f1f93a, _i=78, i=77, pos=[3032.11, 2982.09, 48.125], conns=3, type=STAND, angle=None, ?=)
-Converted 3 connections for 37b3e4e23dc1e98401cf623054f1f93a
-Waypoint(uuid=e72d24164a880ba81b0a909349b3eb43, _i=79, i=78, pos=[1301.13, 432.602, 54.6113], conns=1, type=CROUCH, angle=[5.18005, 58.0861, 0], ?=)
-Converted 1 connections for e72d24164a880ba81b0a909349b3eb43
-Waypoint(uuid=cffd8f144b0bf727a2dffc44e6b4b7fb, _i=80, i=79, pos=[1642.13, 599.138, 48.125], conns=1, type=CROUCH, angle=[6.55884, 151.327, 0], ?=)
-Converted 1 connections for cffd8f144b0bf727a2dffc44e6b4b7fb
-Waypoint(uuid=b2ba6b96097e367a06138520b971e050, _i=81, i=80, pos=[1616.88, 1068.86, 48.125], conns=1, type=CROUCH, angle=[5.87219, -141.162, 0], ?=)
-Converted 1 connections for b2ba6b96097e367a06138520b971e050
-Waypoint(uuid=df4ab47f55b59273d054c76f0aa1c103, _i=82, i=81, pos=[1183.1, 1095.78, 48.125], conns=2, type=STAND, angle=[25.7245, 169.982, 0], ?=)
-WARNING: Waypoint df4ab47f55b59273d054c76f0aa1c103 Connection 82 target is itself!
-Converted 2 connections for df4ab47f55b59273d054c76f0aa1c103
-Waypoint(uuid=b901ff7bc69100bc0778da29c6870d7b, _i=83, i=82, pos=[1055.42, 1105.61, 48.125], conns=4, type=STAND, angle=[26.7627, 168.427, 0], ?=)
-WARNING: Waypoint b901ff7bc69100bc0778da29c6870d7b Connection 83 target is itself!
-Converted 4 connections for b901ff7bc69100bc0778da29c6870d7b
-Waypoint(uuid=b21585688427c68405a110818080fd62, _i=84, i=83, pos=[1041.71, 1237.6, 57.125], conns=2, type=STAND, angle=[44.8956, 80.2016, 0], ?=)
-WARNING: Waypoint b21585688427c68405a110818080fd62 Connection 84 target is itself!
-Converted 2 connections for b21585688427c68405a110818080fd62
-Waypoint(uuid=ea0642baedc2fa9a4624e7598cafc550, _i=85, i=84, pos=[1097.49, 1352.93, 58.125], conns=3, type=STAND, angle=[17.6111, -10.2763, 0], ?=)
-WARNING: Waypoint ea0642baedc2fa9a4624e7598cafc550 Connection 85 target is itself!
-Converted 3 connections for ea0642baedc2fa9a4624e7598cafc550
-Waypoint(uuid=fd0dbf4130638abac73840b3f909883e, _i=86, i=85, pos=[1291.36, 1393.73, 56.125], conns=5, type=STAND, angle=[24.3457, -14.0721, 0], ?=)
-WARNING: Waypoint fd0dbf4130638abac73840b3f909883e Connection 86 target is itself!
-Converted 5 connections for fd0dbf4130638abac73840b3f909883e
-Waypoint(uuid=d54af2f13f50e15955ac0c0a3ac051c0, _i=87, i=86, pos=[1495.63, 1254.78, 56.125], conns=5, type=STAND, angle=[11.7389, 140.637, 0], ?=)
-WARNING: Waypoint d54af2f13f50e15955ac0c0a3ac051c0 Connection 87 target is itself!
-Converted 5 connections for d54af2f13f50e15955ac0c0a3ac051c0
-Waypoint(uuid=b89901f1ec2d4e9c81c1e040067bc2a2, _i=88, i=87, pos=[1626.25, 1396.31, 81.225], conns=1, type=CROUCH, angle=[10.014, -147.364, 0], ?=)
-Converted 1 connections for b89901f1ec2d4e9c81c1e040067bc2a2
-Waypoint(uuid=fa37ea4ddde8a6ad698ecba26e07dc46, _i=89, i=88, pos=[1578.98, 1128.61, 76.125], conns=1, type=CROUCH, angle=[7.42676, 134.941, 0], ?=)
-Converted 1 connections for fa37ea4ddde8a6ad698ecba26e07dc46
-Waypoint(uuid=7d4be4278a5cdd27bb89422e7188405f, _i=90, i=89, pos=[1482.93, 1140.57, 56.125], conns=1, type=CROUCH, angle=[3.62549, -92.8001, 0], ?=)
-Converted 1 connections for 7d4be4278a5cdd27bb89422e7188405f
-Waypoint(uuid=e2616ac289a8d8901d9565db557188f1, _i=91, i=90, pos=[1244.9, 1452.9, 56.125], conns=1, type=CROUCH, angle=[3.10913, 96.4339, 0], ?=)
-Converted 1 connections for e2616ac289a8d8901d9565db557188f1
-Waypoint(uuid=97d924acac10b77b24be1a751e4dfb3d, _i=92, i=91, pos=[1033.2, 1475.59, 56.125], conns=1, type=CROUCH, angle=[6.73455, -50.8436, 0], ?=)
-Converted 1 connections for 97d924acac10b77b24be1a751e4dfb3d
-Waypoint(uuid=afc1a747c97bbbd12029d8d315bb4637, _i=93, i=92, pos=[1269.34, 769.496, 48.125], conns=3, type=STAND, angle=[35.7439, -82.9621, 0], ?=)
-WARNING: Waypoint afc1a747c97bbbd12029d8d315bb4637 Connection 93 target is itself!
-Converted 3 connections for afc1a747c97bbbd12029d8d315bb4637
-Waypoint(uuid=a018f1b4b46ddbe68a7781bb7dbf3a67, _i=94, i=93, pos=[1306.57, 645.726, 48.1786], conns=3, type=STAND, angle=[32.8051, 84.1729, 0], ?=)
-WARNING: Waypoint a018f1b4b46ddbe68a7781bb7dbf3a67 Connection 94 target is itself!
-Converted 3 connections for a018f1b4b46ddbe68a7781bb7dbf3a67
-Waypoint(uuid=64ae8b8fc10433ce050a715e178bd76a, _i=95, i=94, pos=[1232.2, 613.306, 56.125], conns=2, type=STAND, angle=[21.0662, 176.722, 0], ?=)
-WARNING: Waypoint 64ae8b8fc10433ce050a715e178bd76a Connection 95 target is itself!
-Converted 2 connections for 64ae8b8fc10433ce050a715e178bd76a
-Waypoint(uuid=c8a499b1264aa238350148a767171866, _i=96, i=95, pos=[1075.71, 621.073, 112.125], conns=2, type=STAND, angle=[36.7767, -88.1367, 0], ?=)
-WARNING: Waypoint c8a499b1264aa238350148a767171866 Connection 96 target is itself!
-Converted 2 connections for c8a499b1264aa238350148a767171866
-Waypoint(uuid=e8cb631d95249ceba34b49a2fa5c6934, _i=97, i=96, pos=[1083.83, 424.106, 112.125], conns=3, type=STAND, angle=[27.4548, 172.058, 0], ?=)
-WARNING: Waypoint e8cb631d95249ceba34b49a2fa5c6934 Connection 97 target is itself!
-Converted 3 connections for e8cb631d95249ceba34b49a2fa5c6934
-Waypoint(uuid=9f20091faf22fd804655569a78932ba9, _i=98, i=97, pos=[982.741, 420.085, 112.125], conns=3, type=STAND, angle=[33.327, 128.722, 0], ?=)
-WARNING: Waypoint 9f20091faf22fd804655569a78932ba9 Connection 98 target is itself!
-Converted 3 connections for 9f20091faf22fd804655569a78932ba9
-Waypoint(uuid=f49cf3436fc6ddf1eba7c9fb9db6830c, _i=99, i=98, pos=[987.97, 515.063, 112.125], conns=3, type=STAND, angle=[15.8862, 92.116, 0], ?=)
-WARNING: Waypoint f49cf3436fc6ddf1eba7c9fb9db6830c Connection 99 target is itself!
-Converted 3 connections for f49cf3436fc6ddf1eba7c9fb9db6830c
-Waypoint(uuid=506f409919ce358ba13f84b5051d1f88, _i=100, i=99, pos=[871.125, 424.125, 119.125], conns=1, type=CROUCH, angle=[8.28911, 32.3779, 0], ?=)
-Converted 1 connections for 506f409919ce358ba13f84b5051d1f88
-Waypoint(uuid=566342736902e38aa2482488556d0aac, _i=101, i=100, pos=[1188.95, 420.009, 112.125], conns=3, type=STAND, angle=[22.9668, -71.2232, 0], ?=)
-WARNING: Waypoint 566342736902e38aa2482488556d0aac Connection 101 target is itself!
-Converted 3 connections for 566342736902e38aa2482488556d0aac
-Waypoint(uuid=99b99060d5886156ff90195fdac6c294, _i=102, i=101, pos=[1195.73, 303.274, 112.125], conns=3, type=STAND, angle=[44.0276, -105.237, 0], ?=)
-WARNING: Waypoint 99b99060d5886156ff90195fdac6c294 Connection 102 target is itself!
-Converted 3 connections for 99b99060d5886156ff90195fdac6c294
-Waypoint(uuid=4be19e817fd577dcefbaf3d559097a96, _i=103, i=102, pos=[1181.58, 229.643, 113.125], conns=2, type=STAND, angle=[52.4926, -97.2938, 0], ?=)
-WARNING: Waypoint 4be19e817fd577dcefbaf3d559097a96 Connection 103 target is itself!
-Converted 2 connections for 4be19e817fd577dcefbaf3d559097a96
-Waypoint(uuid=b378fc45f0692573280dd610db058712, _i=104, i=103, pos=[1174.41, 95.9936, 112.125], conns=3, type=STAND, angle=[29.8718, 162.731, 0], ?=)
-WARNING: Waypoint b378fc45f0692573280dd610db058712 Connection 104 target is itself!
-Converted 3 connections for b378fc45f0692573280dd610db058712
-Waypoint(uuid=98e9bdccb05c38d7db8501157256da16, _i=105, i=104, pos=[994.787, 104.563, 112.125], conns=3, type=STAND, angle=[26.7626, 110.93, 0], ?=)
-WARNING: Waypoint 98e9bdccb05c38d7db8501157256da16 Connection 105 target is itself!
-Converted 3 connections for 98e9bdccb05c38d7db8501157256da16
-Waypoint(uuid=697bc80855b13265d3c671e41bb6ac23, _i=106, i=105, pos=[976.899, 229.154, 113.125], conns=2, type=STAND, angle=[23.9996, 91.4184, 0], ?=)
-WARNING: Waypoint 697bc80855b13265d3c671e41bb6ac23 Connection 106 target is itself!
-Converted 2 connections for 697bc80855b13265d3c671e41bb6ac23
-Waypoint(uuid=6f12046b0775afe3a6e15283d26ccd69, _i=107, i=106, pos=[975.67, 340.479, 112.125], conns=3, type=STAND, angle=[25.9002, 87.7929, 0], ?=)
-WARNING: Waypoint 6f12046b0775afe3a6e15283d26ccd69 Connection 107 target is itself!
-Converted 3 connections for 6f12046b0775afe3a6e15283d26ccd69
-Waypoint(uuid=8dd5eaaa098dbe9ad1f9caedc6666f30, _i=108, i=107, pos=[809.563, 329.102, 112.125], conns=2, type=STAND, angle=[42.8191, 91.7645, 0], ?=)
-Converted 2 connections for 8dd5eaaa098dbe9ad1f9caedc6666f30
-Waypoint(uuid=304607c70a54da99d459fbe6008aa513, _i=109, i=108, pos=[945.125, 39.1313, 112.125], conns=1, type=CROUCH, angle=[8.97576, 59.992, 0], ?=)
-Converted 1 connections for 304607c70a54da99d459fbe6008aa513
-Waypoint(uuid=4fef56d6d9f9b8bda55e163252478a4b, _i=110, i=109, pos=[1209.5, 63.6995, 112.125], conns=1, type=CROUCH, angle=[6.21819, 121.12, 0], ?=)
-Converted 1 connections for 4fef56d6d9f9b8bda55e163252478a4b
-Waypoint(uuid=8e299745cfd435d40caa13dd9c7348fc, _i=111, i=110, pos=[1262.52, 247.487, 112.125], conns=1, type=CROUCH, angle=[5.0042, 133.029, 0], ?=)
-Converted 1 connections for 8e299745cfd435d40caa13dd9c7348fc
-Waypoint(uuid=e0783156ecd553a2e5e7a7995825ce7c, _i=112, i=111, pos=[876.071, 531.984, 112.125], conns=1, type=CROUCH, angle=[9.6679, -43.6091, 0], ?=)
-Converted 1 connections for e0783156ecd553a2e5e7a7995825ce7c
-Waypoint(uuid=05aec01b6b2020f1c34d902530c17c4d, _i=113, i=112, pos=[1259.22, 484.584, 112.125], conns=1, type=CROUCH, angle=[4.66363, -163.772, 0], ?=)
-Converted 1 connections for 05aec01b6b2020f1c34d902530c17c4d
-Waypoint(uuid=1dd0e882daf8d59b3c85fb6224d61882, _i=114, i=113, pos=[816.378, 534.319, -7.875], conns=2, type=STAND, angle=[37.6391, 72.2528, 0], ?=)
-WARNING: Waypoint 1dd0e882daf8d59b3c85fb6224d61882 Connection 114 target is itself!
-Converted 2 connections for 1dd0e882daf8d59b3c85fb6224d61882
-Waypoint(uuid=50f3c029e582c3cbb66f968e854e9b3d, _i=115, i=114, pos=[951.472, 530.797, -7.875], conns=3, type=STAND, angle=[14.848, -75.0355, 0], ?=)
-WARNING: Waypoint 50f3c029e582c3cbb66f968e854e9b3d Connection 115 target is itself!
-Converted 3 connections for 50f3c029e582c3cbb66f968e854e9b3d
-Waypoint(uuid=62654f0097658578753b07c00ae50b0f, _i=116, i=115, pos=[1171.17, 387.431, -7.875], conns=3, type=STAND, angle=[12.431, -88.8453, 0], ?=)
-WARNING: Waypoint 62654f0097658578753b07c00ae50b0f Connection 116 target is itself!
-Converted 3 connections for 62654f0097658578753b07c00ae50b0f
-Waypoint(uuid=38b2d96607b8e7d7dcdf71b6bf23bf28, _i=117, i=116, pos=[1162.67, 244.137, -7.875], conns=3, type=STAND, angle=[27.279, 101.768, 0], ?=)
-WARNING: Waypoint 38b2d96607b8e7d7dcdf71b6bf23bf28 Connection 117 target is itself!
-Converted 3 connections for 38b2d96607b8e7d7dcdf71b6bf23bf28
-Waypoint(uuid=cf87cb7413b7ead5545f5f62c1827e69, _i=118, i=117, pos=[1163.59, 66.1069, -7.875], conns=3, type=STAND, angle=[18.3032, -168.271, 0], ?=)
-WARNING: Waypoint cf87cb7413b7ead5545f5f62c1827e69 Connection 118 target is itself!
-Converted 3 connections for cf87cb7413b7ead5545f5f62c1827e69
-Waypoint(uuid=3393388d974b6c86657d4e9a3ed21ed4, _i=119, i=118, pos=[1009.17, 84.2364, -7.875], conns=3, type=STAND, angle=[20.5444, 89.8529, 0], ?=)
-WARNING: Waypoint 3393388d974b6c86657d4e9a3ed21ed4 Connection 119 target is itself!
-Converted 3 connections for 3393388d974b6c86657d4e9a3ed21ed4
-Waypoint(uuid=59c6424d743951ad075bcb85dc01a5fa, _i=120, i=119, pos=[1035.14, 238.347, -7.875], conns=3, type=STAND, angle=[31.2505, 53.2519, 0], ?=)
-Converted 3 connections for 59c6424d743951ad075bcb85dc01a5fa
-Waypoint(uuid=f320bc35e3bd5e5fd3de7ae96ee96e92, _i=121, i=120, pos=[949.916, 43.6078, -7.875], conns=1, type=CROUCH, angle=[6.04241, 43.4081, 0], ?=)
-Converted 1 connections for f320bc35e3bd5e5fd3de7ae96ee96e92
-Waypoint(uuid=263817325051cb7d6e1fe9113e95a693, _i=122, i=121, pos=[1262.33, 39.7411, -7.875], conns=1, type=CROUCH, angle=[5.69634, 131.293, 0], ?=)
-Converted 1 connections for 263817325051cb7d6e1fe9113e95a693
-Waypoint(uuid=d568b6b332b8b4a9bcb847f311bdc4d5, _i=123, i=122, pos=[945.125, 272.875, -7.875], conns=1, type=CROUCH, angle=[6.21819, -4.07477, 0], ?=)
-Converted 1 connections for d568b6b332b8b4a9bcb847f311bdc4d5
-Waypoint(uuid=353679f38b767b654092cc37906af11c, _i=124, i=123, pos=[1262.88, 487.593, -7.875], conns=1, type=CROUCH, angle=[5.0042, -169.133, 0], ?=)
-Converted 1 connections for 353679f38b767b654092cc37906af11c
-Waypoint(uuid=6c9f6a91149cf3a3e8c838ef39ebadcc, _i=125, i=124, pos=[938.828, 321.298, -7.875], conns=1, type=CROUCH, angle=[-7.94316, 120.071, 0], ?=)
-Converted 1 connections for 6c9f6a91149cf3a3e8c838ef39ebadcc
-Waypoint(uuid=96c8c014965f526c72c728ae50fcf66a, _i=126, i=125, pos=[579.125, 335.547, 61.96], conns=1, type=CROUCH, angle=[7.94304, 68.4515, 0], ?=)
-Converted 1 connections for 96c8c014965f526c72c728ae50fcf66a
-Waypoint(uuid=c30307df0df63222f6424339efa62ee6, _i=127, i=126, pos=[444.996, 813.111, 49.125], conns=1, type=CROUCH, angle=[3.97149, 12.1685, 0], ?=)
-Converted 1 connections for c30307df0df63222f6424339efa62ee6
-Waypoint(uuid=3de1fc2cfebb495db0a911a390234db8, _i=128, i=127, pos=[528.305, 957.345, 49.125], conns=1, type=CROUCH, angle=[6.04241, -33.9356, 0], ?=)
-Converted 1 connections for 3de1fc2cfebb495db0a911a390234db8
-Waypoint(uuid=742479bc6211da6edd51aa211fcb211a, _i=129, i=128, pos=[529.413, 1430.79, 57.3276], conns=1, type=CROUCH, angle=[7.08062, 58.9593, 0], ?=)
-Converted 1 connections for 742479bc6211da6edd51aa211fcb211a
-Waypoint(uuid=bdac0c9b9468b95a37c4c1941e136d88, _i=130, i=129, pos=[958.662, 2266.31, 59.9619], conns=2, type=STAND, angle=[18.8195, 94.8736, 0], ?=)
-Converted 2 connections for bdac0c9b9468b95a37c4c1941e136d88
-Waypoint(uuid=8eeb32d46dd6b79cfff44c677f0a3195, _i=131, i=130, pos=[407.491, 2603.23, 64.125], conns=1, type=CROUCH, angle=[4.66363, -35.4792, 0], ?=)
-Converted 1 connections for 8eeb32d46dd6b79cfff44c677f0a3195
-Waypoint(uuid=2c672df63b67ae3bdfd18bf6d2724b78, _i=132, i=131, pos=[1080.75, 2637.27, 48.0458], conns=3, type=STAND, angle=[40.0561, -49.1242, 0], ?=)
-Converted 3 connections for 2c672df63b67ae3bdfd18bf6d2724b78
-Waypoint(uuid=6496618976b1590754efffb44d1e1903, _i=133, i=132, pos=[853.172, 2925.02, 48.0251], conns=1, type=CROUCH, angle=[5.69634, -28.2337, 0], ?=)
-Converted 1 connections for 6496618976b1590754efffb44d1e1903
-Waypoint(uuid=83eede1391b08d1013ffd5bd33199501, _i=134, i=133, pos=[1394.91, 2711.82, 47.4564], conns=2, type=STAND, angle=[34.876, 178.095, 0], ?=)
-WARNING: Waypoint 83eede1391b08d1013ffd5bd33199501 Connection 134 target is itself!
-Converted 2 connections for 83eede1391b08d1013ffd5bd33199501
-Waypoint(uuid=0c3b3b7c19638d5bc89345129f521b8e, _i=135, i=134, pos=[1233.42, 2661.8, 118.125], conns=2, type=STAND, angle=[63.7151, -166.892, 0], ?=)
-WARNING: Waypoint 0c3b3b7c19638d5bc89345129f521b8e Connection 135 target is itself!
-Converted 2 connections for 0c3b3b7c19638d5bc89345129f521b8e
-Waypoint(uuid=848d48c53a9c81d5a14a1de487be16a5, _i=136, i=135, pos=[1219.2, 2726.65, 118.125], conns=2, type=STAND, angle=[51.2786, 101.421, 0], ?=)
-WARNING: Waypoint 848d48c53a9c81d5a14a1de487be16a5 Connection 136 target is itself!
-Converted 2 connections for 848d48c53a9c81d5a14a1de487be16a5
-Waypoint(uuid=118e4df007ab99404a98d27f29bf6b63, _i=137, i=136, pos=[1396.52, 2784.92, 200.125], conns=3, type=STAND, angle=[52.3168, 3.00592, 0], ?=)
-WARNING: Waypoint 118e4df007ab99404a98d27f29bf6b63 Connection 137 target is itself!
-Converted 3 connections for 118e4df007ab99404a98d27f29bf6b63
-Waypoint(uuid=6966ebe8916a10c272327b5fc650808c, _i=138, i=137, pos=[1489.57, 2841.92, 200.125], conns=1, type=CROUCH, angle=[17.4407, 10.603, 0], ?=)
-Converted 1 connections for 6966ebe8916a10c272327b5fc650808c
-Waypoint(uuid=4fb5f1333e2bf2b7c0a6596b124de954, _i=139, i=138, pos=[1476.54, 2773.26, 200.125], conns=2, type=STAND, angle=[28.8335, -43.6146, 0], ?=)
-WARNING: Waypoint 4fb5f1333e2bf2b7c0a6596b124de954 Connection 139 target is itself!
-Converted 2 connections for 4fb5f1333e2bf2b7c0a6596b124de954
-Waypoint(uuid=d9631a859311618787b6c186e0623b60, _i=140, i=139, pos=[1619.69, 2381.51, 200.125], conns=2, type=STAND, angle=[40.5779, -59.8469, 0], ?=)
-WARNING: Waypoint d9631a859311618787b6c186e0623b60 Connection 140 target is itself!
-Converted 2 connections for d9631a859311618787b6c186e0623b60
-Waypoint(uuid=7a38c6b3747f75ca4599a7eb56d3e48c, _i=141, i=140, pos=[1624.04, 2476.04, 200.125], conns=1, type=CROUCH, angle=[16.7486, 30.631, 0], ?=)
-Converted 1 connections for 7a38c6b3747f75ca4599a7eb56d3e48c
-Waypoint(uuid=467d549ce9df5256b34d833b93d64e1a, _i=142, i=141, pos=[1826.85, 3288.65, 46.3117], conns=1, type=CROUCH, angle=[6.04241, -117.849, 0], ?=)
-Converted 1 connections for 467d549ce9df5256b34d833b93d64e1a
-Waypoint(uuid=f2b533aaca4c4a26d9750cd8ef35df19, _i=143, i=142, pos=[1890.18, 2519.43, 48.0139], conns=2, type=STAND, angle=[54.5635, 24.0887, 0], ?=)
-WARNING: Waypoint f2b533aaca4c4a26d9750cd8ef35df19 Connection 143 target is itself!
-Converted 2 connections for f2b533aaca4c4a26d9750cd8ef35df19
-Waypoint(uuid=aa9802313a83dbf77906650121ba1a1a, _i=144, i=143, pos=[1986.16, 2548.99, 48.0001], conns=3, type=STAND, angle=[22.7911, -70.3608, 0], ?=)
-WARNING: Waypoint aa9802313a83dbf77906650121ba1a1a Connection 144 target is itself!
-Converted 3 connections for aa9802313a83dbf77906650121ba1a1a
-Waypoint(uuid=96d1c9f030d03573c8f70a1707872458, _i=145, i=144, pos=[2035.59, 2411.14, 48.0203], conns=3, type=STAND, angle=[24.6917, -68.6359, 0], ?=)
-WARNING: Waypoint 96d1c9f030d03573c8f70a1707872458 Connection 145 target is itself!
-Converted 3 connections for 96d1c9f030d03573c8f70a1707872458
-Waypoint(uuid=1c9df44d7f7b4754af5661f5c707c23b, _i=146, i=145, pos=[2063.87, 2342.6, 48.0271], conns=3, type=STAND, angle=[34.7057, -62.934, 0], ?=)
-Converted 3 connections for 1c9df44d7f7b4754af5661f5c707c23b
-Waypoint(uuid=b3e4079a3af1b749d4ce582963392f02, _i=147, i=146, pos=[1985.63, 2342.12, 48.125], conns=1, type=CROUCH, angle=[8.63518, 67.5891, 0], ?=)
-Converted 1 connections for b3e4079a3af1b749d4ce582963392f02
-Waypoint(uuid=d1f9dd6f589488d267e70ce8d1cd001f, _i=148, i=147, pos=[2042.3, 2624.27, 48.125], conns=1, type=CROUCH, angle=[8.80547, -113.01, 0], ?=)
-Converted 1 connections for d1f9dd6f589488d267e70ce8d1cd001f
-Waypoint(uuid=d9559f551dff42b4360ad87aae3426d0, _i=149, i=148, pos=[1930.14, 2262.65, 48.125], conns=2, type=STAND, angle=[22.445, -147.369, 0], ?=)
-WARNING: Waypoint d9559f551dff42b4360ad87aae3426d0 Connection 149 target is itself!
-Converted 2 connections for d9559f551dff42b4360ad87aae3426d0
-Waypoint(uuid=babc63be465178e1208432ceba0ed64d, _i=150, i=149, pos=[1972.94, 2279.27, 48.125], conns=1, type=CLIMB, angle=[10.36, 17.5244, 0], ?=)
-Converted 1 connections for babc63be465178e1208432ceba0ed64d
-Waypoint(uuid=fa891bf8518d84da52a6a71c118fdcd6, _i=151, i=150, pos=[2021.86, 2294.01, 66.125], conns=2, type=CLIMB, angle=[17.7813, -163.256, 0], ?=)
-Converted 2 connections for fa891bf8518d84da52a6a71c118fdcd6
-Waypoint(uuid=41178d61279412aa52d4a3d387f31324, _i=152, i=151, pos=[2366.95, 2415.52, 48.0149], conns=3, type=STAND, angle=[22.9614, 23.9184, 0], ?=)
-Converted 3 connections for 41178d61279412aa52d4a3d387f31324
-Waypoint(uuid=d92e4a39f58c3a401418f015a01de151, _i=153, i=152, pos=[2396.03, 2925.77, 48.125], conns=3, type=STAND, angle=[66.3025, -155.362, 0], ?=)
-WARNING: Waypoint d92e4a39f58c3a401418f015a01de151 Connection 153 target is itself!
-Converted 3 connections for d92e4a39f58c3a401418f015a01de151
-Waypoint(uuid=a266ed63c76b0bbf705cef2e811c88b8, _i=154, i=153, pos=[2289.69, 2842.54, 48.125], conns=3, type=STAND, angle=[24.516, -138.783, 0], ?=)
-Converted 3 connections for a266ed63c76b0bbf705cef2e811c88b8
-Waypoint(uuid=36c2dba2469320f88193d8e3daa6f6df, _i=155, i=154, pos=[2982.53, 3314.45, 44.9166], conns=1, type=CROUCH, angle=[6.90491, -114.597, 0], ?=)
-Converted 1 connections for 36c2dba2469320f88193d8e3daa6f6df
-Waypoint(uuid=cabc6e2b63ac565e4e975e32e0b309dc, _i=156, i=155, pos=[3331.15, 3052.92, 49.8067], conns=1, type=CROUCH, angle=[6.38855, -139.975, 0], ?=)
-Converted 1 connections for cabc6e2b63ac565e4e975e32e0b309dc
-Waypoint(uuid=6d7f63c58f73753daab72ff79c0dcd68, _i=157, i=156, pos=[2950.37, 2725.18, 48.125], conns=1, type=CROUCH, angle=[5.52612, 115.737, 0], ?=)
-Converted 1 connections for 6d7f63c58f73753daab72ff79c0dcd68
-Waypoint(uuid=5aefbcd876a5f699c81fb6a52d21c152, _i=158, i=157, pos=[2901.37, 2036.54, 48.9315], conns=1, type=CROUCH, angle=[7.08069, 73.0882, 0], ?=)
-Converted 1 connections for 5aefbcd876a5f699c81fb6a52d21c152
-Waypoint(uuid=dd45592668eaeb809c59fbe491859add, _i=159, i=158, pos=[3036.15, 2081.71, 55.1824], conns=1, type=CROUCH, angle=[10.014, 127.652, 0], ?=)
-Converted 1 connections for dd45592668eaeb809c59fbe491859add
-Waypoint(uuid=cfb5fef6cf56d9e23cd599dbe88a67bc, _i=160, i=159, pos=[2732.94, 2254.07, 48.0258], conns=3, type=STAND, angle=[25.3839, -150.16, 0], ?=)
-WARNING: Waypoint cfb5fef6cf56d9e23cd599dbe88a67bc Connection 160 target is itself!
-Converted 3 connections for cfb5fef6cf56d9e23cd599dbe88a67bc
-Waypoint(uuid=7346bf67cc7c62e829565fd22812fc1f, _i=161, i=160, pos=[2772.69, 2091.46, 48.125], conns=2, type=STAND, angle=[12.9474, -76.2654, 0], ?=)
-WARNING: Waypoint 7346bf67cc7c62e829565fd22812fc1f Connection 161 target is itself!
-Converted 2 connections for 7346bf67cc7c62e829565fd22812fc1f
-Waypoint(uuid=a6e62a6274de5c8e49f726fc74ddde8d, _i=162, i=161, pos=[2738.01, 2003.28, 48.125], conns=1, type=CROUCH, angle=[6.73462, 89.8368, 0], ?=)
-Converted 1 connections for a6e62a6274de5c8e49f726fc74ddde8d
-Waypoint(uuid=5534f6e1c5f13263efcbdc563798c0ed, _i=163, i=162, pos=[2848.45, 1677.01, 57.6701], conns=1, type=CROUCH, angle=[8.63525, 151.47, 0], ?=)
-Converted 1 connections for 5534f6e1c5f13263efcbdc563798c0ed
-Waypoint(uuid=3be4aa563e19bac22f9fa89de8eaf16f, _i=164, i=163, pos=[2404.81, 1525.48, 54.3341], conns=1, type=CROUCH, angle=[8.28918, 79.8118, 0], ?=)
-Converted 1 connections for 3be4aa563e19bac22f9fa89de8eaf16f
-Waypoint(uuid=299e1c55048fd657a62b24cdd3dc60ea, _i=165, i=164, pos=[1301.11, 1044.74, 48.125], conns=3, type=STAND, angle=[35.5682, 99.318, 0], ?=)
-WARNING: Waypoint 299e1c55048fd657a62b24cdd3dc60ea Connection 165 target is itself!
-Converted 3 connections for 299e1c55048fd657a62b24cdd3dc60ea
-Waypoint(uuid=6bc00d90fa57647a22e8a3dcf96f9861, _i=166, i=165, pos=[1299.36, 1104.24, 56.125], conns=2, type=CLIMB, angle=[11.9147, 83.6076, 0], ?=)
-Converted 2 connections for 6bc00d90fa57647a22e8a3dcf96f9861
-Waypoint(uuid=a17d14a2be0f1f0839416d96052aea94, _i=167, i=166, pos=[1328.04, 1268.42, 56.125], conns=3, type=STAND, angle=[21.7584, -91.1299, 0], ?=)
-WARNING: Waypoint a17d14a2be0f1f0839416d96052aea94 Connection 167 target is itself!
-Converted 3 connections for a17d14a2be0f1f0839416d96052aea94
-Waypoint(uuid=d3c2f7b8f45f88fa922485ab5ea8daef, _i=168, i=167, pos=[1305.25, 1146.11, 56.125], conns=2, type=CLIMB, angle=[10.8765, -94.5851, 0], ?=)
-Converted 2 connections for d3c2f7b8f45f88fa922485ab5ea8daef
-Waypoint(uuid=6ee6e1d53879159dcaedf0da7407e295, _i=169, i=168, pos=[1249.85, 1557.53, 58.3684], conns=4, type=STAND, angle=[18.1274, 151.431, 0], ?=)
-WARNING: Waypoint 6ee6e1d53879159dcaedf0da7407e295 Connection 169 target is itself!
-Converted 4 connections for 6ee6e1d53879159dcaedf0da7407e295
-Waypoint(uuid=75c118f7765bbafc434599c57fc25f12, _i=170, i=169, pos=[1323.65, 1721.47, 52.1055], conns=2, type=STAND, angle=[43.5114, 115.863, 0], ?=)
-WARNING: Waypoint 75c118f7765bbafc434599c57fc25f12 Connection 170 target is itself!
-Converted 2 connections for 75c118f7765bbafc434599c57fc25f12
-Waypoint(uuid=0f632756ee93cf91fd79a7b051fad87c, _i=171, i=170, pos=[1273.5, 1849.7, 52.3302], conns=2, type=STAND, angle=[33.1512, 125.185, 0], ?=)
-Converted 2 connections for 0f632756ee93cf91fd79a7b051fad87c
-Waypoint(uuid=6347b980413ebf76314567ed04273f25, _i=172, i=171, pos=[1243.54, 1506.63, 56.125], conns=2, type=CLIMB, angle=[11.7389, -95.9973, 0], ?=)
-WARNING: Waypoint 6347b980413ebf76314567ed04273f25 Connection 172 target is itself!
-Converted 2 connections for 6347b980413ebf76314567ed04273f25
-Waypoint(uuid=6b320a6ba3fd455abd35ee882cfd147e, _i=173, i=172, pos=[1240.92, 1464.17, 56.125], conns=2, type=CLIMB, angle=[9.15161, 84.9475, 0], ?=)
-Converted 2 connections for 6b320a6ba3fd455abd35ee882cfd147e
-Waypoint(uuid=e317d96ac0435f4064ac3db05c2d8948, _i=174, i=173, pos=[1418.15, 1545.38, 60.1048], conns=2, type=STAND, angle=[24.516, -1.5652, 0], ?=)
-WARNING: Waypoint e317d96ac0435f4064ac3db05c2d8948 Connection 174 target is itself!
-Converted 2 connections for e317d96ac0435f4064ac3db05c2d8948
-Waypoint(uuid=a814044da5432312a01df0931c7236dc, _i=175, i=174, pos=[1540.88, 1558.42, 62.043], conns=3, type=STAND, angle=[25.0378, 13.4586, 0], ?=)
-WARNING: Waypoint a814044da5432312a01df0931c7236dc Connection 175 target is itself!
-Converted 3 connections for a814044da5432312a01df0931c7236dc
-Waypoint(uuid=7b6cd189233cc441b96050ab9429fa29, _i=176, i=175, pos=[1630.62, 1467.86, 53.1559], conns=1, type=CROUCH, angle=[7.08069, 146.064, 0], ?=)
-Converted 1 connections for 7b6cd189233cc441b96050ab9429fa29
-Waypoint(uuid=e6d336c591f5a8ecc8d5707f9b5f8e0a, _i=177, i=176, pos=[1591.16, 1683.22, 50.0567], conns=1, type=CROUCH, angle=[4.14185, -135.203, 0], ?=)
-Converted 1 connections for e6d336c591f5a8ecc8d5707f9b5f8e0a
-Loaded 177 (177) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp.csv
-Waypoint(uuid=b3aabd67f13357a65e3e9625ed639973, _i=1, i=0, pos=[2043, 3223, 48.125], conns=0, type=STAND, angle=None, ?=) has no connections
-Waypoint(uuid=fa6a5f816ef5e56ccb6bb9c458de26ce, _i=2, i=1, pos=[1831.54, 3198.69, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=fa6a5f816ef5e56ccb6bb9c458de26ce, _i=2, i=1, pos=[1831.54, 3198.69, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=c4d1a0cde464976c943b30abafd5f41e, _i=3, i=2, pos=[1771.53, 3109.12, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=c4d1a0cde464976c943b30abafd5f41e, _i=3, i=2, pos=[1771.53, 3109.12, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=558a646f042ea35cefc9346d0fe2ca4e, _i=4, i=3, pos=[1614.05, 3055.79, 48.125], conns=5, type=STAND, angle=None, ?=) connection Waypoint(uuid=558a646f042ea35cefc9346d0fe2ca4e, _i=4, i=3, pos=[1614.05, 3055.79, 48.125], conns=5, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=8c2e6480e9cf01bd1cd974ae5fbae6ec, _i=6, i=5, pos=[1294.6, 2914.98, 48.125], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=8c2e6480e9cf01bd1cd974ae5fbae6ec, _i=6, i=5, pos=[1294.6, 2914.98, 48.125], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=0a18e8eb5138d6d267451f86211d4a1c, _i=8, i=7, pos=[1152.23, 2441.07, 48.1784], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=0a18e8eb5138d6d267451f86211d4a1c, _i=8, i=7, pos=[1152.23, 2441.07, 48.1784], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=905c2e33e0c0e1574d6d7698279e052a, _i=9, i=8, pos=[1113.75, 2379.53, 48.4586], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=905c2e33e0c0e1574d6d7698279e052a, _i=9, i=8, pos=[1113.75, 2379.53, 48.4586], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=33dda870a867ed208aac514970794f65, _i=10, i=9, pos=[1283.64, 2192.96, 49.2232], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=33dda870a867ed208aac514970794f65, _i=10, i=9, pos=[1283.64, 2192.96, 49.2232], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=b64571c39cb4709b14bdcff2f1a63ca9, _i=11, i=10, pos=[1155.48, 1964.01, 48.4915], conns=5, type=STAND, angle=None, ?=) connection Waypoint(uuid=b64571c39cb4709b14bdcff2f1a63ca9, _i=11, i=10, pos=[1155.48, 1964.01, 48.4915], conns=5, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=860cad603f1f9cc288f518f48b90a85d, _i=12, i=11, pos=[1396.81, 2078.67, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=860cad603f1f9cc288f518f48b90a85d, _i=12, i=11, pos=[1396.81, 2078.67, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=8d4bdcd0a2402046e5e8134150b18144, _i=13, i=12, pos=[1568.91, 2137.36, 48.125], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=8d4bdcd0a2402046e5e8134150b18144, _i=13, i=12, pos=[1568.91, 2137.36, 48.125], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=386924e66ccb91141e2f755a01dd9205, _i=14, i=13, pos=[1811.1, 2217.06, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=386924e66ccb91141e2f755a01dd9205, _i=14, i=13, pos=[1811.1, 2217.06, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=0949032b619e0fb7e52429970d996936, _i=15, i=14, pos=[1782.95, 2464.88, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=0949032b619e0fb7e52429970d996936, _i=15, i=14, pos=[1782.95, 2464.88, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=7eefddc261833632806ef81ff32eb724, _i=17, i=16, pos=[988.8, 1759.26, 39.3681], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=7eefddc261833632806ef81ff32eb724, _i=17, i=16, pos=[988.8, 1759.26, 39.3681], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=a949da3cb1d9ac917da820bb810003a3, _i=18, i=17, pos=[898.079, 1482.12, 48.0862], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=a949da3cb1d9ac917da820bb810003a3, _i=18, i=17, pos=[898.079, 1482.12, 48.0862], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=8594ca9899025c8ea5c8a85dd510dc9b, _i=19, i=18, pos=[875.185, 1205.34, 48.0212], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=8594ca9899025c8ea5c8a85dd510dc9b, _i=19, i=18, pos=[875.185, 1205.34, 48.0212], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=9edee0b8689baa26712a4b19b8819020, _i=20, i=19, pos=[874.6, 969.342, 48.125], conns=5, type=STAND, angle=None, ?=) connection Waypoint(uuid=9edee0b8689baa26712a4b19b8819020, _i=20, i=19, pos=[874.6, 969.342, 48.125], conns=5, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=1ef38054fbcb39f1d24cfea2ea25d603, _i=21, i=20, pos=[1099.8, 876.364, 48.125], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=1ef38054fbcb39f1d24cfea2ea25d603, _i=21, i=20, pos=[1099.8, 876.364, 48.125], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=102faf93883bb02aed926cddb45d9dd3, _i=22, i=21, pos=[1418.52, 982.567, 48.125], conns=5, type=STAND, angle=None, ?=) connection Waypoint(uuid=102faf93883bb02aed926cddb45d9dd3, _i=22, i=21, pos=[1418.52, 982.567, 48.125], conns=5, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=9e6722740193dee90d81b1b13ad6fa31, _i=23, i=22, pos=[1591.97, 1018.84, 48.125], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=9e6722740193dee90d81b1b13ad6fa31, _i=23, i=22, pos=[1591.97, 1018.84, 48.125], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=208b599115b37d273bff769a06c7546e, _i=24, i=23, pos=[1591.72, 729.26, 48.125], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=208b599115b37d273bff769a06c7546e, _i=24, i=23, pos=[1591.72, 729.26, 48.125], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=72a84a3f8909550c9ff2e2bfcfe1501d, _i=25, i=24, pos=[1565.03, 553.248, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=72a84a3f8909550c9ff2e2bfcfe1501d, _i=25, i=24, pos=[1565.03, 553.248, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=9b82e5748170daf1d72cf4526267ab9f, _i=26, i=25, pos=[1339.89, 548.266, 49.4065], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=9b82e5748170daf1d72cf4526267ab9f, _i=26, i=25, pos=[1339.89, 548.266, 49.4065], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=4daf62121d779ac4a660bcc7ecd0a611, _i=28, i=27, pos=[1013.83, 729.909, 48.125], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=4daf62121d779ac4a660bcc7ecd0a611, _i=28, i=27, pos=[1013.83, 729.909, 48.125], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=9f82035bac2902dfc7107b17800df165, _i=30, i=29, pos=[591.601, 364.798, 60.875], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=9f82035bac2902dfc7107b17800df165, _i=30, i=29, pos=[591.601, 364.798, 60.875], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=57c030ce850f82b4af38f1ad65881b90, _i=31, i=30, pos=[602.413, 491.391, 60.4593], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=57c030ce850f82b4af38f1ad65881b90, _i=31, i=30, pos=[602.413, 491.391, 60.4593], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=941b6e13874fa9526e5f65bf3e233fbd, _i=32, i=31, pos=[723.719, 494.235, 59.7507], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=941b6e13874fa9526e5f65bf3e233fbd, _i=32, i=31, pos=[723.719, 494.235, 59.7507], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=d71f1470d53026616fc39d0ab240a914, _i=33, i=32, pos=[705.415, 640.985, 51.0084], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=d71f1470d53026616fc39d0ab240a914, _i=33, i=32, pos=[705.415, 640.985, 51.0084], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=d3e690d1006d48343f4156cd04021a39, _i=36, i=35, pos=[570.52, 879.728, 49.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=d3e690d1006d48343f4156cd04021a39, _i=36, i=35, pos=[570.52, 879.728, 49.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=bb2d5f68a3de9710160540ccca14b14f, _i=38, i=37, pos=[586.109, 1521.44, 53.6003], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=bb2d5f68a3de9710160540ccca14b14f, _i=38, i=37, pos=[586.109, 1521.44, 53.6003], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=e866a49d890c8219c6618f02a170be79, _i=40, i=39, pos=[390.375, 1611.66, 58.9374], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=e866a49d890c8219c6618f02a170be79, _i=40, i=39, pos=[390.375, 1611.66, 58.9374], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=69347d433bb1dc0b9c2a4d6f3acc9541, _i=41, i=40, pos=[321.187, 1847.62, 50.6148], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=69347d433bb1dc0b9c2a4d6f3acc9541, _i=41, i=40, pos=[321.187, 1847.62, 50.6148], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=a8bc98844c6a52b96d6a7492a343383c, _i=42, i=41, pos=[394.033, 2072.21, 56.2713], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=a8bc98844c6a52b96d6a7492a343383c, _i=42, i=41, pos=[394.033, 2072.21, 56.2713], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=de0ee712ff1788ba0ee80d74aad89bdd, _i=43, i=42, pos=[632.933, 2021.41, 50.9029], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=de0ee712ff1788ba0ee80d74aad89bdd, _i=43, i=42, pos=[632.933, 2021.41, 50.9029], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=ffe822ba31512afcb7959b9a51223dfe, _i=45, i=44, pos=[471.238, 2366.12, 59.7767], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=ffe822ba31512afcb7959b9a51223dfe, _i=45, i=44, pos=[471.238, 2366.12, 59.7767], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=272b755ca917a7cb18b2c029a18aaccf, _i=46, i=45, pos=[532.644, 2551.39, 63.9027], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=272b755ca917a7cb18b2c029a18aaccf, _i=46, i=45, pos=[532.644, 2551.39, 63.9027], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=7c88c0fe55f049d39c01b9d222905187, _i=47, i=46, pos=[834.357, 2567.29, 54.4027], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=7c88c0fe55f049d39c01b9d222905187, _i=47, i=46, pos=[834.357, 2567.29, 54.4027], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=caba07582ac4b4294af02ae12f07f19d, _i=50, i=49, pos=[2056.03, 2972.15, 48.125], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=caba07582ac4b4294af02ae12f07f19d, _i=50, i=49, pos=[2056.03, 2972.15, 48.125], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=a720be83f26f7fbd56a32bdf847b17ca, _i=51, i=50, pos=[2112.76, 2853.73, 48.125], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=a720be83f26f7fbd56a32bdf847b17ca, _i=51, i=50, pos=[2112.76, 2853.73, 48.125], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=e9ceb8fa3188858ef128ce3275106d7e, _i=54, i=53, pos=[2149.56, 2278.61, 48.0859], conns=5, type=STAND, angle=None, ?=) connection Waypoint(uuid=e9ceb8fa3188858ef128ce3275106d7e, _i=54, i=53, pos=[2149.56, 2278.61, 48.0859], conns=5, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=e56d423daf517e4720d968cde5f9dd3e, _i=55, i=54, pos=[2355.04, 1878.48, 47.5598], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=e56d423daf517e4720d968cde5f9dd3e, _i=55, i=54, pos=[2355.04, 1878.48, 47.5598], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=40cb5a140473b308c4a87b60b3d82487, _i=56, i=55, pos=[2557.16, 1988.49, 50.9365], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=40cb5a140473b308c4a87b60b3d82487, _i=56, i=55, pos=[2557.16, 1988.49, 50.9365], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=b990722a268967238acf8795576d231a, _i=57, i=56, pos=[2460.31, 1613.44, 52.476], conns=4, type=STAND, angle=None, ?=) connection Waypoint(uuid=b990722a268967238acf8795576d231a, _i=57, i=56, pos=[2460.31, 1613.44, 52.476], conns=4, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=df53fefa7a98323b3ff61c3313f8b1b0, _i=60, i=59, pos=[2470.18, 2623.46, 47.3385], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=df53fefa7a98323b3ff61c3313f8b1b0, _i=60, i=59, pos=[2470.18, 2623.46, 47.3385], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=379ad20f2e321a8e9cfd02cb19e1608a, _i=63, i=62, pos=[3014.42, 2090.28, 54.4085], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=379ad20f2e321a8e9cfd02cb19e1608a, _i=63, i=62, pos=[3014.42, 2090.28, 54.4085], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=812289cbfbd3df3612fad82cf23ab90b, _i=64, i=63, pos=[2997.03, 2145.99, 52.2499], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=812289cbfbd3df3612fad82cf23ab90b, _i=64, i=63, pos=[2997.03, 2145.99, 52.2499], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=a23af298db3479ee90d3337d500a128e, _i=67, i=66, pos=[2747.8, 2689.17, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=a23af298db3479ee90d3337d500a128e, _i=67, i=66, pos=[2747.8, 2689.17, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=c282f8cb37e1334d2e61c389dca182f9, _i=69, i=68, pos=[2381.92, 3499.16, 52.125], conns=1, type=STAND, angle=None, ?=) connection Waypoint(uuid=c282f8cb37e1334d2e61c389dca182f9, _i=69, i=68, pos=[2381.92, 3499.16, 52.125], conns=1, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=c282f8cb37e1334d2e61c389dca182f9, _i=69, i=68, pos=[2381.92, 3499.16, 52.125], conns=0, type=STAND, angle=None, ?=) has no connections
-Waypoint(uuid=99cb4b87741271a2ae3ca7e7c4020c6b, _i=70, i=69, pos=[2442.63, 3356.5, 52.125], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=99cb4b87741271a2ae3ca7e7c4020c6b, _i=70, i=69, pos=[2442.63, 3356.5, 52.125], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=835bcc0bc21b069bcebf5dca1256e70a, _i=71, i=70, pos=[2474.98, 3242.92, 52.125], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=835bcc0bc21b069bcebf5dca1256e70a, _i=71, i=70, pos=[2474.98, 3242.92, 52.125], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=de098245bbca7aec4ced69cd932a3718, _i=72, i=71, pos=[2553.66, 3031.6, 48.125], conns=6, type=STAND, angle=None, ?=) connection Waypoint(uuid=de098245bbca7aec4ced69cd932a3718, _i=72, i=71, pos=[2553.66, 3031.6, 48.125], conns=6, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=9723a5f747e8949e494b07f859db0d3c, _i=73, i=72, pos=[2721.51, 2974.06, 48.1127], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=9723a5f747e8949e494b07f859db0d3c, _i=73, i=72, pos=[2721.51, 2974.06, 48.1127], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=2e40ed17bdb21508192c2baaf504e47f, _i=74, i=73, pos=[2913.97, 2904.22, 48.125], conns=6, type=STAND, angle=None, ?=) connection Waypoint(uuid=2e40ed17bdb21508192c2baaf504e47f, _i=74, i=73, pos=[2913.97, 2904.22, 48.125], conns=6, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=4d151f8e40d69a2d509687795bdb48c8, _i=76, i=75, pos=[3325.14, 2975.96, 50.1482], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=4d151f8e40d69a2d509687795bdb48c8, _i=76, i=75, pos=[3325.14, 2975.96, 50.1482], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=13bdc4907a99e560f04202b51b494eac, _i=77, i=76, pos=[3140.22, 2928.42, 48.125], conns=3, type=STAND, angle=None, ?=) connection Waypoint(uuid=13bdc4907a99e560f04202b51b494eac, _i=77, i=76, pos=[3140.22, 2928.42, 48.125], conns=3, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=df4ab47f55b59273d054c76f0aa1c103, _i=82, i=81, pos=[1183.1, 1095.78, 48.125], conns=2, type=STAND, angle=[25.7245, 169.982, 0], ?=) connection Waypoint(uuid=df4ab47f55b59273d054c76f0aa1c103, _i=82, i=81, pos=[1183.1, 1095.78, 48.125], conns=2, type=STAND, angle=[25.7245, 169.982, 0], ?=) is itself
-Waypoint(uuid=b901ff7bc69100bc0778da29c6870d7b, _i=83, i=82, pos=[1055.42, 1105.61, 48.125], conns=4, type=STAND, angle=[26.7627, 168.427, 0], ?=) connection Waypoint(uuid=b901ff7bc69100bc0778da29c6870d7b, _i=83, i=82, pos=[1055.42, 1105.61, 48.125], conns=4, type=STAND, angle=[26.7627, 168.427, 0], ?=) is itself
-Waypoint(uuid=b21585688427c68405a110818080fd62, _i=84, i=83, pos=[1041.71, 1237.6, 57.125], conns=2, type=STAND, angle=[44.8956, 80.2016, 0], ?=) connection Waypoint(uuid=b21585688427c68405a110818080fd62, _i=84, i=83, pos=[1041.71, 1237.6, 57.125], conns=2, type=STAND, angle=[44.8956, 80.2016, 0], ?=) is itself
-Waypoint(uuid=ea0642baedc2fa9a4624e7598cafc550, _i=85, i=84, pos=[1097.49, 1352.93, 58.125], conns=3, type=STAND, angle=[17.6111, -10.2763, 0], ?=) connection Waypoint(uuid=ea0642baedc2fa9a4624e7598cafc550, _i=85, i=84, pos=[1097.49, 1352.93, 58.125], conns=3, type=STAND, angle=[17.6111, -10.2763, 0], ?=) is itself
-Waypoint(uuid=fd0dbf4130638abac73840b3f909883e, _i=86, i=85, pos=[1291.36, 1393.73, 56.125], conns=5, type=STAND, angle=[24.3457, -14.0721, 0], ?=) connection Waypoint(uuid=fd0dbf4130638abac73840b3f909883e, _i=86, i=85, pos=[1291.36, 1393.73, 56.125], conns=5, type=STAND, angle=[24.3457, -14.0721, 0], ?=) is itself
-Waypoint(uuid=d54af2f13f50e15955ac0c0a3ac051c0, _i=87, i=86, pos=[1495.63, 1254.78, 56.125], conns=5, type=STAND, angle=[11.7389, 140.637, 0], ?=) connection Waypoint(uuid=d54af2f13f50e15955ac0c0a3ac051c0, _i=87, i=86, pos=[1495.63, 1254.78, 56.125], conns=5, type=STAND, angle=[11.7389, 140.637, 0], ?=) is itself
-Waypoint(uuid=afc1a747c97bbbd12029d8d315bb4637, _i=93, i=92, pos=[1269.34, 769.496, 48.125], conns=3, type=STAND, angle=[35.7439, -82.9621, 0], ?=) connection Waypoint(uuid=afc1a747c97bbbd12029d8d315bb4637, _i=93, i=92, pos=[1269.34, 769.496, 48.125], conns=3, type=STAND, angle=[35.7439, -82.9621, 0], ?=) is itself
-Waypoint(uuid=a018f1b4b46ddbe68a7781bb7dbf3a67, _i=94, i=93, pos=[1306.57, 645.726, 48.1786], conns=3, type=STAND, angle=[32.8051, 84.1729, 0], ?=) connection Waypoint(uuid=a018f1b4b46ddbe68a7781bb7dbf3a67, _i=94, i=93, pos=[1306.57, 645.726, 48.1786], conns=3, type=STAND, angle=[32.8051, 84.1729, 0], ?=) is itself
-Waypoint(uuid=64ae8b8fc10433ce050a715e178bd76a, _i=95, i=94, pos=[1232.2, 613.306, 56.125], conns=2, type=STAND, angle=[21.0662, 176.722, 0], ?=) connection Waypoint(uuid=64ae8b8fc10433ce050a715e178bd76a, _i=95, i=94, pos=[1232.2, 613.306, 56.125], conns=2, type=STAND, angle=[21.0662, 176.722, 0], ?=) is itself
-Waypoint(uuid=c8a499b1264aa238350148a767171866, _i=96, i=95, pos=[1075.71, 621.073, 112.125], conns=2, type=STAND, angle=[36.7767, -88.1367, 0], ?=) connection Waypoint(uuid=c8a499b1264aa238350148a767171866, _i=96, i=95, pos=[1075.71, 621.073, 112.125], conns=2, type=STAND, angle=[36.7767, -88.1367, 0], ?=) is itself
-Waypoint(uuid=e8cb631d95249ceba34b49a2fa5c6934, _i=97, i=96, pos=[1083.83, 424.106, 112.125], conns=3, type=STAND, angle=[27.4548, 172.058, 0], ?=) connection Waypoint(uuid=e8cb631d95249ceba34b49a2fa5c6934, _i=97, i=96, pos=[1083.83, 424.106, 112.125], conns=3, type=STAND, angle=[27.4548, 172.058, 0], ?=) is itself
-Waypoint(uuid=9f20091faf22fd804655569a78932ba9, _i=98, i=97, pos=[982.741, 420.085, 112.125], conns=3, type=STAND, angle=[33.327, 128.722, 0], ?=) connection Waypoint(uuid=9f20091faf22fd804655569a78932ba9, _i=98, i=97, pos=[982.741, 420.085, 112.125], conns=3, type=STAND, angle=[33.327, 128.722, 0], ?=) is itself
-Waypoint(uuid=f49cf3436fc6ddf1eba7c9fb9db6830c, _i=99, i=98, pos=[987.97, 515.063, 112.125], conns=3, type=STAND, angle=[15.8862, 92.116, 0], ?=) connection Waypoint(uuid=f49cf3436fc6ddf1eba7c9fb9db6830c, _i=99, i=98, pos=[987.97, 515.063, 112.125], conns=3, type=STAND, angle=[15.8862, 92.116, 0], ?=) is itself
-Waypoint(uuid=566342736902e38aa2482488556d0aac, _i=101, i=100, pos=[1188.95, 420.009, 112.125], conns=3, type=STAND, angle=[22.9668, -71.2232, 0], ?=) connection Waypoint(uuid=566342736902e38aa2482488556d0aac, _i=101, i=100, pos=[1188.95, 420.009, 112.125], conns=3, type=STAND, angle=[22.9668, -71.2232, 0], ?=) is itself
-Waypoint(uuid=99b99060d5886156ff90195fdac6c294, _i=102, i=101, pos=[1195.73, 303.274, 112.125], conns=3, type=STAND, angle=[44.0276, -105.237, 0], ?=) connection Waypoint(uuid=99b99060d5886156ff90195fdac6c294, _i=102, i=101, pos=[1195.73, 303.274, 112.125], conns=3, type=STAND, angle=[44.0276, -105.237, 0], ?=) is itself
-Waypoint(uuid=4be19e817fd577dcefbaf3d559097a96, _i=103, i=102, pos=[1181.58, 229.643, 113.125], conns=2, type=STAND, angle=[52.4926, -97.2938, 0], ?=) connection Waypoint(uuid=4be19e817fd577dcefbaf3d559097a96, _i=103, i=102, pos=[1181.58, 229.643, 113.125], conns=2, type=STAND, angle=[52.4926, -97.2938, 0], ?=) is itself
-Waypoint(uuid=b378fc45f0692573280dd610db058712, _i=104, i=103, pos=[1174.41, 95.9936, 112.125], conns=3, type=STAND, angle=[29.8718, 162.731, 0], ?=) connection Waypoint(uuid=b378fc45f0692573280dd610db058712, _i=104, i=103, pos=[1174.41, 95.9936, 112.125], conns=3, type=STAND, angle=[29.8718, 162.731, 0], ?=) is itself
-Waypoint(uuid=98e9bdccb05c38d7db8501157256da16, _i=105, i=104, pos=[994.787, 104.563, 112.125], conns=3, type=STAND, angle=[26.7626, 110.93, 0], ?=) connection Waypoint(uuid=98e9bdccb05c38d7db8501157256da16, _i=105, i=104, pos=[994.787, 104.563, 112.125], conns=3, type=STAND, angle=[26.7626, 110.93, 0], ?=) is itself
-Waypoint(uuid=697bc80855b13265d3c671e41bb6ac23, _i=106, i=105, pos=[976.899, 229.154, 113.125], conns=2, type=STAND, angle=[23.9996, 91.4184, 0], ?=) connection Waypoint(uuid=697bc80855b13265d3c671e41bb6ac23, _i=106, i=105, pos=[976.899, 229.154, 113.125], conns=2, type=STAND, angle=[23.9996, 91.4184, 0], ?=) is itself
-Waypoint(uuid=6f12046b0775afe3a6e15283d26ccd69, _i=107, i=106, pos=[975.67, 340.479, 112.125], conns=3, type=STAND, angle=[25.9002, 87.7929, 0], ?=) connection Waypoint(uuid=6f12046b0775afe3a6e15283d26ccd69, _i=107, i=106, pos=[975.67, 340.479, 112.125], conns=3, type=STAND, angle=[25.9002, 87.7929, 0], ?=) is itself
-Waypoint(uuid=1dd0e882daf8d59b3c85fb6224d61882, _i=114, i=113, pos=[816.378, 534.319, -7.875], conns=2, type=STAND, angle=[37.6391, 72.2528, 0], ?=) connection Waypoint(uuid=1dd0e882daf8d59b3c85fb6224d61882, _i=114, i=113, pos=[816.378, 534.319, -7.875], conns=2, type=STAND, angle=[37.6391, 72.2528, 0], ?=) is itself
-Waypoint(uuid=50f3c029e582c3cbb66f968e854e9b3d, _i=115, i=114, pos=[951.472, 530.797, -7.875], conns=3, type=STAND, angle=[14.848, -75.0355, 0], ?=) connection Waypoint(uuid=50f3c029e582c3cbb66f968e854e9b3d, _i=115, i=114, pos=[951.472, 530.797, -7.875], conns=3, type=STAND, angle=[14.848, -75.0355, 0], ?=) is itself
-Waypoint(uuid=62654f0097658578753b07c00ae50b0f, _i=116, i=115, pos=[1171.17, 387.431, -7.875], conns=3, type=STAND, angle=[12.431, -88.8453, 0], ?=) connection Waypoint(uuid=62654f0097658578753b07c00ae50b0f, _i=116, i=115, pos=[1171.17, 387.431, -7.875], conns=3, type=STAND, angle=[12.431, -88.8453, 0], ?=) is itself
-Waypoint(uuid=38b2d96607b8e7d7dcdf71b6bf23bf28, _i=117, i=116, pos=[1162.67, 244.137, -7.875], conns=3, type=STAND, angle=[27.279, 101.768, 0], ?=) connection Waypoint(uuid=38b2d96607b8e7d7dcdf71b6bf23bf28, _i=117, i=116, pos=[1162.67, 244.137, -7.875], conns=3, type=STAND, angle=[27.279, 101.768, 0], ?=) is itself
-Waypoint(uuid=cf87cb7413b7ead5545f5f62c1827e69, _i=118, i=117, pos=[1163.59, 66.1069, -7.875], conns=3, type=STAND, angle=[18.3032, -168.271, 0], ?=) connection Waypoint(uuid=cf87cb7413b7ead5545f5f62c1827e69, _i=118, i=117, pos=[1163.59, 66.1069, -7.875], conns=3, type=STAND, angle=[18.3032, -168.271, 0], ?=) is itself
-Waypoint(uuid=3393388d974b6c86657d4e9a3ed21ed4, _i=119, i=118, pos=[1009.17, 84.2364, -7.875], conns=3, type=STAND, angle=[20.5444, 89.8529, 0], ?=) connection Waypoint(uuid=3393388d974b6c86657d4e9a3ed21ed4, _i=119, i=118, pos=[1009.17, 84.2364, -7.875], conns=3, type=STAND, angle=[20.5444, 89.8529, 0], ?=) is itself
-Waypoint(uuid=83eede1391b08d1013ffd5bd33199501, _i=134, i=133, pos=[1394.91, 2711.82, 47.4564], conns=2, type=STAND, angle=[34.876, 178.095, 0], ?=) connection Waypoint(uuid=83eede1391b08d1013ffd5bd33199501, _i=134, i=133, pos=[1394.91, 2711.82, 47.4564], conns=2, type=STAND, angle=[34.876, 178.095, 0], ?=) is itself
-Waypoint(uuid=0c3b3b7c19638d5bc89345129f521b8e, _i=135, i=134, pos=[1233.42, 2661.8, 118.125], conns=2, type=STAND, angle=[63.7151, -166.892, 0], ?=) connection Waypoint(uuid=0c3b3b7c19638d5bc89345129f521b8e, _i=135, i=134, pos=[1233.42, 2661.8, 118.125], conns=2, type=STAND, angle=[63.7151, -166.892, 0], ?=) is itself
-Waypoint(uuid=848d48c53a9c81d5a14a1de487be16a5, _i=136, i=135, pos=[1219.2, 2726.65, 118.125], conns=2, type=STAND, angle=[51.2786, 101.421, 0], ?=) connection Waypoint(uuid=848d48c53a9c81d5a14a1de487be16a5, _i=136, i=135, pos=[1219.2, 2726.65, 118.125], conns=2, type=STAND, angle=[51.2786, 101.421, 0], ?=) is itself
-Waypoint(uuid=118e4df007ab99404a98d27f29bf6b63, _i=137, i=136, pos=[1396.52, 2784.92, 200.125], conns=3, type=STAND, angle=[52.3168, 3.00592, 0], ?=) connection Waypoint(uuid=118e4df007ab99404a98d27f29bf6b63, _i=137, i=136, pos=[1396.52, 2784.92, 200.125], conns=3, type=STAND, angle=[52.3168, 3.00592, 0], ?=) is itself
-Waypoint(uuid=4fb5f1333e2bf2b7c0a6596b124de954, _i=139, i=138, pos=[1476.54, 2773.26, 200.125], conns=2, type=STAND, angle=[28.8335, -43.6146, 0], ?=) connection Waypoint(uuid=4fb5f1333e2bf2b7c0a6596b124de954, _i=139, i=138, pos=[1476.54, 2773.26, 200.125], conns=2, type=STAND, angle=[28.8335, -43.6146, 0], ?=) is itself
-Waypoint(uuid=d9631a859311618787b6c186e0623b60, _i=140, i=139, pos=[1619.69, 2381.51, 200.125], conns=2, type=STAND, angle=[40.5779, -59.8469, 0], ?=) connection Waypoint(uuid=d9631a859311618787b6c186e0623b60, _i=140, i=139, pos=[1619.69, 2381.51, 200.125], conns=2, type=STAND, angle=[40.5779, -59.8469, 0], ?=) is itself
-Waypoint(uuid=f2b533aaca4c4a26d9750cd8ef35df19, _i=143, i=142, pos=[1890.18, 2519.43, 48.0139], conns=2, type=STAND, angle=[54.5635, 24.0887, 0], ?=) connection Waypoint(uuid=f2b533aaca4c4a26d9750cd8ef35df19, _i=143, i=142, pos=[1890.18, 2519.43, 48.0139], conns=2, type=STAND, angle=[54.5635, 24.0887, 0], ?=) is itself
-Waypoint(uuid=aa9802313a83dbf77906650121ba1a1a, _i=144, i=143, pos=[1986.16, 2548.99, 48.0001], conns=3, type=STAND, angle=[22.7911, -70.3608, 0], ?=) connection Waypoint(uuid=aa9802313a83dbf77906650121ba1a1a, _i=144, i=143, pos=[1986.16, 2548.99, 48.0001], conns=3, type=STAND, angle=[22.7911, -70.3608, 0], ?=) is itself
-Waypoint(uuid=96d1c9f030d03573c8f70a1707872458, _i=145, i=144, pos=[2035.59, 2411.14, 48.0203], conns=3, type=STAND, angle=[24.6917, -68.6359, 0], ?=) connection Waypoint(uuid=96d1c9f030d03573c8f70a1707872458, _i=145, i=144, pos=[2035.59, 2411.14, 48.0203], conns=3, type=STAND, angle=[24.6917, -68.6359, 0], ?=) is itself
-Waypoint(uuid=d9559f551dff42b4360ad87aae3426d0, _i=149, i=148, pos=[1930.14, 2262.65, 48.125], conns=2, type=STAND, angle=[22.445, -147.369, 0], ?=) connection Waypoint(uuid=d9559f551dff42b4360ad87aae3426d0, _i=149, i=148, pos=[1930.14, 2262.65, 48.125], conns=2, type=STAND, angle=[22.445, -147.369, 0], ?=) is itself
-Waypoint(uuid=d92e4a39f58c3a401418f015a01de151, _i=153, i=152, pos=[2396.03, 2925.77, 48.125], conns=3, type=STAND, angle=[66.3025, -155.362, 0], ?=) connection Waypoint(uuid=d92e4a39f58c3a401418f015a01de151, _i=153, i=152, pos=[2396.03, 2925.77, 48.125], conns=3, type=STAND, angle=[66.3025, -155.362, 0], ?=) is itself
-Waypoint(uuid=cfb5fef6cf56d9e23cd599dbe88a67bc, _i=160, i=159, pos=[2732.94, 2254.07, 48.0258], conns=3, type=STAND, angle=[25.3839, -150.16, 0], ?=) connection Waypoint(uuid=cfb5fef6cf56d9e23cd599dbe88a67bc, _i=160, i=159, pos=[2732.94, 2254.07, 48.0258], conns=3, type=STAND, angle=[25.3839, -150.16, 0], ?=) is itself
-Waypoint(uuid=7346bf67cc7c62e829565fd22812fc1f, _i=161, i=160, pos=[2772.69, 2091.46, 48.125], conns=2, type=STAND, angle=[12.9474, -76.2654, 0], ?=) connection Waypoint(uuid=7346bf67cc7c62e829565fd22812fc1f, _i=161, i=160, pos=[2772.69, 2091.46, 48.125], conns=2, type=STAND, angle=[12.9474, -76.2654, 0], ?=) is itself
-Waypoint(uuid=299e1c55048fd657a62b24cdd3dc60ea, _i=165, i=164, pos=[1301.11, 1044.74, 48.125], conns=3, type=STAND, angle=[35.5682, 99.318, 0], ?=) connection Waypoint(uuid=299e1c55048fd657a62b24cdd3dc60ea, _i=165, i=164, pos=[1301.11, 1044.74, 48.125], conns=3, type=STAND, angle=[35.5682, 99.318, 0], ?=) is itself
-Waypoint(uuid=a17d14a2be0f1f0839416d96052aea94, _i=167, i=166, pos=[1328.04, 1268.42, 56.125], conns=3, type=STAND, angle=[21.7584, -91.1299, 0], ?=) connection Waypoint(uuid=a17d14a2be0f1f0839416d96052aea94, _i=167, i=166, pos=[1328.04, 1268.42, 56.125], conns=3, type=STAND, angle=[21.7584, -91.1299, 0], ?=) is itself
-Waypoint(uuid=6ee6e1d53879159dcaedf0da7407e295, _i=169, i=168, pos=[1249.85, 1557.53, 58.3684], conns=4, type=STAND, angle=[18.1274, 151.431, 0], ?=) connection Waypoint(uuid=6ee6e1d53879159dcaedf0da7407e295, _i=169, i=168, pos=[1249.85, 1557.53, 58.3684], conns=4, type=STAND, angle=[18.1274, 151.431, 0], ?=) is itself
-Waypoint(uuid=75c118f7765bbafc434599c57fc25f12, _i=170, i=169, pos=[1323.65, 1721.47, 52.1055], conns=2, type=STAND, angle=[43.5114, 115.863, 0], ?=) connection Waypoint(uuid=75c118f7765bbafc434599c57fc25f12, _i=170, i=169, pos=[1323.65, 1721.47, 52.1055], conns=2, type=STAND, angle=[43.5114, 115.863, 0], ?=) is itself
-Waypoint(uuid=6347b980413ebf76314567ed04273f25, _i=172, i=171, pos=[1243.54, 1506.63, 56.125], conns=2, type=CLIMB, angle=[11.7389, -95.9973, 0], ?=) connection Waypoint(uuid=6347b980413ebf76314567ed04273f25, _i=172, i=171, pos=[1243.54, 1506.63, 56.125], conns=2, type=CLIMB, angle=[11.7389, -95.9973, 0], ?=) is itself
-Waypoint(uuid=e317d96ac0435f4064ac3db05c2d8948, _i=174, i=173, pos=[1418.15, 1545.38, 60.1048], conns=2, type=STAND, angle=[24.516, -1.5652, 0], ?=) connection Waypoint(uuid=e317d96ac0435f4064ac3db05c2d8948, _i=174, i=173, pos=[1418.15, 1545.38, 60.1048], conns=2, type=STAND, angle=[24.516, -1.5652, 0], ?=) is itself
-Waypoint(uuid=a814044da5432312a01df0931c7236dc, _i=175, i=174, pos=[1540.88, 1558.42, 62.043], conns=3, type=STAND, angle=[25.0378, 13.4586, 0], ?=) connection Waypoint(uuid=a814044da5432312a01df0931c7236dc, _i=175, i=174, pos=[1540.88, 1558.42, 62.043], conns=3, type=STAND, angle=[25.0378, 13.4586, 0], ?=) is itself
-Found 102 errors. Press enter to continue...Cut file detected, setting offset to  -89
-Waypoint(uuid=a8acd32740c792c6321d11cf4a67ddd0, _i=1, i=0, pos=[750.953, -3734.92, 107.006], conns=4, type=STAND, angle=[16.4618, 5.66833, 0], ?=)
-WARNING: Waypoint a8acd32740c792c6321d11cf4a67ddd0 Connection -9 is under zero!
-Skip? (a)ll/(w)aypoint/(c)onnection: WARNING: Waypoint a8acd32740c792c6321d11cf4a67ddd0 Connection 1 target is itself!
-Converted 4 connections for a8acd32740c792c6321d11cf4a67ddd0
-Waypoint(uuid=8d85df7c5d25603af4d46261151ed3d3, _i=2, i=1, pos=[1166.41, -3599.17, 104.839], conns=2, type=STAND, angle=[26.6571, 61.3251, 0], ?=)
-WARNING: Waypoint 8d85df7c5d25603af4d46261151ed3d3 Connection 2 target is itself!
-Converted 2 connections for 8d85df7c5d25603af4d46261151ed3d3
-Waypoint(uuid=e7aaca4a2f48da7fbcb432a68c127f30, _i=3, i=2, pos=[1243.58, -3472.18, 107.875], conns=2, type=STAND, angle=[30.3485, -71.2689, 0], ?=)
-WARNING: Waypoint e7aaca4a2f48da7fbcb432a68c127f30 Connection 3 target is itself!
-Converted 2 connections for e7aaca4a2f48da7fbcb432a68c127f30
-Waypoint(uuid=578cb18fe68aaba440f1f8d82b756c2a, _i=4, i=3, pos=[1344.6, -3618.11, 111.477], conns=1, type=STAND, angle=[20.0488, -36.217, 0], ?=)
-Converted 1 connections for 578cb18fe68aaba440f1f8d82b756c2a
-Waypoint(uuid=146b907663785aa97b390d5d0e48d47b, _i=5, i=4, pos=[1082.36, -3909.62, 112.125], conns=3, type=STAND, angle=[20.1587, -27.8949, 0], ?=)
-WARNING: Waypoint 146b907663785aa97b390d5d0e48d47b Connection 5 target is itself!
-Converted 3 connections for 146b907663785aa97b390d5d0e48d47b
-Waypoint(uuid=2accfae3789fcfe20bff3b1f1266e498, _i=6, i=5, pos=[1138.51, -4001.07, 112.488], conns=2, type=STAND, angle=[26.5417, -49.1699, 0], ?=)
-WARNING: Waypoint 2accfae3789fcfe20bff3b1f1266e498 Connection 6 target is itself!
-Converted 2 connections for 2accfae3789fcfe20bff3b1f1266e498
-Waypoint(uuid=687d9d1b99ceb8a9e6327893a8cb6662, _i=7, i=6, pos=[1250.92, -4050.31, 178.125], conns=2, type=STAND, angle=[29.3433, 43.6646, 0], ?=)
-WARNING: Waypoint 687d9d1b99ceb8a9e6327893a8cb6662 Connection 7 target is itself!
-Converted 2 connections for 687d9d1b99ceb8a9e6327893a8cb6662
-Waypoint(uuid=386141fa0754bef01dce8bab522a1254, _i=8, i=7, pos=[1269.7, -3929.59, 250.125], conns=2, type=STAND, angle=[27.4371, 167.184, 0], ?=)
-WARNING: Waypoint 386141fa0754bef01dce8bab522a1254 Connection 8 target is itself!
-Converted 2 connections for 386141fa0754bef01dce8bab522a1254
-Waypoint(uuid=8dddd5117c163b81eec195d6cc963f9a, _i=9, i=8, pos=[974.18, -3885.42, 250.125], conns=1, type=STAND, angle=[40.6537, 167.744, 0], ?=)
-Converted 1 connections for 8dddd5117c163b81eec195d6cc963f9a
-Waypoint(uuid=5a4df86dfd3eaccef302e32716db634e, _i=10, i=9, pos=[1364, -3898.94, 109.18], conns=3, type=STAND, angle=[25.6464, 177.187, 0], ?=)
-Converted 3 connections for 5a4df86dfd3eaccef302e32716db634e
-Waypoint(uuid=2202f170ebf856f785420b7394c45a71, _i=11, i=10, pos=[1005.2, -4132.85, 112.016], conns=1, type=STAND, angle=[29.0082, -51.488, 0], ?=)
-WARNING: Waypoint 2202f170ebf856f785420b7394c45a71 Connection 11 target is itself!
-Converted 1 connections for 2202f170ebf856f785420b7394c45a71
-Waypoint(uuid=0084dc56349638ad28299db83e22295c, _i=12, i=11, pos=[689.375, -4058.43, 109.812], conns=3, type=STAND, angle=[32.1448, 85.885, 0], ?=)
-WARNING: Waypoint 0084dc56349638ad28299db83e22295c Connection 12 target is itself!
-Converted 3 connections for 0084dc56349638ad28299db83e22295c
-Waypoint(uuid=31f19c391859a1aa4426ef342b2308d9, _i=13, i=12, pos=[263.88, -3955.5, 109.603], conns=1, type=STAND, angle=[23.7457, 176.813, 0], ?=)
-Converted 1 connections for 31f19c391859a1aa4426ef342b2308d9
-Waypoint(uuid=385f66628305c501474915f4133c395b, _i=14, i=13, pos=[1408.3, -3661.13, 126.171], conns=1, type=STAND, angle=[27.8876, 168.112, 0], ?=)
-Converted 1 connections for 385f66628305c501474915f4133c395b
-Waypoint(uuid=b496dab5530d61de27ce9408ada83f84, _i=15, i=14, pos=[2596.56, -3982.41, -26.9893], conns=2, type=STAND, angle=[24.8608, -85.3094, 0], ?=)
-WARNING: Waypoint b496dab5530d61de27ce9408ada83f84 Connection 15 target is itself!
-Converted 2 connections for b496dab5530d61de27ce9408ada83f84
-Waypoint(uuid=888ee3737fd0c435b771a68ca454c88e, _i=16, i=15, pos=[2719.98, -4848.06, -20.2375], conns=2, type=STAND, angle=[21.1694, 84.2371, 0], ?=)
-WARNING: Waypoint 888ee3737fd0c435b771a68ca454c88e Connection 16 target is itself!
-Converted 2 connections for 888ee3737fd0c435b771a68ca454c88e
-Waypoint(uuid=fae3fa294613f42b1fb213e8034d4972, _i=17, i=16, pos=[3065.48, -5190.69, 0.124999], conns=2, type=STAND, angle=[25.6464, -61.4581, 0], ?=)
-WARNING: Waypoint fae3fa294613f42b1fb213e8034d4972 Connection 17 target is itself!
-Converted 2 connections for fae3fa294613f42b1fb213e8034d4972
-Waypoint(uuid=3f1712c0625a3f2428235291aaab761b, _i=18, i=17, pos=[3234.53, -5493.17, -3.75597], conns=3, type=STAND, angle=[28.6731, -77.8058, 0], ?=)
-WARNING: Waypoint 3f1712c0625a3f2428235291aaab761b Connection 18 target is itself!
-Converted 3 connections for 3f1712c0625a3f2428235291aaab761b
-Waypoint(uuid=ae6102b31e355bb932116fe903f97df7, _i=19, i=18, pos=[3314.72, -4659.27, 84.557], conns=2, type=STAND, angle=[18.9282, 86.5881, 0], ?=)
-Converted 2 connections for ae6102b31e355bb932116fe903f97df7
-Waypoint(uuid=54e3ac953be0fc9ca2dc065240dfe67a, _i=20, i=19, pos=[3235.96, -6450.32, -17.5926], conns=2, type=STAND, angle=[16.0168, -93.1152, 0], ?=)
-WARNING: Waypoint 54e3ac953be0fc9ca2dc065240dfe67a Connection 20 target is itself!
-Converted 2 connections for 54e3ac953be0fc9ca2dc065240dfe67a
-Waypoint(uuid=6a14846b56e1633436cf9e5a2d2ad672, _i=21, i=20, pos=[3105.59, -7271.8, -11.07], conns=2, type=STAND, angle=[11.5344, -96.4716, 0], ?=)
-Converted 2 connections for 6a14846b56e1633436cf9e5a2d2ad672
-Waypoint(uuid=149d674a9db5932f209585b0be1246a3, _i=22, i=21, pos=[3172.03, -8810.49, 255.232], conns=4, type=STAND, angle=[16.5771, -102.075, 0], ?=)
-WARNING: Waypoint 149d674a9db5932f209585b0be1246a3 Connection 22 target is itself!
-Converted 4 connections for 149d674a9db5932f209585b0be1246a3
-Waypoint(uuid=696900fbffc22d584f9f3ebdd101a97b, _i=23, i=22, pos=[3118.82, -9073.14, 294.157], conns=1, type=STAND, angle=[16.9122, -94.126, 0], ?=)
-Converted 1 connections for 696900fbffc22d584f9f3ebdd101a97b
-Waypoint(uuid=68b2e126b88d8d3674186eccdfbf8193, _i=24, i=23, pos=[2481.92, -8820.22, 313.311], conns=3, type=STAND, angle=[18.2581, -1.58813, 0], ?=)
-WARNING: Waypoint 68b2e126b88d8d3674186eccdfbf8193 Connection 24 target is itself!
-Converted 3 connections for 68b2e126b88d8d3674186eccdfbf8193
-Waypoint(uuid=ec5527d5eea50b9ceb3b273057d3cd53, _i=25, i=24, pos=[2802.9, -9189.43, 333.357], conns=2, type=STAND, angle=[34.8309, -17.6007, 0], ?=)
-WARNING: Waypoint ec5527d5eea50b9ceb3b273057d3cd53 Connection 25 target is itself!
-Converted 2 connections for ec5527d5eea50b9ceb3b273057d3cd53
-Waypoint(uuid=ba07333457f3f0bd9a8d800d210e2188, _i=26, i=25, pos=[2900.34, -9401.95, 333.448], conns=3, type=STAND, angle=[21.5045, -73.5925, 0], ?=)
-WARNING: Waypoint ba07333457f3f0bd9a8d800d210e2188 Connection 26 target is itself!
-Converted 3 connections for ba07333457f3f0bd9a8d800d210e2188
-Waypoint(uuid=a5e6095981bdf96611e55dfa092555cf, _i=27, i=26, pos=[2916.87, -9100.39, 309.406], conns=2, type=STAND, angle=[16.1267, -129.886, 0], ?=)
-Converted 2 connections for a5e6095981bdf96611e55dfa092555cf
-Waypoint(uuid=b7d954ece12665c25508f3dc737fdb20, _i=28, i=27, pos=[3145, -8147.54, 216.803], conns=4, type=STAND, angle=[23.1854, 119.954, 0], ?=)
-WARNING: Waypoint b7d954ece12665c25508f3dc737fdb20 Connection 28 target is itself!
-Converted 4 connections for b7d954ece12665c25508f3dc737fdb20
-Waypoint(uuid=2582aaf2bf10af149be192c2cd6ae168, _i=29, i=28, pos=[3121.05, -7801.51, 155.743], conns=2, type=STAND, angle=[19.2633, -98.949, 0], ?=)
-Converted 2 connections for 2582aaf2bf10af149be192c2cd6ae168
-Waypoint(uuid=7b7487440827c1bde5c25e75dba5fa11, _i=30, i=29, pos=[2577.15, -8109.02, 244.037], conns=3, type=STAND, angle=[32.4799, 15.9515, 0], ?=)
-WARNING: Waypoint 7b7487440827c1bde5c25e75dba5fa11 Connection 30 target is itself!
-Converted 3 connections for 7b7487440827c1bde5c25e75dba5fa11
-Waypoint(uuid=ebfc2983d0784599f8b4011b1705a9e6, _i=31, i=30, pos=[1792.32, -8041.86, 296.313], conns=3, type=STAND, angle=[8.06274, -101.262, 0], ?=)
-WARNING: Waypoint ebfc2983d0784599f8b4011b1705a9e6 Connection 31 target is itself!
-Converted 3 connections for ebfc2983d0784599f8b4011b1705a9e6
-Waypoint(uuid=739125fc943e430c104a7c71afa3ad99, _i=32, i=31, pos=[1671.39, -8643.38, 376.851], conns=2, type=STAND, angle=[15.1215, -93.1976, 0], ?=)
-WARNING: Waypoint 739125fc943e430c104a7c71afa3ad99 Connection 32 target is itself!
-Converted 2 connections for 739125fc943e430c104a7c71afa3ad99
-Waypoint(uuid=7e24be2ac226114332882b48ada7451e, _i=33, i=32, pos=[1958.06, -8666.33, 356.843], conns=3, type=STAND, angle=[26.9922, 132.901, 0], ?=)
-Converted 3 connections for 7e24be2ac226114332882b48ada7451e
-Waypoint(uuid=78a2447fbb8e3908bbd8ca01e5e57ed1, _i=34, i=33, pos=[2946.46, -9470.48, 347.779], conns=2, type=STAND, angle=[34.6057, 134.659, 0], ?=)
-WARNING: Waypoint 78a2447fbb8e3908bbd8ca01e5e57ed1 Connection 34 target is itself!
-Converted 2 connections for 78a2447fbb8e3908bbd8ca01e5e57ed1
-Waypoint(uuid=2f1079425a6ecf42b2b853d099058e24, _i=35, i=34, pos=[2526.73, -9786.1, 575.515], conns=2, type=STAND, angle=[42.4445, 35.5127, 0], ?=)
-WARNING: Waypoint 2f1079425a6ecf42b2b853d099058e24 Connection 35 target is itself!
-Converted 2 connections for 2f1079425a6ecf42b2b853d099058e24
-Waypoint(uuid=5c671db1766b595e60493cf6ab153a82, _i=36, i=35, pos=[2015.32, -9849.23, 683.964], conns=2, type=STAND, angle=[23.2953, 89.1535, 0], ?=)
-WARNING: Waypoint 5c671db1766b595e60493cf6ab153a82 Connection 36 target is itself!
-Converted 2 connections for 5c671db1766b595e60493cf6ab153a82
-Waypoint(uuid=7105c9ac6a826685c0acf755d91c573f, _i=37, i=36, pos=[2131.38, -9017.32, 653.847], conns=1, type=STAND, angle=[31.5845, -69.5331, 0], ?=)
-Converted 1 connections for 7105c9ac6a826685c0acf755d91c573f
-Waypoint(uuid=29d22ce739853909f86f531b81e7ae1d, _i=38, i=37, pos=[2837.29, -7744.17, 241.606], conns=2, type=STAND, angle=[48.4924, -50.6091, 0], ?=)
-Converted 2 connections for 29d22ce739853909f86f531b81e7ae1d
-Waypoint(uuid=0b887eb0cf8275a2d9ec54e953fabf30, _i=39, i=38, pos=[3314.07, -4607.83, 87.5929], conns=2, type=STAND, angle=[27.4371, -89.9512, 0], ?=)
-WARNING: Waypoint 0b887eb0cf8275a2d9ec54e953fabf30 Connection 39 target is itself!
-Converted 2 connections for 0b887eb0cf8275a2d9ec54e953fabf30
-Waypoint(uuid=6874acd8a6a605a6ccee415c83e47b78, _i=40, i=39, pos=[3129.94, -4206.61, 116.705], conns=4, type=STAND, angle=[34.2706, 93.3722, 0], ?=)
-WARNING: Waypoint 6874acd8a6a605a6ccee415c83e47b78 Connection 40 target is itself!
-Converted 4 connections for 6874acd8a6a605a6ccee415c83e47b78
-Waypoint(uuid=3b0e37502eda3da44e3a2f163205d884, _i=41, i=40, pos=[3049.9, -3978.79, 107.435], conns=2, type=STAND, angle=[19.0381, 40.7367, 0], ?=)
-Converted 2 connections for 3b0e37502eda3da44e3a2f163205d884
-Waypoint(uuid=81a4e8ecbd92fd0171ac7290527b72d6, _i=42, i=41, pos=[2133.34, -4385.73, 117.51], conns=4, type=STAND, angle=[24.5258, -100.256, 0], ?=)
-WARNING: Waypoint 81a4e8ecbd92fd0171ac7290527b72d6 Connection 42 target is itself!
-Converted 4 connections for 81a4e8ecbd92fd0171ac7290527b72d6
-Waypoint(uuid=314cef537c64212de9a28ba0749a2fce, _i=43, i=42, pos=[1275.61, -4528.81, 116.033], conns=5, type=STAND, angle=[26.9922, -162.741, 0], ?=)
-WARNING: Waypoint 314cef537c64212de9a28ba0749a2fce Connection 43 target is itself!
-Converted 5 connections for 314cef537c64212de9a28ba0749a2fce
-Waypoint(uuid=c104f0488eb7967bb81f75d94cb5d73e, _i=44, i=43, pos=[1239.02, -4974.23, 108.978], conns=2, type=STAND, angle=[28.8928, -88.6053, 0], ?=)
-Converted 2 connections for c104f0488eb7967bb81f75d94cb5d73e
-Waypoint(uuid=bacea8bea340c0a950a9362f5694d974, _i=45, i=44, pos=[1268.92, -5824.76, 8.125], conns=1, type=STAND, angle=[36.8469, -102.827, 0], ?=)
-WARNING: Waypoint bacea8bea340c0a950a9362f5694d974 Connection 45 target is itself!
-Converted 1 connections for bacea8bea340c0a950a9362f5694d974
-Waypoint(uuid=b98ce866a4fcf327e54b96544ff16de0, _i=46, i=45, pos=[1296.54, -5249.3, 108.862], conns=3, type=STAND, angle=[57.2266, -73.8232, 0], ?=)
-WARNING: Waypoint b98ce866a4fcf327e54b96544ff16de0 Connection 46 target is itself!
-Converted 3 connections for b98ce866a4fcf327e54b96544ff16de0
-Waypoint(uuid=d134d271ec75088c5d64c349f0f30cf2, _i=47, i=46, pos=[1667.19, -5209.34, 110.125], conns=3, type=STAND, angle=[37.0721, -154.304, 0], ?=)
-WARNING: Waypoint d134d271ec75088c5d64c349f0f30cf2 Connection 47 target is itself!
-Converted 3 connections for d134d271ec75088c5d64c349f0f30cf2
-Waypoint(uuid=efc9db776143490542907ab76ee8a2be, _i=48, i=47, pos=[1742.77, -5231.82, 110.125], conns=2, type=STAND, angle=[35.0562, -88.1219, 0], ?=)
-WARNING: Waypoint efc9db776143490542907ab76ee8a2be Connection 48 target is itself!
-Converted 2 connections for efc9db776143490542907ab76ee8a2be
-Waypoint(uuid=4d81aa6fd7f6751c77e3ee91a3e86ea1, _i=49, i=48, pos=[1883.4, -5212.56, 110.125], conns=2, type=STAND, angle=[28.6731, -75.5756, 0], ?=)
-WARNING: Waypoint 4d81aa6fd7f6751c77e3ee91a3e86ea1 Connection 49 target is itself!
-Converted 2 connections for 4d81aa6fd7f6751c77e3ee91a3e86ea1
-Waypoint(uuid=381db5737b46068fb1d80ba87517d97d, _i=50, i=49, pos=[1934.36, -5099.45, 110.125], conns=2, type=STAND, angle=[18.9282, 19.9451, 0], ?=)
-WARNING: Waypoint 381db5737b46068fb1d80ba87517d97d Connection 50 target is itself!
-Converted 2 connections for 381db5737b46068fb1d80ba87517d97d
-Waypoint(uuid=955310a3b2cfee6889d1f653a46d56ab, _i=51, i=50, pos=[1867.49, -5010.51, 110.125], conns=3, type=STAND, angle=[35.3912, 122.299, 0], ?=)
-WARNING: Waypoint 955310a3b2cfee6889d1f653a46d56ab Connection 51 target is itself!
-Converted 3 connections for 955310a3b2cfee6889d1f653a46d56ab
-Waypoint(uuid=cc3d744d69944038e582b7eded31bb15, _i=52, i=51, pos=[1846.92, -4935.88, 108.915], conns=4, type=STAND, angle=[34.7156, -84.09, 0], ?=)
-Converted 4 connections for cc3d744d69944038e582b7eded31bb15
-Waypoint(uuid=bfc80c79d7a378fc349155b8fd2be905, _i=53, i=52, pos=[931.041, -4255.3, 114.063], conns=2, type=STAND, angle=[19.0381, 166.942, 0], ?=)
-WARNING: Waypoint bfc80c79d7a378fc349155b8fd2be905 Connection 53 target is itself!
-Converted 2 connections for bfc80c79d7a378fc349155b8fd2be905
-Waypoint(uuid=f73f32005da817bdc434c9469794f349, _i=54, i=53, pos=[43.14, -4064.32, 116.884], conns=3, type=STAND, angle=[31.5845, 153.506, 0], ?=)
-Converted 3 connections for f73f32005da817bdc434c9469794f349
-Waypoint(uuid=f1cc8dc719d1537e0d381140ce111638, _i=55, i=54, pos=[482.77, -4759.94, 117.741], conns=2, type=STAND, angle=[16.0168, -160.17, 0], ?=)
-WARNING: Waypoint f1cc8dc719d1537e0d381140ce111638 Connection 55 target is itself!
-Converted 2 connections for f1cc8dc719d1537e0d381140ce111638
-Waypoint(uuid=7c99c98c3c94207cfc8fc09b0ad4f3f9, _i=56, i=55, pos=[-1202.12, -5614.03, 122.692], conns=1, type=STAND, angle=[26.5417, -163.862, 0], ?=)
-Converted 1 connections for 7c99c98c3c94207cfc8fc09b0ad4f3f9
-Waypoint(uuid=9b54afbbe039216423f2b1fcf5c6200e, _i=57, i=56, pos=[-26.5453, -3126.65, 120.438], conns=4, type=STAND, angle=[11.5344, 95.8331, 0], ?=)
-Converted 4 connections for 9b54afbbe039216423f2b1fcf5c6200e
-Waypoint(uuid=3389c3d9f6890f790d012fd870b1d03e, _i=58, i=57, pos=[-1230.39, -4605.74, 151.463], conns=1, type=STAND, angle=[16.0168, -177.825, 0], ?=)
-Converted 1 connections for 3389c3d9f6890f790d012fd870b1d03e
-Waypoint(uuid=1b2e912be248b8a4aa8c514224fbbd1b, _i=59, i=58, pos=[2273.88, -4998.25, 90.3222], conns=3, type=STAND, angle=[39.4232, 2.54822, 0], ?=)
-WARNING: Waypoint 1b2e912be248b8a4aa8c514224fbbd1b Connection 59 target is itself!
-Converted 3 connections for 1b2e912be248b8a4aa8c514224fbbd1b
-Waypoint(uuid=b713f94280f41c07fe3d2b143c40ddc5, _i=60, i=59, pos=[2889.12, -3982.61, 104.068], conns=2, type=STAND, angle=[35.0562, -97.6086, 0], ?=)
-Converted 2 connections for b713f94280f41c07fe3d2b143c40ddc5
-Waypoint(uuid=ca7ff7aa8b53513fe79670bde9f5e418, _i=61, i=60, pos=[5222.38, -2869.44, 161.692], conns=1, type=STAND, angle=[19.4885, -73.8068, 0], ?=)
-Converted 1 connections for ca7ff7aa8b53513fe79670bde9f5e418
-Waypoint(uuid=a8ced031647d9cb2ff68b059989b6658, _i=62, i=61, pos=[-391.181, -3273.22, 105.877], conns=3, type=STAND, angle=[21.5045, -72.2357, 0], ?=)
-WARNING: Waypoint a8ced031647d9cb2ff68b059989b6658 Connection 62 target is itself!
-Converted 3 connections for a8ced031647d9cb2ff68b059989b6658
-Waypoint(uuid=6184016026c24cdf97fc5a18e3443e29, _i=63, i=62, pos=[-443.603, -3711.94, 110.141], conns=1, type=STAND, angle=[26.6571, 111.719, 0], ?=)
-Converted 1 connections for 6184016026c24cdf97fc5a18e3443e29
-Waypoint(uuid=80930c70bb107519b8c88ffeb4f0c591, _i=64, i=63, pos=[-534.769, -2844.35, 118.567], conns=2, type=STAND, angle=[26.4319, -67.1985, 0], ?=)
-WARNING: Waypoint 80930c70bb107519b8c88ffeb4f0c591 Connection 64 target is itself!
-Converted 2 connections for 80930c70bb107519b8c88ffeb4f0c591
-Waypoint(uuid=d892776d146e8cbe12f293de0ad19905, _i=65, i=64, pos=[-994.951, -1953.14, 109.712], conns=2, type=STAND, angle=[23.5205, 120.904, 0], ?=)
-Converted 2 connections for d892776d146e8cbe12f293de0ad19905
-Waypoint(uuid=12148335dcdda7e21d9f3ad555bc4668, _i=66, i=65, pos=[-295.148, -1575, 161.991], conns=2, type=STAND, angle=[20.9442, -165.817, 0], ?=)
-WARNING: Waypoint 12148335dcdda7e21d9f3ad555bc4668 Connection 66 target is itself!
-Converted 2 connections for 12148335dcdda7e21d9f3ad555bc4668
-Waypoint(uuid=69a08d3d5288efb3f28f8b132ad3aa73, _i=67, i=66, pos=[-534.742, -388.667, 116.879], conns=3, type=STAND, angle=[20.3839, -168.174, 0], ?=)
-WARNING: Waypoint 69a08d3d5288efb3f28f8b132ad3aa73 Connection 67 target is itself!
-Converted 3 connections for 69a08d3d5288efb3f28f8b132ad3aa73
-Waypoint(uuid=fc103a24f8ffebd76b31e7f48a9dc430, _i=68, i=67, pos=[-620.704, 355.08, 87.4084], conns=2, type=STAND, angle=[17.5824, 121.052, 0], ?=)
-WARNING: Waypoint fc103a24f8ffebd76b31e7f48a9dc430 Connection 68 target is itself!
-Converted 2 connections for fc103a24f8ffebd76b31e7f48a9dc430
-Waypoint(uuid=4063ffd453775243a6e59ff225d56ccd, _i=69, i=68, pos=[-1165.38, 37.001, 90.6907], conns=1, type=STAND, angle=[33.4851, -89.9292, 0], ?=)
-Converted 1 connections for 4063ffd453775243a6e59ff225d56ccd
-Waypoint(uuid=6987b9cb8c96603346a25d11ad8e782e, _i=70, i=69, pos=[-796.149, -892.684, 126.725], conns=2, type=STAND, angle=[21.9495, -0.12146, 0], ?=)
-WARNING: Waypoint 6987b9cb8c96603346a25d11ad8e782e Connection 70 target is itself!
-Converted 2 connections for 6987b9cb8c96603346a25d11ad8e782e
-Waypoint(uuid=613ae5178a6b832ea5a1032cdb2831b7, _i=71, i=70, pos=[-659.059, -877.949, 126.725], conns=1, type=STAND, angle=[29.6783, 3.57544, 0], ?=)
-Converted 1 connections for 613ae5178a6b832ea5a1032cdb2831b7
-Waypoint(uuid=b611353aad7a6bf4ba3143fbe26de11b, _i=72, i=71, pos=[-716.44, -663.977, 120.556], conns=3, type=STAND, angle=[39.0881, -104.678, 0], ?=)
-WARNING: Waypoint b611353aad7a6bf4ba3143fbe26de11b Connection 72 target is itself!
-Converted 3 connections for b611353aad7a6bf4ba3143fbe26de11b
-Waypoint(uuid=dc79b9de3148e4b1c2762191a726bde0, _i=73, i=72, pos=[-1208.43, -463.325, 120.614], conns=2, type=STAND, angle=[12.0947, -26.9611, 0], ?=)
-WARNING: Waypoint dc79b9de3148e4b1c2762191a726bde0 Connection 73 target is itself!
-Converted 2 connections for dc79b9de3148e4b1c2762191a726bde0
-Waypoint(uuid=5b332916ff9f2270ecbe7ec3097f0612, _i=74, i=73, pos=[-1424.93, -1421.59, 93.9544], conns=2, type=STAND, angle=[21.0541, -104.233, 0], ?=)
-WARNING: Waypoint 5b332916ff9f2270ecbe7ec3097f0612 Connection 74 target is itself!
-Converted 2 connections for 5b332916ff9f2270ecbe7ec3097f0612
-Waypoint(uuid=58071ac76f77883345f7b648377ac41d, _i=75, i=74, pos=[-667.381, -1312.91, 125.577], conns=1, type=STAND, angle=[15.7916, 96.7834, 0], ?=)
-Converted 1 connections for 58071ac76f77883345f7b648377ac41d
-Loaded 75 (164) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_ext.csv
-Waypoint(uuid=a8acd32740c792c6321d11cf4a67ddd0, _i=1, i=0, pos=[750.953, -3734.92, 107.006], conns=3, type=STAND, angle=[16.4618, 5.66833, 0], ?=) connection Waypoint(uuid=a8acd32740c792c6321d11cf4a67ddd0, _i=1, i=0, pos=[750.953, -3734.92, 107.006], conns=3, type=STAND, angle=[16.4618, 5.66833, 0], ?=) is itself
-Waypoint(uuid=8d85df7c5d25603af4d46261151ed3d3, _i=2, i=1, pos=[1166.41, -3599.17, 104.839], conns=2, type=STAND, angle=[26.6571, 61.3251, 0], ?=) connection Waypoint(uuid=8d85df7c5d25603af4d46261151ed3d3, _i=2, i=1, pos=[1166.41, -3599.17, 104.839], conns=2, type=STAND, angle=[26.6571, 61.3251, 0], ?=) is itself
-Waypoint(uuid=e7aaca4a2f48da7fbcb432a68c127f30, _i=3, i=2, pos=[1243.58, -3472.18, 107.875], conns=2, type=STAND, angle=[30.3485, -71.2689, 0], ?=) connection Waypoint(uuid=e7aaca4a2f48da7fbcb432a68c127f30, _i=3, i=2, pos=[1243.58, -3472.18, 107.875], conns=2, type=STAND, angle=[30.3485, -71.2689, 0], ?=) is itself
-Waypoint(uuid=146b907663785aa97b390d5d0e48d47b, _i=5, i=4, pos=[1082.36, -3909.62, 112.125], conns=3, type=STAND, angle=[20.1587, -27.8949, 0], ?=) connection Waypoint(uuid=146b907663785aa97b390d5d0e48d47b, _i=5, i=4, pos=[1082.36, -3909.62, 112.125], conns=3, type=STAND, angle=[20.1587, -27.8949, 0], ?=) is itself
-Waypoint(uuid=2accfae3789fcfe20bff3b1f1266e498, _i=6, i=5, pos=[1138.51, -4001.07, 112.488], conns=2, type=STAND, angle=[26.5417, -49.1699, 0], ?=) connection Waypoint(uuid=2accfae3789fcfe20bff3b1f1266e498, _i=6, i=5, pos=[1138.51, -4001.07, 112.488], conns=2, type=STAND, angle=[26.5417, -49.1699, 0], ?=) is itself
-Waypoint(uuid=687d9d1b99ceb8a9e6327893a8cb6662, _i=7, i=6, pos=[1250.92, -4050.31, 178.125], conns=2, type=STAND, angle=[29.3433, 43.6646, 0], ?=) connection Waypoint(uuid=687d9d1b99ceb8a9e6327893a8cb6662, _i=7, i=6, pos=[1250.92, -4050.31, 178.125], conns=2, type=STAND, angle=[29.3433, 43.6646, 0], ?=) is itself
-Waypoint(uuid=386141fa0754bef01dce8bab522a1254, _i=8, i=7, pos=[1269.7, -3929.59, 250.125], conns=2, type=STAND, angle=[27.4371, 167.184, 0], ?=) connection Waypoint(uuid=386141fa0754bef01dce8bab522a1254, _i=8, i=7, pos=[1269.7, -3929.59, 250.125], conns=2, type=STAND, angle=[27.4371, 167.184, 0], ?=) is itself
-Waypoint(uuid=2202f170ebf856f785420b7394c45a71, _i=11, i=10, pos=[1005.2, -4132.85, 112.016], conns=1, type=STAND, angle=[29.0082, -51.488, 0], ?=) connection Waypoint(uuid=2202f170ebf856f785420b7394c45a71, _i=11, i=10, pos=[1005.2, -4132.85, 112.016], conns=1, type=STAND, angle=[29.0082, -51.488, 0], ?=) is itself
-Waypoint(uuid=2202f170ebf856f785420b7394c45a71, _i=11, i=10, pos=[1005.2, -4132.85, 112.016], conns=0, type=STAND, angle=[29.0082, -51.488, 0], ?=) has no connections
-Waypoint(uuid=0084dc56349638ad28299db83e22295c, _i=12, i=11, pos=[689.375, -4058.43, 109.812], conns=3, type=STAND, angle=[32.1448, 85.885, 0], ?=) connection Waypoint(uuid=0084dc56349638ad28299db83e22295c, _i=12, i=11, pos=[689.375, -4058.43, 109.812], conns=3, type=STAND, angle=[32.1448, 85.885, 0], ?=) is itself
-Waypoint(uuid=b496dab5530d61de27ce9408ada83f84, _i=15, i=14, pos=[2596.56, -3982.41, -26.9893], conns=2, type=STAND, angle=[24.8608, -85.3094, 0], ?=) connection Waypoint(uuid=b496dab5530d61de27ce9408ada83f84, _i=15, i=14, pos=[2596.56, -3982.41, -26.9893], conns=2, type=STAND, angle=[24.8608, -85.3094, 0], ?=) is itself
-Waypoint(uuid=888ee3737fd0c435b771a68ca454c88e, _i=16, i=15, pos=[2719.98, -4848.06, -20.2375], conns=2, type=STAND, angle=[21.1694, 84.2371, 0], ?=) connection Waypoint(uuid=888ee3737fd0c435b771a68ca454c88e, _i=16, i=15, pos=[2719.98, -4848.06, -20.2375], conns=2, type=STAND, angle=[21.1694, 84.2371, 0], ?=) is itself
-Waypoint(uuid=fae3fa294613f42b1fb213e8034d4972, _i=17, i=16, pos=[3065.48, -5190.69, 0.124999], conns=2, type=STAND, angle=[25.6464, -61.4581, 0], ?=) connection Waypoint(uuid=fae3fa294613f42b1fb213e8034d4972, _i=17, i=16, pos=[3065.48, -5190.69, 0.124999], conns=2, type=STAND, angle=[25.6464, -61.4581, 0], ?=) is itself
-Waypoint(uuid=3f1712c0625a3f2428235291aaab761b, _i=18, i=17, pos=[3234.53, -5493.17, -3.75597], conns=3, type=STAND, angle=[28.6731, -77.8058, 0], ?=) connection Waypoint(uuid=3f1712c0625a3f2428235291aaab761b, _i=18, i=17, pos=[3234.53, -5493.17, -3.75597], conns=3, type=STAND, angle=[28.6731, -77.8058, 0], ?=) is itself
-Waypoint(uuid=54e3ac953be0fc9ca2dc065240dfe67a, _i=20, i=19, pos=[3235.96, -6450.32, -17.5926], conns=2, type=STAND, angle=[16.0168, -93.1152, 0], ?=) connection Waypoint(uuid=54e3ac953be0fc9ca2dc065240dfe67a, _i=20, i=19, pos=[3235.96, -6450.32, -17.5926], conns=2, type=STAND, angle=[16.0168, -93.1152, 0], ?=) is itself
-Waypoint(uuid=149d674a9db5932f209585b0be1246a3, _i=22, i=21, pos=[3172.03, -8810.49, 255.232], conns=4, type=STAND, angle=[16.5771, -102.075, 0], ?=) connection Waypoint(uuid=149d674a9db5932f209585b0be1246a3, _i=22, i=21, pos=[3172.03, -8810.49, 255.232], conns=4, type=STAND, angle=[16.5771, -102.075, 0], ?=) is itself
-Waypoint(uuid=68b2e126b88d8d3674186eccdfbf8193, _i=24, i=23, pos=[2481.92, -8820.22, 313.311], conns=3, type=STAND, angle=[18.2581, -1.58813, 0], ?=) connection Waypoint(uuid=68b2e126b88d8d3674186eccdfbf8193, _i=24, i=23, pos=[2481.92, -8820.22, 313.311], conns=3, type=STAND, angle=[18.2581, -1.58813, 0], ?=) is itself
-Waypoint(uuid=ec5527d5eea50b9ceb3b273057d3cd53, _i=25, i=24, pos=[2802.9, -9189.43, 333.357], conns=2, type=STAND, angle=[34.8309, -17.6007, 0], ?=) connection Waypoint(uuid=ec5527d5eea50b9ceb3b273057d3cd53, _i=25, i=24, pos=[2802.9, -9189.43, 333.357], conns=2, type=STAND, angle=[34.8309, -17.6007, 0], ?=) is itself
-Waypoint(uuid=ba07333457f3f0bd9a8d800d210e2188, _i=26, i=25, pos=[2900.34, -9401.95, 333.448], conns=3, type=STAND, angle=[21.5045, -73.5925, 0], ?=) connection Waypoint(uuid=ba07333457f3f0bd9a8d800d210e2188, _i=26, i=25, pos=[2900.34, -9401.95, 333.448], conns=3, type=STAND, angle=[21.5045, -73.5925, 0], ?=) is itself
-Waypoint(uuid=b7d954ece12665c25508f3dc737fdb20, _i=28, i=27, pos=[3145, -8147.54, 216.803], conns=4, type=STAND, angle=[23.1854, 119.954, 0], ?=) connection Waypoint(uuid=b7d954ece12665c25508f3dc737fdb20, _i=28, i=27, pos=[3145, -8147.54, 216.803], conns=4, type=STAND, angle=[23.1854, 119.954, 0], ?=) is itself
-Waypoint(uuid=7b7487440827c1bde5c25e75dba5fa11, _i=30, i=29, pos=[2577.15, -8109.02, 244.037], conns=3, type=STAND, angle=[32.4799, 15.9515, 0], ?=) connection Waypoint(uuid=7b7487440827c1bde5c25e75dba5fa11, _i=30, i=29, pos=[2577.15, -8109.02, 244.037], conns=3, type=STAND, angle=[32.4799, 15.9515, 0], ?=) is itself
-Waypoint(uuid=ebfc2983d0784599f8b4011b1705a9e6, _i=31, i=30, pos=[1792.32, -8041.86, 296.313], conns=3, type=STAND, angle=[8.06274, -101.262, 0], ?=) connection Waypoint(uuid=ebfc2983d0784599f8b4011b1705a9e6, _i=31, i=30, pos=[1792.32, -8041.86, 296.313], conns=3, type=STAND, angle=[8.06274, -101.262, 0], ?=) is itself
-Waypoint(uuid=739125fc943e430c104a7c71afa3ad99, _i=32, i=31, pos=[1671.39, -8643.38, 376.851], conns=2, type=STAND, angle=[15.1215, -93.1976, 0], ?=) connection Waypoint(uuid=739125fc943e430c104a7c71afa3ad99, _i=32, i=31, pos=[1671.39, -8643.38, 376.851], conns=2, type=STAND, angle=[15.1215, -93.1976, 0], ?=) is itself
-Waypoint(uuid=78a2447fbb8e3908bbd8ca01e5e57ed1, _i=34, i=33, pos=[2946.46, -9470.48, 347.779], conns=2, type=STAND, angle=[34.6057, 134.659, 0], ?=) connection Waypoint(uuid=78a2447fbb8e3908bbd8ca01e5e57ed1, _i=34, i=33, pos=[2946.46, -9470.48, 347.779], conns=2, type=STAND, angle=[34.6057, 134.659, 0], ?=) is itself
-Waypoint(uuid=2f1079425a6ecf42b2b853d099058e24, _i=35, i=34, pos=[2526.73, -9786.1, 575.515], conns=2, type=STAND, angle=[42.4445, 35.5127, 0], ?=) connection Waypoint(uuid=2f1079425a6ecf42b2b853d099058e24, _i=35, i=34, pos=[2526.73, -9786.1, 575.515], conns=2, type=STAND, angle=[42.4445, 35.5127, 0], ?=) is itself
-Waypoint(uuid=5c671db1766b595e60493cf6ab153a82, _i=36, i=35, pos=[2015.32, -9849.23, 683.964], conns=2, type=STAND, angle=[23.2953, 89.1535, 0], ?=) connection Waypoint(uuid=5c671db1766b595e60493cf6ab153a82, _i=36, i=35, pos=[2015.32, -9849.23, 683.964], conns=2, type=STAND, angle=[23.2953, 89.1535, 0], ?=) is itself
-Waypoint(uuid=0b887eb0cf8275a2d9ec54e953fabf30, _i=39, i=38, pos=[3314.07, -4607.83, 87.5929], conns=2, type=STAND, angle=[27.4371, -89.9512, 0], ?=) connection Waypoint(uuid=0b887eb0cf8275a2d9ec54e953fabf30, _i=39, i=38, pos=[3314.07, -4607.83, 87.5929], conns=2, type=STAND, angle=[27.4371, -89.9512, 0], ?=) is itself
-Waypoint(uuid=6874acd8a6a605a6ccee415c83e47b78, _i=40, i=39, pos=[3129.94, -4206.61, 116.705], conns=4, type=STAND, angle=[34.2706, 93.3722, 0], ?=) connection Waypoint(uuid=6874acd8a6a605a6ccee415c83e47b78, _i=40, i=39, pos=[3129.94, -4206.61, 116.705], conns=4, type=STAND, angle=[34.2706, 93.3722, 0], ?=) is itself
-Waypoint(uuid=81a4e8ecbd92fd0171ac7290527b72d6, _i=42, i=41, pos=[2133.34, -4385.73, 117.51], conns=4, type=STAND, angle=[24.5258, -100.256, 0], ?=) connection Waypoint(uuid=81a4e8ecbd92fd0171ac7290527b72d6, _i=42, i=41, pos=[2133.34, -4385.73, 117.51], conns=4, type=STAND, angle=[24.5258, -100.256, 0], ?=) is itself
-Waypoint(uuid=314cef537c64212de9a28ba0749a2fce, _i=43, i=42, pos=[1275.61, -4528.81, 116.033], conns=5, type=STAND, angle=[26.9922, -162.741, 0], ?=) connection Waypoint(uuid=314cef537c64212de9a28ba0749a2fce, _i=43, i=42, pos=[1275.61, -4528.81, 116.033], conns=5, type=STAND, angle=[26.9922, -162.741, 0], ?=) is itself
-Waypoint(uuid=bacea8bea340c0a950a9362f5694d974, _i=45, i=44, pos=[1268.92, -5824.76, 8.125], conns=1, type=STAND, angle=[36.8469, -102.827, 0], ?=) connection Waypoint(uuid=bacea8bea340c0a950a9362f5694d974, _i=45, i=44, pos=[1268.92, -5824.76, 8.125], conns=1, type=STAND, angle=[36.8469, -102.827, 0], ?=) is itself
-Waypoint(uuid=bacea8bea340c0a950a9362f5694d974, _i=45, i=44, pos=[1268.92, -5824.76, 8.125], conns=0, type=STAND, angle=[36.8469, -102.827, 0], ?=) has no connections
-Waypoint(uuid=b98ce866a4fcf327e54b96544ff16de0, _i=46, i=45, pos=[1296.54, -5249.3, 108.862], conns=3, type=STAND, angle=[57.2266, -73.8232, 0], ?=) connection Waypoint(uuid=b98ce866a4fcf327e54b96544ff16de0, _i=46, i=45, pos=[1296.54, -5249.3, 108.862], conns=3, type=STAND, angle=[57.2266, -73.8232, 0], ?=) is itself
-Waypoint(uuid=d134d271ec75088c5d64c349f0f30cf2, _i=47, i=46, pos=[1667.19, -5209.34, 110.125], conns=3, type=STAND, angle=[37.0721, -154.304, 0], ?=) connection Waypoint(uuid=d134d271ec75088c5d64c349f0f30cf2, _i=47, i=46, pos=[1667.19, -5209.34, 110.125], conns=3, type=STAND, angle=[37.0721, -154.304, 0], ?=) is itself
-Waypoint(uuid=efc9db776143490542907ab76ee8a2be, _i=48, i=47, pos=[1742.77, -5231.82, 110.125], conns=2, type=STAND, angle=[35.0562, -88.1219, 0], ?=) connection Waypoint(uuid=efc9db776143490542907ab76ee8a2be, _i=48, i=47, pos=[1742.77, -5231.82, 110.125], conns=2, type=STAND, angle=[35.0562, -88.1219, 0], ?=) is itself
-Waypoint(uuid=4d81aa6fd7f6751c77e3ee91a3e86ea1, _i=49, i=48, pos=[1883.4, -5212.56, 110.125], conns=2, type=STAND, angle=[28.6731, -75.5756, 0], ?=) connection Waypoint(uuid=4d81aa6fd7f6751c77e3ee91a3e86ea1, _i=49, i=48, pos=[1883.4, -5212.56, 110.125], conns=2, type=STAND, angle=[28.6731, -75.5756, 0], ?=) is itself
-Waypoint(uuid=381db5737b46068fb1d80ba87517d97d, _i=50, i=49, pos=[1934.36, -5099.45, 110.125], conns=2, type=STAND, angle=[18.9282, 19.9451, 0], ?=) connection Waypoint(uuid=381db5737b46068fb1d80ba87517d97d, _i=50, i=49, pos=[1934.36, -5099.45, 110.125], conns=2, type=STAND, angle=[18.9282, 19.9451, 0], ?=) is itself
-Waypoint(uuid=955310a3b2cfee6889d1f653a46d56ab, _i=51, i=50, pos=[1867.49, -5010.51, 110.125], conns=3, type=STAND, angle=[35.3912, 122.299, 0], ?=) connection Waypoint(uuid=955310a3b2cfee6889d1f653a46d56ab, _i=51, i=50, pos=[1867.49, -5010.51, 110.125], conns=3, type=STAND, angle=[35.3912, 122.299, 0], ?=) is itself
-Waypoint(uuid=bfc80c79d7a378fc349155b8fd2be905, _i=53, i=52, pos=[931.041, -4255.3, 114.063], conns=2, type=STAND, angle=[19.0381, 166.942, 0], ?=) connection Waypoint(uuid=bfc80c79d7a378fc349155b8fd2be905, _i=53, i=52, pos=[931.041, -4255.3, 114.063], conns=2, type=STAND, angle=[19.0381, 166.942, 0], ?=) is itself
-Waypoint(uuid=f1cc8dc719d1537e0d381140ce111638, _i=55, i=54, pos=[482.77, -4759.94, 117.741], conns=2, type=STAND, angle=[16.0168, -160.17, 0], ?=) connection Waypoint(uuid=f1cc8dc719d1537e0d381140ce111638, _i=55, i=54, pos=[482.77, -4759.94, 117.741], conns=2, type=STAND, angle=[16.0168, -160.17, 0], ?=) is itself
-Waypoint(uuid=1b2e912be248b8a4aa8c514224fbbd1b, _i=59, i=58, pos=[2273.88, -4998.25, 90.3222], conns=3, type=STAND, angle=[39.4232, 2.54822, 0], ?=) connection Waypoint(uuid=1b2e912be248b8a4aa8c514224fbbd1b, _i=59, i=58, pos=[2273.88, -4998.25, 90.3222], conns=3, type=STAND, angle=[39.4232, 2.54822, 0], ?=) is itself
-Waypoint(uuid=a8ced031647d9cb2ff68b059989b6658, _i=62, i=61, pos=[-391.181, -3273.22, 105.877], conns=3, type=STAND, angle=[21.5045, -72.2357, 0], ?=) connection Waypoint(uuid=a8ced031647d9cb2ff68b059989b6658, _i=62, i=61, pos=[-391.181, -3273.22, 105.877], conns=3, type=STAND, angle=[21.5045, -72.2357, 0], ?=) is itself
-Waypoint(uuid=80930c70bb107519b8c88ffeb4f0c591, _i=64, i=63, pos=[-534.769, -2844.35, 118.567], conns=2, type=STAND, angle=[26.4319, -67.1985, 0], ?=) connection Waypoint(uuid=80930c70bb107519b8c88ffeb4f0c591, _i=64, i=63, pos=[-534.769, -2844.35, 118.567], conns=2, type=STAND, angle=[26.4319, -67.1985, 0], ?=) is itself
-Waypoint(uuid=12148335dcdda7e21d9f3ad555bc4668, _i=66, i=65, pos=[-295.148, -1575, 161.991], conns=2, type=STAND, angle=[20.9442, -165.817, 0], ?=) connection Waypoint(uuid=12148335dcdda7e21d9f3ad555bc4668, _i=66, i=65, pos=[-295.148, -1575, 161.991], conns=2, type=STAND, angle=[20.9442, -165.817, 0], ?=) is itself
-Waypoint(uuid=69a08d3d5288efb3f28f8b132ad3aa73, _i=67, i=66, pos=[-534.742, -388.667, 116.879], conns=3, type=STAND, angle=[20.3839, -168.174, 0], ?=) connection Waypoint(uuid=69a08d3d5288efb3f28f8b132ad3aa73, _i=67, i=66, pos=[-534.742, -388.667, 116.879], conns=3, type=STAND, angle=[20.3839, -168.174, 0], ?=) is itself
-Waypoint(uuid=fc103a24f8ffebd76b31e7f48a9dc430, _i=68, i=67, pos=[-620.704, 355.08, 87.4084], conns=2, type=STAND, angle=[17.5824, 121.052, 0], ?=) connection Waypoint(uuid=fc103a24f8ffebd76b31e7f48a9dc430, _i=68, i=67, pos=[-620.704, 355.08, 87.4084], conns=2, type=STAND, angle=[17.5824, 121.052, 0], ?=) is itself
-Waypoint(uuid=6987b9cb8c96603346a25d11ad8e782e, _i=70, i=69, pos=[-796.149, -892.684, 126.725], conns=2, type=STAND, angle=[21.9495, -0.12146, 0], ?=) connection Waypoint(uuid=6987b9cb8c96603346a25d11ad8e782e, _i=70, i=69, pos=[-796.149, -892.684, 126.725], conns=2, type=STAND, angle=[21.9495, -0.12146, 0], ?=) is itself
-Waypoint(uuid=b611353aad7a6bf4ba3143fbe26de11b, _i=72, i=71, pos=[-716.44, -663.977, 120.556], conns=3, type=STAND, angle=[39.0881, -104.678, 0], ?=) connection Waypoint(uuid=b611353aad7a6bf4ba3143fbe26de11b, _i=72, i=71, pos=[-716.44, -663.977, 120.556], conns=3, type=STAND, angle=[39.0881, -104.678, 0], ?=) is itself
-Waypoint(uuid=dc79b9de3148e4b1c2762191a726bde0, _i=73, i=72, pos=[-1208.43, -463.325, 120.614], conns=2, type=STAND, angle=[12.0947, -26.9611, 0], ?=) connection Waypoint(uuid=dc79b9de3148e4b1c2762191a726bde0, _i=73, i=72, pos=[-1208.43, -463.325, 120.614], conns=2, type=STAND, angle=[12.0947, -26.9611, 0], ?=) is itself
-Waypoint(uuid=5b332916ff9f2270ecbe7ec3097f0612, _i=74, i=73, pos=[-1424.93, -1421.59, 93.9544], conns=2, type=STAND, angle=[21.0541, -104.233, 0], ?=) connection Waypoint(uuid=5b332916ff9f2270ecbe7ec3097f0612, _i=74, i=73, pos=[-1424.93, -1421.59, 93.9544], conns=2, type=STAND, angle=[21.0541, -104.233, 0], ?=) is itself
-Found 50 errors. Press enter to continue...Waypoint(uuid=b3aabd67f13357a65e3e9625ed639973, _i=1, i=0, pos=[2043, 3223, 48.125], conns=0, type=STAND, angle=None, ?=) has no connections
-Waypoint(uuid=0a18e8eb5138d6d267451f86211d4a1c, _i=8, i=14, pos=[1152.23, 2441.07, 48.1784], conns=2, type=STAND, angle=None, ?=) connection Waypoint(uuid=0a18e8eb5138d6d267451f86211d4a1c, _i=8, i=14, pos=[1152.23, 2441.07, 48.1784], conns=2, type=STAND, angle=None, ?=) is itself
-Waypoint(uuid=2202f170ebf856f785420b7394c45a71, _i=11, i=10, pos=[1005.2, -4132.85, 112.016], conns=0, type=STAND, angle=[29.0082, -51.488, 0], ?=) has no connections
-Waypoint(uuid=bacea8bea340c0a950a9362f5694d974, _i=45, i=44, pos=[1268.92, -5824.76, 8.125], conns=0, type=STAND, angle=[36.8469, -102.827, 0], ?=) has no connections
-Waypoint(uuid=c282f8cb37e1334d2e61c389dca182f9, _i=69, i=136, pos=[2381.92, 3499.16, 52.125], conns=0, type=STAND, angle=None, ?=) has no connections
-Found 50 errors. Press enter to continue...Sorting waypoints by NONE
-Wrote 252 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp_merged.csv
+Loaded 88 (88) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\af_chase_wp.csv
+Wrote 88 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\af_chase_wp.csv
+WARNING: Waypoint a9ff68dbe401573ced5ef43b6ff43e6b Connection 277 is over 275!
+WARNING: Waypoint a9ff68dbe401573ced5ef43b6ff43e6b Connection 282 is over 275!
+WARNING: Waypoint a9ff68dbe401573ced5ef43b6ff43e6b Connection 293 is over 275!
+WARNING: Waypoint a9ff68dbe401573ced5ef43b6ff43e6b Connection 301 is over 275!
+WARNING: Waypoint 31b7b5654088b1a00497974f133c415e Connection 277 is over 275!
+WARNING: Waypoint 31b7b5654088b1a00497974f133c415e Connection 301 is over 275!
+WARNING: Waypoint 9ed306171ccd63a515cabf36e7b8f06c Connection 295 is over 275!
+WARNING: Waypoint 9ed306171ccd63a515cabf36e7b8f06c Connection 325 is over 275!
+WARNING: Waypoint 9ed306171ccd63a515cabf36e7b8f06c Connection 328 is over 275!
+WARNING: Waypoint c30a8616b96fa7c53f2a914808724773 Connection 308 is over 275!
+WARNING: Waypoint c30a8616b96fa7c53f2a914808724773 Connection 313 is over 275!
+WARNING: Waypoint c30a8616b96fa7c53f2a914808724773 Connection 320 is over 275!
+WARNING: Waypoint c30a8616b96fa7c53f2a914808724773 Connection 329 is over 275!
+WARNING: Waypoint 8c301614d086a9335c4feb43c00c74d0 Connection 302 is over 275!
+WARNING: Waypoint 8c301614d086a9335c4feb43c00c74d0 Connection 315 is over 275!
+WARNING: Waypoint 8c301614d086a9335c4feb43c00c74d0 Connection 319 is over 275!
+WARNING: Waypoint 8c301614d086a9335c4feb43c00c74d0 Connection 330 is over 275!
+WARNING: Waypoint 75a87b728138202505f4035026107e47 Connection 302 is over 275!
+WARNING: Waypoint 706bc63553f6d3ecd884f54d98658ba6 Connection 307 is over 275!
+WARNING: Waypoint 2adc18324ee543ebb280c2ac588182e2 Connection 307 is over 275!
+WARNING: Waypoint 4d7fabefc25c392c722a5d1c2e4092c4 Connection 280 is over 275!
+WARNING: Waypoint 1865cae1cdf2258cd062b9176182b3a9 Connection 290 is over 275!
+WARNING: Waypoint 1865cae1cdf2258cd062b9176182b3a9 Connection 291 is over 275!
+WARNING: Waypoint f540e184d0f3867329967159f3555149 Connection 288 is over 275!
+WARNING: Waypoint f540e184d0f3867329967159f3555149 Connection 291 is over 275!
+WARNING: Waypoint b1b63ea6f1ef9e4608f0108836798643 Connection 288 is over 275!
+WARNING: Waypoint 3eaada3f0522649af6ab20ea5f0d9f91 Connection 279 is over 275!
+WARNING: Waypoint 6b1e8618acd5517de06e6567f0433496 Connection 278 is over 275!
+WARNING: Waypoint b261284999bb24cf97a9e15d760d4189 Connection 276 is over 275!
+WARNING: Waypoint b261284999bb24cf97a9e15d760d4189 Connection 281 is over 275!
+Loaded 275 (275) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\airport_wp.csv
+Wrote 275 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\airport_wp.csv
+Loaded 257 (257) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\arcadia_wp.csv
+Wrote 257 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\arcadia_wp.csv
+Loaded 166 (166) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\contingency_wp.csv
+Wrote 166 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\contingency_wp.csv
+Loaded 164 (164) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp.csv
+Wrote 164 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp.csv
+Loaded 177 (177) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp_fixed.csv
+Wrote 177 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\co_hunted_wp_fixed.csv
+Loaded 20 (20) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\ending_wp.csv
+Wrote 20 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\ending_wp.csv
+Loaded 286 (286) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\favela_escape_wp.csv
+Wrote 286 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\favela_escape_wp.csv
+Loaded 14 (14) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\favela_wp.csv
+Wrote 14 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\favela_wp.csv
+WARNING: Waypoint 5c6ee64614fe688f93a53b30a23717b9 Connection 181 target is itself!
+WARNING: Waypoint 217a798d4174bed483768f9c588fcf3c Connection 182 target is itself!
+WARNING: Waypoint 4ba56f5eb63b7fa8f751a55fd59dffdd Connection 183 target is itself!
+WARNING: Waypoint 83061b81476e76e0baa77305bc697143 Connection 184 target is itself!
+WARNING: Waypoint ebacc3d423397dba6f65aea169884c1d Connection 185 target is itself!
+WARNING: Waypoint 84c017667337adb32b7189838b1bef28 Connection 186 target is itself!
+WARNING: Waypoint 9b75bc76a1a952ddfa566b9669d07aee Connection 187 target is itself!
+WARNING: Waypoint 862fd71d179923071d75dcd5c7c4ba3b Connection 189 target is itself!
+WARNING: Waypoint 40b0ab203b01d4d240e19858ac9e0426 Connection 191 target is itself!
+WARNING: Waypoint 5b571440aa5ea536299ef2c0c650d030 Connection 192 target is itself!
+WARNING: Waypoint c51725714057fa6f7d9150107ac3fe10 Connection 193 target is itself!
+WARNING: Waypoint 5e2b84740f04e0661a3f6f10aba9fc51 Connection 199 target is itself!
+WARNING: Waypoint e7c13dcb46259fe2b536c8b602871816 Connection 200 target is itself!
+WARNING: Waypoint 481adac4c930e171b7bab85be8d734d0 Connection 201 target is itself!
+WARNING: Waypoint 931ea2e08bb6769ef09e83baa545ad12 Connection 203 target is itself!
+WARNING: Waypoint 72f416dc7c1fef53dfb1314d75bc4c40 Connection 204 target is itself!
+WARNING: Waypoint 529934fc633b313a946ea62895363131 Connection 205 target is itself!
+WARNING: Waypoint f80b2f2226daa00daa5b490f604d7f44 Connection 206 target is itself!
+WARNING: Waypoint 2a1669f3048bd3764cea287c0fdf1daf Connection 209 target is itself!
+WARNING: Waypoint a581a5fd0fbbbf58941ee0a7509e4f8f Connection 212 target is itself!
+WARNING: Waypoint 361a7127a8b9fa330ef94023e96e02aa Connection 213 target is itself!
+WARNING: Waypoint 6f41625ce9db67a6e13c615c910fe6b2 Connection 214 target is itself!
+WARNING: Waypoint d939b2c21b08639cc6dafd1c662282a4 Connection 215 target is itself!
+WARNING: Waypoint ab300c89c430bee43dd6e96c5d0abe42 Connection 216 target is itself!
+WARNING: Waypoint 69ae6fdc99a466b16cb28c9f494bcb4d Connection 217 target is itself!
+WARNING: Waypoint e5cbe3844a7ee78a98b0db15b9b5e71e Connection 218 target is itself!
+WARNING: Waypoint ac30da5b9303f740e08725eff74bf971 Connection 219 target is itself!
+WARNING: Waypoint 55bf318a5895c0afde905e4ca44edb17 Connection 220 target is itself!
+WARNING: Waypoint 8dcd0caff1f31b19bd1de517e6ee9f6a Connection 221 target is itself!
+WARNING: Waypoint df7943c323d04c8e442b3cb51b94017a Connection 222 target is itself!
+WARNING: Waypoint 52daf21e1b344b4442b9a778a47af93f Connection 223 target is itself!
+WARNING: Waypoint 7dbf078801447390817ac23ea7cd1f9c Connection 224 target is itself!
+WARNING: Waypoint e9486bb83604368269aa1fdf279fb881 Connection 225 target is itself!
+WARNING: Waypoint d22d907d0b3c3b1da01e689105183d3f Connection 226 target is itself!
+WARNING: Waypoint f9717c25cca995ace17df24b6b96239b Connection 227 target is itself!
+WARNING: Waypoint a13bb0f349e2030f1ef99492c74f686e Connection 229 target is itself!
+WARNING: Waypoint e1d7d830ee5d0acd0f7fbaf677679561 Connection 230 target is itself!
+WARNING: Waypoint 010f7ad7a751fe39bd1bd92b23ef799f Connection 231 target is itself!
+WARNING: Waypoint 6b00dbec37ea6d8416f980f2c7b1e73c Connection 232 target is itself!
+WARNING: Waypoint 58879cbc6c581b725c1ffdd0afa1db3c Connection 233 target is itself!
+WARNING: Waypoint 10669e4f166f6244bdbb836ed3c91ccd Connection 234 target is itself!
+WARNING: Waypoint c2d8dac16b44fa6244c50a3da8685795 Connection 235 target is itself!
+WARNING: Waypoint f0a7defada8ece29e5fa3b3be184597c Connection 236 target is itself!
+WARNING: Waypoint c199e8a51ae7a454823a5860950a5ff2 Connection 237 target is itself!
+WARNING: Waypoint db5d7c7c4a11543baada1b490efbd9f6 Connection 239 target is itself!
+WARNING: Waypoint f127f706aa2ceb940275263227faeae5 Connection 240 target is itself!
+WARNING: Waypoint 3446f73c0bad4139e478925dae82b2f7 Connection 241 target is itself!
+WARNING: Waypoint cf31a66ad78f5116e268c365d4982616 Connection 243 target is itself!
+WARNING: Waypoint d82c7cbcf8a28c99e5979c4c50efd424 Connection 245 target is itself!
+WARNING: Waypoint c24cba336c5cc6751abe4dbb48bf3ace Connection 246 target is itself!
+WARNING: Waypoint 74bd29ee9d6b2c6daa7fe6399ddb933a Connection 247 target is itself!
+WARNING: Waypoint 6e7a5ed1fcbe406317ec50e35cf2c764 Connection 253 is over 252!
+WARNING: Waypoint 10f9c49be2cb973f325a7260bc1c6684 Connection 250 target is itself!
+WARNING: Waypoint 10f9c49be2cb973f325a7260bc1c6684 Connection 253 is over 252!
+Loaded 252 (252) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\gulag_wp.csv
+WP|5c6ee64614fe688f93a53b30a23717b9|4320308709219936144|180|[-5173.95, -621.122, 2120.13]|5c6ee646 4ba56f5e|STAND|[40.3186, -18.3759, 0]|None connection WP|5c6ee64614fe688f93a53b30a23717b9|4320308709219936144|180|[-5173.95, -621.122, 2120.13]|5c6ee646 4ba56f5e|STAND|[40.3186, -18.3759, 0]|None is itself
+WP|217a798d4174bed483768f9c588fcf3c|3571640425867531951|181|[-5021.56, -802.01, 2120.13]|217a798d 83061b81|STAND|[41.4392, -37.9755, 0]|None connection WP|217a798d4174bed483768f9c588fcf3c|3571640425867531951|181|[-5021.56, -802.01, 2120.13]|217a798d 83061b81|STAND|[41.4392, -37.9755, 0]|None is itself
+WP|4ba56f5eb63b7fa8f751a55fd59dffdd|5759463702816861441|182|[-5189.98, -1135.28, 2120.13]|4ba56f5e ebacc3d4 862fd71d|STAND|[36.9568, -127.673, 0]|None connection WP|4ba56f5eb63b7fa8f751a55fd59dffdd|5759463702816861441|182|[-5189.98, -1135.28, 2120.13]|4ba56f5e ebacc3d4 862fd71d|STAND|[36.9568, -127.673, 0]|None is itself
+WP|83061b81476e76e0baa77305bc697143|-8652319893806963547|183|[-4605.83, -1495.73, 2120.13]|83061b81 84c01766 bba84b11|STAND|[46.7017, 81.2921, 0]|None connection WP|83061b81476e76e0baa77305bc697143|-8652319893806963547|183|[-4605.83, -1495.73, 2120.13]|83061b81 84c01766 bba84b11|STAND|[46.7017, 81.2921, 0]|None is itself
+WP|ebacc3d423397dba6f65aea169884c1d|387103642499252691|184|[-4415.02, -1258.29, 2120.13]|ebacc3d4 9b75bc76|STAND|[48.4924, 42.4335, 0]|None connection WP|ebacc3d423397dba6f65aea169884c1d|387103642499252691|184|[-4415.02, -1258.29, 2120.13]|ebacc3d4 9b75bc76|STAND|[48.4924, 42.4335, 0]|None is itself
+WP|84c017667337adb32b7189838b1bef28|-3926848456986051699|185|[-4100.67, -1454.55, 2120.13]|84c01766 bba84b11|STAND|[52.2992, -85.4584, 0]|None connection WP|84c017667337adb32b7189838b1bef28|-3926848456986051699|185|[-4100.67, -1454.55, 2120.13]|84c01766 bba84b11|STAND|[52.2992, -85.4584, 0]|None is itself
+WP|9b75bc76a1a952ddfa566b9669d07aee|7424391062732066792|186|[-4385.55, -1831.87, 2120.13]|ebacc3d4 9b75bc76|STAND|[34.0454, -152.42, 0]|None connection WP|9b75bc76a1a952ddfa566b9669d07aee|7424391062732066792|186|[-4385.55, -1831.87, 2120.13]|ebacc3d4 9b75bc76|STAND|[34.0454, -152.42, 0]|None is itself
+WP|862fd71d179923071d75dcd5c7c4ba3b|-2123701980218559080|188|[-4589.95, -2105.92, 2120.13]|862fd71d|STAND|[44.01, -83.6676, 0]|None connection WP|862fd71d179923071d75dcd5c7c4ba3b|-2123701980218559080|188|[-4589.95, -2105.92, 2120.13]|862fd71d|STAND|[44.01, -83.6676, 0]|None is itself
+WP|862fd71d179923071d75dcd5c7c4ba3b|4921702656425849025|188|[-4589.95, -2105.92, 2120.13]||STAND|[44.01, -83.6676, 0]|None has no connections
+WP|40b0ab203b01d4d240e19858ac9e0426|-4598712987328428483|190|[-3968.82, -2812.48, 2768.13]|40b0ab20 c5172571 fbc2e61a|STAND|[30.3485, -62.0465, 0]|None connection WP|40b0ab203b01d4d240e19858ac9e0426|-4598712987328428483|190|[-3968.82, -2812.48, 2768.13]|40b0ab20 c5172571 fbc2e61a|STAND|[30.3485, -62.0465, 0]|None is itself
+WP|5b571440aa5ea536299ef2c0c650d030|-1362520839764359153|191|[-4158.12, -2696.49, 2768.13]|5b571440 d7532081 3ec73ea9|STAND|[43.5651, 145.54, 0]|None connection WP|5b571440aa5ea536299ef2c0c650d030|-1362520839764359153|191|[-4158.12, -2696.49, 2768.13]|5b571440 d7532081 3ec73ea9|STAND|[43.5651, 145.54, 0]|None is itself
+WP|c51725714057fa6f7d9150107ac3fe10|-8498417891415568470|192|[-4061.28, -2512.42, 2768.13]|40b0ab20 c5172571 7d556daa|STAND|[41.994, 74.0906, 0]|None connection WP|c51725714057fa6f7d9150107ac3fe10|-8498417891415568470|192|[-4061.28, -2512.42, 2768.13]|40b0ab20 c5172571 7d556daa|STAND|[41.994, 74.0906, 0]|None is itself
+WP|5e2b84740f04e0661a3f6f10aba9fc51|3683917316973522056|198|[-4072.38, -2281.37, 2764.13]|5e2b8474 481adac4|STAND|[31.9141, 57.4078, 0]|None connection WP|5e2b84740f04e0661a3f6f10aba9fc51|3683917316973522056|198|[-4072.38, -2281.37, 2764.13]|5e2b8474 481adac4|STAND|[31.9141, 57.4078, 0]|None is itself
+WP|e7c13dcb46259fe2b536c8b602871816|8949431686537293031|199|[-3616.57, -2569.88, 2764.13]|e7c13dcb e67dbb2b|STAND|[46.3611, -25.6873, 0]|None connection WP|e7c13dcb46259fe2b536c8b602871816|8949431686537293031|199|[-3616.57, -2569.88, 2764.13]|e7c13dcb e67dbb2b|STAND|[46.3611, -25.6873, 0]|None is itself
+WP|481adac4c930e171b7bab85be8d734d0|4974675082576561828|200|[-3914.25, -3023.31, 2764.13]|5e2b8474 481adac4|STAND|[45.3558, -113.034, 0]|None connection WP|481adac4c930e171b7bab85be8d734d0|4974675082576561828|200|[-3914.25, -3023.31, 2764.13]|5e2b8474 481adac4|STAND|[45.3558, -113.034, 0]|None is itself
+WP|931ea2e08bb6769ef09e83baa545ad12|4477214031674731045|202|[-3706.36, -2583.64, 3008.13]|931ea2e0 529934fc 3c35dae7|STAND|[40.8734, 49.1187, 0]|None connection WP|931ea2e08bb6769ef09e83baa545ad12|4477214031674731045|202|[-3706.36, -2583.64, 3008.13]|931ea2e0 529934fc 3c35dae7|STAND|[40.8734, 49.1187, 0]|None is itself
+WP|72f416dc7c1fef53dfb1314d75bc4c40|9106522406782359728|203|[-4007.44, -2419.21, 3008.13]|72f416dc f80b2f22 3c35dae7|STAND|[40.8734, 142.744, 0]|None connection WP|72f416dc7c1fef53dfb1314d75bc4c40|9106522406782359728|203|[-4007.44, -2419.21, 3008.13]|72f416dc f80b2f22 3c35dae7|STAND|[40.8734, 142.744, 0]|None is itself
+WP|529934fc633b313a946ea62895363131|-969687977252367647|204|[-4208.52, -2668.08, 3008.13]|931ea2e0 529934fc 3c35dae7|STAND|[46.3611, -149.723, 0]|None connection WP|529934fc633b313a946ea62895363131|-969687977252367647|204|[-4208.52, -2668.08, 3008.13]|931ea2e0 529934fc 3c35dae7|STAND|[46.3611, -149.723, 0]|None is itself
+WP|f80b2f2226daa00daa5b490f604d7f44|867755966039489529|205|[-3990.28, -2635.48, 3008.13]|931ea2e0 72f416dc 529934fc f80b2f22|STAND|[32.6996, 84.4397, 0]|None connection WP|f80b2f2226daa00daa5b490f604d7f44|867755966039489529|205|[-3990.28, -2635.48, 3008.13]|931ea2e0 72f416dc 529934fc f80b2f22|STAND|[32.6996, 84.4397, 0]|None is itself
+WP|2a1669f3048bd3764cea287c0fdf1daf|-7965188230930362087|208|[-5316.96, -870.573, 2778.13]|2a1669f3|STAND|[34.0454, 10.2271, 0]|None connection WP|2a1669f3048bd3764cea287c0fdf1daf|-7965188230930362087|208|[-5316.96, -870.573, 2778.13]|2a1669f3|STAND|[34.0454, 10.2271, 0]|None is itself
+WP|2a1669f3048bd3764cea287c0fdf1daf|-2018207901092455813|208|[-5316.96, -870.573, 2778.13]||STAND|[34.0454, 10.2271, 0]|None has no connections
+WP|a581a5fd0fbbbf58941ee0a7509e4f8f|-6587500680665096371|211|[-5379.42, -890.15, 2489.07]|a581a5fd 6f41625c|STAND|[20.719, 96.3049, 0]|None connection WP|a581a5fd0fbbbf58941ee0a7509e4f8f|-6587500680665096371|211|[-5379.42, -890.15, 2489.07]|a581a5fd 6f41625c|STAND|[20.719, 96.3049, 0]|None is itself
+WP|361a7127a8b9fa330ef94023e96e02aa|-7101969079853152167|212|[-5313.77, 230.13, 2495.23]|361a7127 d939b2c2|STAND|[25.6464, 67.0813, 0]|None connection WP|361a7127a8b9fa330ef94023e96e02aa|-7101969079853152167|212|[-5313.77, 230.13, 2495.23]|361a7127 d939b2c2|STAND|[25.6464, 67.0813, 0]|None is itself
+WP|6f41625ce9db67a6e13c615c910fe6b2|2083717154655508140|213|[-4325.14, 1653.67, 2491.53]|6f41625c ab300c89|STAND|[27.6569, 25.9815, 0]|None connection WP|6f41625ce9db67a6e13c615c910fe6b2|2083717154655508140|213|[-4325.14, 1653.67, 2491.53]|6f41625c ab300c89|STAND|[27.6569, 25.9815, 0]|None is itself
+WP|d939b2c21b08639cc6dafd1c662282a4|3009471478528799686|214|[-3252.64, 2178.51, 2491.17]|d939b2c2 69ae6fdc|STAND|[28.2172, 14.2206, 0]|None connection WP|d939b2c21b08639cc6dafd1c662282a4|3009471478528799686|214|[-3252.64, 2178.51, 2491.17]|d939b2c2 69ae6fdc|STAND|[28.2172, 14.2206, 0]|None is itself
+WP|ab300c89c430bee43dd6e96c5d0abe42|3385318394064614404|215|[-1796.98, 2202.47, 2489.31]|ab300c89 e5cbe384|STAND|[30.9088, -12.4267, 0]|None connection WP|ab300c89c430bee43dd6e96c5d0abe42|3385318394064614404|215|[-1796.98, 2202.47, 2489.31]|ab300c89 e5cbe384|STAND|[30.9088, -12.4267, 0]|None is itself
+WP|69ae6fdc99a466b16cb28c9f494bcb4d|-1246566821979927204|216|[-629.062, 1629.82, 2487.06]|69ae6fdc ac30da5b|STAND|[23.8501, -37.0526, 0]|None connection WP|69ae6fdc99a466b16cb28c9f494bcb4d|-1246566821979927204|216|[-629.062, 1629.82, 2487.06]|69ae6fdc ac30da5b|STAND|[23.8501, -37.0526, 0]|None is itself
+WP|e5cbe3844a7ee78a98b0db15b9b5e71e|-8424909926836321318|217|[-231.904, 1229.51, 2488.38]|e5cbe384 55bf318a df7943c3|STAND|[31.579, -50.5988, 0]|None connection WP|e5cbe3844a7ee78a98b0db15b9b5e71e|-8424909926836321318|217|[-231.904, 1229.51, 2488.38]|e5cbe384 55bf318a df7943c3|STAND|[31.579, -50.5988, 0]|None is itself
+WP|ac30da5b9303f740e08725eff74bf971|-9023456575528240948|218|[-617.121, 1114.08, 2472.13]|ac30da5b 8dcd0caf|STAND|[43.7848, -147.581, 0]|None connection WP|ac30da5b9303f740e08725eff74bf971|-9023456575528240948|218|[-617.121, 1114.08, 2472.13]|ac30da5b 8dcd0caf|STAND|[43.7848, -147.581, 0]|None is itself
+WP|55bf318a5895c0afde905e4ca44edb17|2021858695684877366|219|[-249.258, 696.217, 2472.13]|55bf318a df7943c3|STAND|[33.0347, -51.6095, 0]|None connection WP|55bf318a5895c0afde905e4ca44edb17|2021858695684877366|219|[-249.258, 696.217, 2472.13]|55bf318a df7943c3|STAND|[33.0347, -51.6095, 0]|None is itself
+WP|8dcd0caff1f31b19bd1de517e6ee9f6a|-4811384508625775992|220|[41.4728, 902.57, 2494.93]|ac30da5b 8dcd0caf 52daf21e|STAND|[27.7722, 54.447, 0]|None connection WP|8dcd0caff1f31b19bd1de517e6ee9f6a|-4811384508625775992|220|[41.4728, 902.57, 2494.93]|ac30da5b 8dcd0caf 52daf21e|STAND|[27.7722, 54.447, 0]|None is itself
+WP|df7943c323d04c8e442b3cb51b94017a|2584048761204341627|221|[399.793, -138.521, 2491.33]|df7943c3 7dbf0788|STAND|[27.3218, -77.7679, 0]|None connection WP|df7943c323d04c8e442b3cb51b94017a|2584048761204341627|221|[399.793, -138.521, 2491.33]|df7943c3 7dbf0788|STAND|[27.3218, -77.7679, 0]|None is itself
+WP|52daf21e1b344b4442b9a778a47af93f|-6243658942722193975|222|[427.979, -685.912, 2384.02]|52daf21e e9486bb8|STAND|[16.5717, -92.6599, 0]|None connection WP|52daf21e1b344b4442b9a778a47af93f|-6243658942722193975|222|[427.979, -685.912, 2384.02]|52daf21e e9486bb8|STAND|[16.5717, -92.6599, 0]|None is itself
+WP|7dbf078801447390817ac23ea7cd1f9c|-3609915977515615886|223|[407.017, -1089.9, 2489.9]|7dbf0788 d22d907d|STAND|[32.0294, 87.9333, 0]|None connection WP|7dbf078801447390817ac23ea7cd1f9c|-3609915977515615886|223|[407.017, -1089.9, 2489.9]|7dbf0788 d22d907d|STAND|[32.0294, 87.9333, 0]|None is itself
+WP|e9486bb83604368269aa1fdf279fb881|3411173470714363871|224|[84.8236, -980.501, 2465.13]|e9486bb8 f9717c25|STAND|[37.0667, 173.934, 0]|None connection WP|e9486bb83604368269aa1fdf279fb881|3411173470714363871|224|[84.8236, -980.501, 2465.13]|e9486bb8 f9717c25|STAND|[37.0667, 173.934, 0]|None is itself
+WP|d22d907d0b3c3b1da01e689105183d3f|7070193144490236477|225|[97.3423, -678.501, 2465.13]|d22d907d 174b6b72|STAND|[33.0347, 147.287, 0]|None connection WP|d22d907d0b3c3b1da01e689105183d3f|7070193144490236477|225|[97.3423, -678.501, 2465.13]|d22d907d 174b6b72|STAND|[33.0347, 147.287, 0]|None is itself
+WP|f9717c25cca995ace17df24b6b96239b|6802927824640433043|226|[442.791, -664.653, 2386.73]|f9717c25|STAND|[58.2318, -2.78074, 0]|None connection WP|f9717c25cca995ace17df24b6b96239b|6802927824640433043|226|[442.791, -664.653, 2386.73]|f9717c25|STAND|[58.2318, -2.78074, 0]|None is itself
+WP|f9717c25cca995ace17df24b6b96239b|5299013900921448584|226|[442.791, -664.653, 2386.73]||STAND|[58.2318, -2.78074, 0]|None has no connections
+WP|a13bb0f349e2030f1ef99492c74f686e|3211284728338328720|228|[-1227.78, -2885.26, 2472.13]|a13bb0f3 010f7ad7|STAND|[37.8467, 99.0131, 0]|None connection WP|a13bb0f349e2030f1ef99492c74f686e|3211284728338328720|228|[-1227.78, -2885.26, 2472.13]|a13bb0f3 010f7ad7|STAND|[37.8467, 99.0131, 0]|None is itself
+WP|e1d7d830ee5d0acd0f7fbaf677679561|5240871832267419924|229|[-1762.69, -3123.09, 2472.13]|e1d7d830 6b00dbec|STAND|[36.6162, -169.603, 0]|None connection WP|e1d7d830ee5d0acd0f7fbaf677679561|5240871832267419924|229|[-1762.69, -3123.09, 2472.13]|e1d7d830 6b00dbec|STAND|[36.6162, -169.603, 0]|None is itself
+WP|010f7ad7a751fe39bd1bd92b23ef799f|-2770056630807206550|230|[-1655.9, -3436.62, 2489.86]|a13bb0f3 010f7ad7 58879cbc|STAND|[22.8448, -72.2913, 0]|None connection WP|010f7ad7a751fe39bd1bd92b23ef799f|-2770056630807206550|230|[-1655.9, -3436.62, 2489.86]|a13bb0f3 010f7ad7 58879cbc|STAND|[22.8448, -72.2913, 0]|None is itself
+WP|6b00dbec37ea6d8416f980f2c7b1e73c|1440215547515371392|231|[-1962.18, -3503.41, 2489]|6b00dbec 10669e4f|STAND|[21.3892, -177.068, 0]|None connection WP|6b00dbec37ea6d8416f980f2c7b1e73c|1440215547515371392|231|[-1962.18, -3503.41, 2489]|6b00dbec 10669e4f|STAND|[21.3892, -177.068, 0]|None is itself
+WP|58879cbc6c581b725c1ffdd0afa1db3c|5388681622576017876|232|[-3045.15, -3489.08, 2486.75]|58879cbc c2d8dac1 c199e8a5|STAND|[20.3784, 169.831, 0]|None connection WP|58879cbc6c581b725c1ffdd0afa1db3c|5388681622576017876|232|[-3045.15, -3489.08, 2486.75]|58879cbc c2d8dac1 c199e8a5|STAND|[20.3784, 169.831, 0]|None is itself
+WP|10669e4f166f6244bdbb836ed3c91ccd|1664456220176254500|233|[-3040.65, -3141.82, 2465.13]|10669e4f f0a7defa|STAND|[32.4744, 75.6506, 0]|None connection WP|10669e4f166f6244bdbb836ed3c91ccd|1664456220176254500|233|[-3040.65, -3141.82, 2465.13]|10669e4f f0a7defa|STAND|[32.4744, 75.6506, 0]|None is itself
+WP|c2d8dac16b44fa6244c50a3da8685795|6903674830093584311|234|[-3340.77, -3025.27, 2465.13]|c2d8dac1 c199e8a5|STAND|[36.5063, 132.203, 0]|None connection WP|c2d8dac16b44fa6244c50a3da8685795|6903674830093584311|234|[-3340.77, -3025.27, 2465.13]|c2d8dac1 c199e8a5|STAND|[36.5063, 132.203, 0]|None is itself
+WP|f0a7defada8ece29e5fa3b3be184597c|2158983421831551817|235|[-3488.56, -3411.26, 2492.31]|10669e4f f0a7defa 174499a0|STAND|[22.8448, -96.9995, 0]|None connection WP|f0a7defada8ece29e5fa3b3be184597c|2158983421831551817|235|[-3488.56, -3411.26, 2492.31]|10669e4f f0a7defa 174499a0|STAND|[22.8448, -96.9995, 0]|None is itself
+WP|c199e8a51ae7a454823a5860950a5ff2|171398819388022298|236|[-4589.63, -2674.01, 2488.59]|a581a5fd c199e8a5|STAND|[19.5929, 134.027, 0]|None connection WP|c199e8a51ae7a454823a5860950a5ff2|171398819388022298|236|[-4589.63, -2674.01, 2488.59]|a581a5fd c199e8a5|STAND|[19.5929, 134.027, 0]|None is itself
+WP|db5d7c7c4a11543baada1b490efbd9f6|5607690515126104605|238|[-1496.24, 1368.6, 2120.13]|db5d7c7c 3446f73c|STAND|[23.6304, -111.117, 0]|None connection WP|db5d7c7c4a11543baada1b490efbd9f6|5607690515126104605|238|[-1496.24, 1368.6, 2120.13]|db5d7c7c 3446f73c|STAND|[23.6304, -111.117, 0]|None is itself
+WP|f127f706aa2ceb940275263227faeae5|2779519043345470232|239|[-1795.95, 907.552, 2120.13]|f127f706 f45db409 cf31a66a|STAND|[30.3485, -122.087, 0]|None connection WP|f127f706aa2ceb940275263227faeae5|2779519043345470232|239|[-1795.95, 907.552, 2120.13]|f127f706 f45db409 cf31a66a|STAND|[30.3485, -122.087, 0]|None is itself
+WP|3446f73c0bad4139e478925dae82b2f7|-2007804249276504495|240|[-2133.35, 1088.27, 2120.13]|3446f73c|STAND|[31.579, -145.603, 0]|None connection WP|3446f73c0bad4139e478925dae82b2f7|-2007804249276504495|240|[-2133.35, 1088.27, 2120.13]|3446f73c|STAND|[31.579, -145.603, 0]|None is itself
+WP|3446f73c0bad4139e478925dae82b2f7|4929733341159788321|240|[-2133.35, 1088.27, 2120.13]||STAND|[31.579, -145.603, 0]|None has no connections
+WP|cf31a66ad78f5116e268c365d4982616|-2861989671468817309|242|[-1957.42, 1278.23, 2120.13]|cf31a66a|STAND|[31.579, 118.344, 0]|None connection WP|cf31a66ad78f5116e268c365d4982616|-2861989671468817309|242|[-1957.42, 1278.23, 2120.13]|cf31a66a|STAND|[31.579, 118.344, 0]|None is itself
+WP|cf31a66ad78f5116e268c365d4982616|7151974451509598220|242|[-1957.42, 1278.23, 2120.13]||STAND|[31.579, 118.344, 0]|None has no connections
+WP|d82c7cbcf8a28c99e5979c4c50efd424|245302048790544242|244|[-1434.88, 1358.83, 2764.13]|d82c7cbc 74bd29ee|STAND|[38.4125, 152.604, 0]|None connection WP|d82c7cbcf8a28c99e5979c4c50efd424|245302048790544242|244|[-1434.88, 1358.83, 2764.13]|d82c7cbc 74bd29ee|STAND|[38.4125, 152.604, 0]|None is itself
+WP|c24cba336c5cc6751abe4dbb48bf3ace|-1914017045965287159|245|[-1142.28, 1834.38, 2764.13]|c24cba33 6e7a5ed1|STAND|[45.6909, 40.2856, 0]|None connection WP|c24cba336c5cc6751abe4dbb48bf3ace|-1914017045965287159|245|[-1142.28, 1834.38, 2764.13]|c24cba33 6e7a5ed1|STAND|[45.6909, 40.2856, 0]|None is itself
+WP|74bd29ee9d6b2c6daa7fe6399ddb933a|-4560134243150961697|246|[-687.205, 1545.91, 2764.13]|d82c7cbc 74bd29ee|STAND|[36.3965, -28.2526, 0]|None connection WP|74bd29ee9d6b2c6daa7fe6399ddb933a|-4560134243150961697|246|[-687.205, 1545.91, 2764.13]|d82c7cbc 74bd29ee|STAND|[36.3965, -28.2526, 0]|None is itself
+WP|10f9c49be2cb973f325a7260bc1c6684|4876871105145594994|249|[-3203.48, 1310.55, 1988.13]|10f9c49b|STAND|[29.3433, 43.3069, 0]|None connection WP|10f9c49be2cb973f325a7260bc1c6684|4876871105145594994|249|[-3203.48, 1310.55, 1988.13]|10f9c49b|STAND|[29.3433, 43.3069, 0]|None is itself
+WP|10f9c49be2cb973f325a7260bc1c6684|8406880720613740031|249|[-3203.48, 1310.55, 1988.13]||STAND|[29.3433, 43.3069, 0]|None has no connections
+Wrote 252 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\gulag_wp.csv
+Loaded 113 (113) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_4doffice_wp.csv
+Wrote 113 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_4doffice_wp.csv
+Loaded 143 (143) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_4hanoi_wp.csv
+Wrote 143 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_4hanoi_wp.csv
+Loaded 387 (387) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_abandon_wp.csv
+Wrote 387 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_abandon_wp.csv
+Loaded 330 (330) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_aerodrome_wp.csv
+Wrote 330 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_aerodrome_wp.csv
+Loaded 292 (292) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_afghan_wp.csv
+Wrote 292 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_afghan_wp.csv
+Loaded 273 (273) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_airfield_wp.csv
+Wrote 273 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_airfield_wp.csv
+Loaded 238 (238) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_airstrike_v1_wp.csv
+Wrote 238 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_airstrike_v1_wp.csv
+Loaded 273 (273) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_arrange_wp.csv
+Wrote 273 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_arrange_wp.csv
+Loaded 230 (230) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_asylum_wp.csv
+Wrote 230 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_asylum_wp.csv
+Loaded 205 (205) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bacalao_wp.csv
+Wrote 205 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bacalao_wp.csv
+Loaded 178 (178) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_backlot_snow_wp.csv
+Wrote 178 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_backlot_snow_wp.csv
+Loaded 178 (178) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_backlot_wp.csv
+Wrote 178 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_backlot_wp.csv
+Loaded 171 (171) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bakaara_wp.csv
+Wrote 171 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bakaara_wp.csv
+Loaded 228 (228) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bgate_wp.csv
+Wrote 228 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bgate_wp.csv
+Loaded 464 (464) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bloc_sh_wp.csv
+Wrote 464 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bloc_sh_wp.csv
+Loaded 464 (464) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bloc_wp.csv
+Wrote 464 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bloc_wp.csv
+Loaded 568 (568) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2cargom_wp.csv
+Wrote 568 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2cargom_wp.csv
+Loaded 455 (455) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2cargo_wp.csv
+Wrote 455 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2cargo_wp.csv
+Loaded 299 (299) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2carrier_wp.csv
+Wrote 299 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2carrier_wp.csv
+Loaded 470 (470) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2drone_wp.csv
+Wrote 470 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2drone_wp.csv
+Loaded 243 (243) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2frost_wp.csv
+Wrote 243 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2frost_wp.csv
+Loaded 221 (221) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2grind_wp.csv
+Wrote 221 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2grind_wp.csv
+Loaded 259 (259) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2hydro_wp.csv
+Wrote 259 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2hydro_wp.csv
+Loaded 362 (362) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2meltdown2_wp.csv
+Wrote 362 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2meltdown2_wp.csv
+Loaded 353 (353) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2meltdown_wp.csv
+Wrote 353 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2meltdown_wp.csv
+Loaded 427 (427) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2mir_wp.csv
+Wrote 427 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2mir_wp.csv
+Loaded 198 (198) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2nuketown_wp.csv
+Wrote 198 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2nuketown_wp.csv
+Loaded 341 (341) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2overflow_wp.csv
+Wrote 341 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2overflow_wp.csv
+Loaded 227 (227) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2paintball_wp.csv
+Wrote 227 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2paintball_wp.csv
+Loaded 161 (161) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2plaza_wp.csv
+Wrote 161 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2plaza_wp.csv
+Loaded 314 (314) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2raid3_wp.csv
+Wrote 314 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2raid3_wp.csv
+Loaded 260 (260) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2raid_wp.csv
+Wrote 260 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2raid_wp.csv
+Loaded 246 (246) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2slums_wp.csv
+Wrote 246 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2slums_wp.csv
+Loaded 464 (464) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2standoff_ex_wp.csv
+Wrote 464 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2standoff_ex_wp.csv
+Loaded 363 (363) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2standoff_wp.csv
+Wrote 363 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2standoff_wp.csv
+Loaded 425 (425) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2turbine_wp.csv
+Wrote 425 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2turbine_wp.csv
+Loaded 364 (364) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2yemen_wp.csv
+Wrote 364 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2yemen_wp.csv
+Loaded 100 (100) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2_town_wp.csv
+Wrote 100 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bo2_town_wp.csv
+Loaded 210 (210) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bog_sh_wp.csv
+Wrote 210 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bog_sh_wp.csv
+Loaded 138 (138) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bog_wp.csv
+Wrote 138 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_bog_wp.csv
+Loaded 238 (238) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_boneyard_wp.csv
+Wrote 238 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_boneyard_wp.csv
+Loaded 185 (185) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_box_hjacked.gsc.csv
+Wrote 185 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_box_hjacked.gsc.csv
+Loaded 185 (185) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_box_hjacked_waypoints_2.gsc.csv
+Wrote 185 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_box_hjacked_waypoints_2.gsc.csv
+Loaded 649 (649) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_box_hjacked_wp.csv
+Wrote 649 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_box_hjacked_wp.csv
+Loaded 324 (324) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_brecourt_wp.csv
+WP|facac4630b42291ad72b8a9fb7f7a985|-2023072726996489099|323|[929.592, 316.17, 56.2673]||JAVELIN|[4.97009, 26.0046, 0]|[2941.1, 1284.8, -74.9946] has no connections
+Wrote 324 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_brecourt_wp.csv
+Loaded 287 (287) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_broadcast_wp.csv
+Wrote 287 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_broadcast_wp.csv
+Loaded 285 (285) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_carentan_wp.csv
+Wrote 285 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_carentan_wp.csv
+Loaded 329 (329) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_cargoship_wp.csv
+WP|8ea2290912534ea9a3f35900764493a3|-892183424819615669|272|[-792.257, 118.071, 16.0281]||STAND|[20.5927, -162.808, 0]|None has no connections
+Wrote 329 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_cargoship_wp.csv
+Loaded 255 (255) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_castle_v1_wp.csv
+Wrote 255 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_castle_v1_wp.csv
+Loaded 255 (255) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_castle_wp.csv
+Wrote 255 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_castle_wp.csv
+Loaded 561 (561) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_checkpoint_wp.csv
+Wrote 561 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_checkpoint_wp.csv
+Loaded 206 (206) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_citystreets_wp.csv
+Wrote 206 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_citystreets_wp.csv
+Loaded 144 (144) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_cod4_assault_wp.csv
+Wrote 144 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_cod4_assault_wp.csv
+Loaded 333 (333) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_compact_wp.csv
+Wrote 333 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_compact_wp.csv
+Loaded 360 (360) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_complex_wp.csv
+Wrote 360 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_complex_wp.csv
+Loaded 92 (92) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_construction_wp.csv
+Wrote 92 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_construction_wp.csv
+Loaded 197 (197) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_countdown_wp.csv
+Wrote 197 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_countdown_wp.csv
+Loaded 189 (189) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_courtyard_wp.csv
+Wrote 189 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_courtyard_wp.csv
+Loaded 316 (316) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_crash_snow_wp.csv
+Wrote 316 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_crash_snow_wp.csv
+Loaded 316 (316) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_crash_tropical.csv
+Wrote 316 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_crash_tropical.csv
+Loaded 316 (316) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_crash_wp.csv
+Wrote 316 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_crash_wp.csv
+Loaded 307 (307) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_creek_wp.csv
+Wrote 307 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_creek_wp.csv
+Loaded 444 (444) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_cross_fire_wp.csv
+Wrote 444 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_cross_fire_wp.csv
+Loaded 233 (233) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_ctan_wp.csv
+Wrote 233 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_ctan_wp.csv
+Loaded 511 (511) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_derail_wp.csv
+Wrote 511 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_derail_wp.csv
+Loaded 702 (702) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_desertglory_wp.csv
+Wrote 702 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_desertglory_wp.csv
+Loaded 173 (173) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_docks_wp.csv
+Wrote 173 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_docks_wp.csv
+Loaded 137 (137) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dome_waypoints_2.gsc.csv
+Wrote 137 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dome_waypoints_2.gsc.csv
+Loaded 172 (172) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dome_wp.csv
+Wrote 172 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dome_wp.csv
+Loaded 305 (305) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_downfall_wp.csv
+Wrote 305 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_downfall_wp.csv
+Loaded 149 (149) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_drum_wp.csv
+Wrote 149 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_drum_wp.csv
+Loaded 97 (97) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dust2_wp.csv
+Wrote 97 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dust2_wp.csv
+Loaded 206 (206) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dustcod4_wp.csv
+Wrote 206 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_dustcod4_wp.csv
+Loaded 447 (447) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_estate_tropical_wp.csv
+Wrote 447 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_estate_tropical_wp.csv
+Loaded 447 (447) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_estate_wp.csv
+Wrote 447 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_estate_wp.csv
+Loaded 293 (293) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fallen_n_wp.csv
+Wrote 293 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fallen_n_wp.csv
+Loaded 293 (293) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fallen_wp.csv
+Wrote 293 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fallen_wp.csv
+Loaded 302 (302) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_favela_wp.csv
+Wrote 302 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_favela_wp.csv
+Loaded 302 (302) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fav_tropical_wp.csv
+Wrote 302 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fav_tropical_wp.csv
+Loaded 235 (235) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fav_wp.csv
+Wrote 235 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fav_wp.csv
+Loaded 122 (122) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_firingrange_v2_wp.csv
+Wrote 122 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_firingrange_v2_wp.csv
+Loaded 249 (249) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_firingrange_wp.csv
+Wrote 249 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_firingrange_wp.csv
+Loaded 175 (175) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_forest2_wp.csv
+Wrote 175 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_forest2_wp.csv
+Loaded 622 (622) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fuel2_wp.csv
+Wrote 622 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_fuel2_wp.csv
+Loaded 95 (95) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_gob_aim_v2_wp.csv
+Wrote 95 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_gob_aim_v2_wp.csv
+Loaded 212 (212) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hangareturn_wp.csv
+Wrote 212 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hangareturn_wp.csv
+Loaded 221 (221) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hangar_wp.csv
+Wrote 221 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hangar_wp.csv
+Loaded 126 (126) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hardhat_waypoints_2.gsc.csv
+Wrote 126 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hardhat_waypoints_2.gsc.csv
+Loaded 285 (285) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hardhat_wp.csv
+Wrote 285 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_hardhat_wp.csv
+Loaded 422 (422) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_highrise_wp.csv
+Wrote 422 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_highrise_wp.csv
+Loaded 603 (603) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_invasion_wp.csv
+Wrote 603 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_invasion_wp.csv
+Loaded 245 (245) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_inv_wp.csv
+Wrote 245 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_inv_wp.csv
+Loaded 499 (499) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_jarak_wp.csv
+Wrote 499 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_jarak_wp.csv
+Loaded 181 (181) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_killhouse_wp.csv
+Wrote 181 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_killhouse_wp.csv
+Loaded 237 (237) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_kneedeep_wp.csv
+WP|1578b35631d27f6b24a4f4f415945608|7040585211854072103|1|[1511.11, 1389.76, 76.7057]||STAND|None|None has no connections
+WP|686faa4f32fe701193d41ecd12a33a0f|6958754968654672610|3|[-187.344, 292.177, 117.617]||STAND|None|None has no connections
+WP|3fa60dfbde20c7d9215b16f143c84482|-6011154611774269316|4|[-989.222, -422.256, 96.125]||STAND|None|None has no connections
+WP|f13d6c1db633c021d8241091e8893556|571327846208893026|5|[-1940.5, 18.8028, 101.625]||STAND|None|None has no connections
+WP|3f26ca16217c681705db670bad0d7f8a|982450718869692|6|[-2427.06, -28.9444, 112.483]||STAND|None|None has no connections
+WP|5691b2c6b08af011abf1a80b6c5eb69c|29560593854503093|7|[-2412.1, 213.751, 112.973]||STAND|None|None has no connections
+WP|60f4cee985fbb9a85966a8758d36acae|-1025077681410379948|8|[-112.668, 1206.93, 125.181]||STAND|None|None has no connections
+WP|04a297094862b4a16432c9e8eb299534|5703057974804149791|10|[2587.19, 1414.36, 96.1943]||STAND|None|None has no connections
+WP|8af6d549d16a8ad2b4916be125da3c79|-5037875463560290260|11|[2583.1, 1350.32, 98.312]||STAND|None|None has no connections
+WP|f8e5b2036fe9b7de07602ab167e3b88f|-7179170849465547499|12|[2739.45, 1145.57, 110.538]||STAND|None|None has no connections
+WP|1ff3f59d9f94fb7f75d601007f9dadd1|5461443698762980030|13|[2429.25, 823.664, 136.125]||STAND|None|None has no connections
+WP|6a1941c7eb959a4c9f10ee634a376b9e|-2712088851770306247|14|[2204.55, 758.729, 136.125]||STAND|None|None has no connections
+WP|67f641756e46030c43572953276b0290|-1464978634557046165|15|[467.523, 533.567, 58.625]||STAND|None|None has no connections
+WP|a245d6e649383a810b9b7256561ddb71|6657627276063306782|22|[345.2, 1362.66, 95.6599]||STAND|None|None has no connections
+WP|8882c75daa0f88b0384d9dfb69c678b2|-962522178204882555|23|[-628.641, -499.418, 91.5169]||STAND|None|None has no connections
+WP|f97420a32e66e134c2af93937e5cc0da|-8012860135787604344|24|[-833.923, 88.6789, 105.722]||STAND|None|None has no connections
+WP|d6cc42df4c0088fa93e0b6536f84c7eb|-8528658773808069745|25|[-1875.54, 571.118, 103.664]||STAND|None|None has no connections
+WP|ed7ff618013f05c85c29b42c5c1f3cb7|-4127434871155657617|26|[-1874.97, 916.689, 171.362]||STAND|None|None has no connections
+WP|f23e3ba38e36170f0b26b0d101be9d94|-1897703674388408733|27|[-28.2232, 838.655, 127.715]||STAND|None|None has no connections
+WP|91674d4de6a4fd679b3635d1639491d3|-3814513880652060480|28|[1916.35, 2267.49, 44.8197]||STAND|None|None has no connections
+WP|1090a43a1576c525d2c162287e0e1670|2808922412150386893|38|[-1771.08, -155.778, 96.0882]||STAND|None|None has no connections
+WP|7cf87dbe9d95e733a93769f96ea1f6d2|-1453680121986038152|39|[-1535.4, 1416.42, 63.125]||STAND|None|None has no connections
+WP|1d8457e51507d0fcdd1e3dfded93849f|7584651014495110367|40|[-1236.15, 1364.41, 59.9431]||STAND|None|None has no connections
+WP|009d2096e30b87e8958094f4f4a2b92f|4911737566215013034|41|[-727.083, -120.504, 100.054]||STAND|None|None has no connections
+WP|e3dd8d9047b35ab8c44346d2efa42423|5423899407488727741|42|[-815.092, 210.581, 101.189]||STAND|None|None has no connections
+WP|220ca6b75b1a04ec2294b2322da6d656|-4078445981380854254|43|[-1662.11, 558.824, 97.2758]||STAND|None|None has no connections
+WP|f09524035fcb248bb495b68b37cf34f5|6611027690255677695|44|[1171.11, 1342.76, 93.2755]||STAND|None|None has no connections
+WP|659e45c043662de4ae87fb129a0268f7|-7985926732167490375|45|[2034.11, 1476.76, 93.092]||STAND|None|None has no connections
+WP|0720bb6d5b39ab7f51f524add6ee2f5b|1380043463072109225|46|[2850.73, 523.161, 19.717]||STAND|None|None has no connections
+WP|ce3f0c23cb8a60d22b41999f64efecc5|-1241213803555477141|47|[436.269, 1495.83, 74.0112]||STAND|None|None has no connections
+WP|f45fd8be1f26032fe7e49782aa4c3a9d|2914097825196418379|54|[-296.114, 1510.78, 76.125]||STAND|None|None has no connections
+WP|4fbf6372ce0bbfa7514da86ed8e2fe89|8859818550808856659|55|[-488.997, 1591.79, 57.198]||STAND|None|None has no connections
+WP|7c96235ee507406a2829e13609d12986|-4479753007800974302|56|[-382.085, 2090.39, 49.3932]||STAND|None|None has no connections
+WP|4fde472ba47009cd55255cf786ee7daf|-3391570612046583808|57|[-811.719, 1288.1, 54.1309]||STAND|None|None has no connections
+WP|e74550910393a6ced92baf14effcbe1c|-2942246742667004329|58|[-1993.98, 343.756, 101.434]||STAND|None|None has no connections
+WP|9a5cebe92497809ff99cd9c31231d1c4|-8803221779103536650|59|[-2235.38, 115.681, 118.399]||STAND|None|None has no connections
+WP|ecf0be30b54535096440a84e6c969d08|-5807792927797201478|60|[-1758.56, -212.563, 141.125]||STAND|None|None has no connections
+WP|600c2a94079fb053fdd880c5ede9ac2f|1591108154421028474|61|[-1719.56, 29.2842, 97.9442]||STAND|None|None has no connections
+WP|4298898e3fde572e3d837139256c7fb2|5511840414075146186|62|[-1592.57, 1355.33, 63.125]||STAND|None|None has no connections
+WP|7a6e2f3d7f77352e158ea2d91f9c633a|-5437516671341407346|66|[171.056, 1413.46, 121.185]||STAND|None|None has no connections
+WP|4650e26d78e67606bcfa896a2a7488c2|-2487126173606062035|67|[402.352, 2189.3, 23.125]||STAND|None|None has no connections
+WP|e280d26ea300adb4e2a3a80c4b826011|5674543572842127268|69|[-1430.13, 1461.8, 63.125]||STAND|None|None has no connections
+WP|5e8ecd757c50338f0a27fb84248b203d|-3209964510370899799|70|[-698.12, -34.2358, 106.991]||STAND|None|None has no connections
+WP|1423b51cd67eb0a0df854c5beb11b341|-7158062551918616621|71|[-514.078, 368.307, 113.101]||STAND|None|None has no connections
+WP|790e4f5c9fd8326e0e54895b4cc9fc14|-6886130028810103412|72|[1001.87, 2486.01, 60.6561]||STAND|None|None has no connections
+WP|37c10b3564cddbeb1ad6ba7ff6398ff4|-4984743106921521810|73|[1290.47, 2175.71, 81.2391]||STAND|None|None has no connections
+WP|4141cce1ba39ba2bf4d06827601e4618|-2492669160697812497|74|[1443.37, 1713.95, 19.4844]||STAND|None|None has no connections
+Wrote 237 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_kneedeep_wp.csv
+Loaded 175 (175) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_kwai_wp.csv
+Wrote 175 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_kwai_wp.csv
+Loaded 107 (107) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_legoland_wp.csv
+WP|2f6873885733fe1abaf70777f8d31c66|-1540289901324551262|3|[-359, -251, 2.125]||STAND|None|None has no connections
+Wrote 107 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_legoland_wp.csv
+Loaded 185 (185) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_makin_day_wp.csv
+Wrote 185 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_makin_day_wp.csv
+Loaded 167 (167) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_makin_wp.csv
+Wrote 167 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_makin_wp.csv
+Loaded 88 (88) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_mansion_wp.csv
+Wrote 88 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_mansion_wp.csv
+Loaded 163 (163) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_microsim_wp.csv
+Wrote 163 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_microsim_wp.csv
+Loaded 90 (90) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_modern_rust_waypoints_2.gsc.csv
+Wrote 90 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_modern_rust_waypoints_2.gsc.csv
+Loaded 126 (126) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_modern_rust_wp.csv
+Wrote 126 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_modern_rust_wp.csv
+Loaded 222 (222) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_mw2_term_wp.csv
+Wrote 222 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_mw2_term_wp.csv
+Loaded 209 (209) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nachtfeuer_wp.csv
+Wrote 209 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nachtfeuer_wp.csv
+Loaded 283 (283) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nightshift_wp.csv
+Wrote 283 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nightshift_wp.csv
+Loaded 222 (222) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_ntown_wp.csv
+Wrote 222 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_ntown_wp.csv
+Loaded 238 (238) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nuked_wp.csv
+WP|885c48dda2c5231bb852912073f7a66c|-7150010658792589602|100|[917.632, 467.732, -20.875]||CROUCH|[9.61853, 173.372, 0]|None has no connections
+WP|010321d1e4d204d928afebd1e3c4f9d3|1157354208968769615|102|[864.12, 405.9, -20.375]||CROUCH|[13.9197, -34.9125, 0]|None has no connections
+WP|c99b7744d0c461d7f2b9d9c714fddf9a|-7944655802457727334|127|[909.096, 384.845, -22.875]||CLAYMORE|[2.64099, -38.7467, 0]|None has no connections
+Wrote 238 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nuked_wp.csv
+Loaded 148 (148) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nuketown_wp.csv
+Wrote 148 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_nuketown_wp.csv
+Loaded 455 (455) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_osg_cargo_wp.csv
+Wrote 455 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_osg_cargo_wp.csv
+Loaded 236 (236) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_osg_hijacked_waypoints_2.gsc.csv
+Wrote 236 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_osg_hijacked_waypoints_2.gsc.csv
+Loaded 653 (653) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_osg_hijacked_wp.csv
+Wrote 653 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_osg_hijacked_wp.csv
+Loaded 259 (259) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_oukhta_wp.csv
+Wrote 259 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_oukhta_wp.csv
+Loaded 385 (385) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_outskirts_wp.csv
+Wrote 385 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_outskirts_wp.csv
+Loaded 558 (558) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_overgrown_wp.csv
+Wrote 558 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_overgrown_wp.csv
+Loaded 224 (224) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_pow_rld_wp.csv
+Wrote 224 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_pow_rld_wp.csv
+Loaded 521 (521) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_quarry_wp.csv
+Wrote 521 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_quarry_wp.csv
+Loaded 319 (319) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rasalem_wp.csv
+Wrote 319 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rasalem_wp.csv
+Loaded 316 (316) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_roundhouse_wp.csv
+Wrote 316 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_roundhouse_wp.csv
+Loaded 440 (440) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rundown_wp.csv
+Wrote 440 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rundown_wp.csv
+Loaded 180 (180) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rust_long_wp.csv
+Wrote 180 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rust_long_wp.csv
+Loaded 192 (192) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rust_wp.csv
+Wrote 192 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_rust_wp.csv
+Loaded 284 (284) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_seatown_wp.csv
+Wrote 284 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_seatown_wp.csv
+Loaded 374 (374) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_seelow_wp.csv
+Wrote 374 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_seelow_wp.csv
+Loaded 217 (217) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shipment_island_wp.csv
+Wrote 217 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shipment_island_wp.csv
+Loaded 122 (122) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shipment_long_wp.csv
+Wrote 122 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shipment_long_wp.csv
+Loaded 78 (78) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shipment_wp.csv
+Wrote 78 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shipment_wp.csv
+Loaded 115 (115) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_showdown_wp.csv
+Wrote 115 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_showdown_wp.csv
+Loaded 190 (190) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shrine_wp.csv
+Wrote 190 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_shrine_wp.csv
+Loaded 220 (220) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_stalingrad_wp.csv
+Wrote 220 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_stalingrad_wp.csv
+Loaded 392 (392) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_storm_spring_wp.csv
+Wrote 392 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_storm_spring_wp.csv
+Loaded 392 (392) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_storm_wp.csv
+Wrote 392 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_storm_wp.csv
+Loaded 242 (242) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_strike_at_karkand_v2_wp.csv
+Wrote 242 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_strike_at_karkand_v2_wp.csv
+Loaded 525 (525) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_strike_wp.csv
+Wrote 525 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_strike_wp.csv
+Loaded 347 (347) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_subbase_wp.csv
+Wrote 347 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_subbase_wp.csv
+Loaded 192 (192) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_suburban_wp.csv
+Wrote 192 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_suburban_wp.csv
+Loaded 211 (211) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_subway_wp.csv
+Wrote 211 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_subway_wp.csv
+Loaded 259 (259) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_summit_waypoints_2.gsc.csv
+Wrote 259 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_summit_waypoints_2.gsc.csv
+Loaded 222 (222) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_summit_wp.csv
+Wrote 222 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_summit_wp.csv
+Loaded 289 (289) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_terminal_wp.csv
+Wrote 289 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_terminal_wp.csv
+Loaded 279 (279) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_toujane_v2_wp.csv
+Wrote 279 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_toujane_v2_wp.csv
+Loaded 300 (300) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_trailerpark_wp.csv
+Wrote 300 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_trailerpark_wp.csv
+Loaded 293 (293) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_uber_wp.csv
+Wrote 293 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_uber_wp.csv
+Loaded 415 (415) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_underpass_wp.csv
+Wrote 415 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_underpass_wp.csv
+Loaded 258 (258) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vacant_wp.csv
+Wrote 258 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vacant_wp.csv
+Loaded 190 (190) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vil_blops_wp.csv
+Wrote 190 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vil_blops_wp.csv
+Loaded 248 (248) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vodka_wp.csv
+Wrote 248 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vodka_wp.csv
+Loaded 351 (351) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vukovar_wp.csv
+WP|ef2adac19b83c935846c67c3ca71e14d|6657705595234662602|60|[2805.92, -3278.29, 147.125]||STAND|None|None has no connections
+WP|fb98178dca1bb6ee6d9c20cc7aee58a0|5847866574880950162|289|[336.211, -2247.17, 124.125]||STAND|None|None has no connections
+Wrote 351 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_vukovar_wp.csv
+Loaded 255 (255) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_waw_castle_wp.csv
+Wrote 255 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\mp_waw_castle_wp.csv
+Loaded 157 (157) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\oilrig_wp.csv
+Wrote 157 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\oilrig_wp.csv
+Loaded 268 (268) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\roadkill_wp.csv
+Wrote 268 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\roadkill_wp.csv
+Loaded 120 (120) waypoints from S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\so_ghillies_wp.csv
+WP|5080685a15e8cbdec90ba1c7319b0039|8704777650757348050|47|[-16891.5, 5997, 204.125]||STAND|[38.3026, -34.8364, 0]|None has no connections
+WP|cba2a7da157885fa3a9c730a1b087181|-7568903531955191074|48|[-16973.8, 5879.52, 204.125]||STAND|[39.9835, -40.4724, 0]|None has no connections
+Wrote 120 waypoints to S:\Call of Duty\CoD 6 (MW2)\userraw\scriptdata\waypoints\so_ghillies_wp.csv
